@@ -13,29 +13,23 @@ Step 1. Random Sampling
 
 All of our content is indexing in Apache Solr, so we can use that to generate random samples of content for each crawl year. The largest sample contains one hundred thousand archived URLs, hence the name of this repository.
 
-The first step is to randomly sample N links from each year from Solr. Faceting by year looks something like:
+Faceting by year looks something like:
 
 <http://localhost:8080/discovery/select?q=*%3A*&wt=json&indent=true&rows=0&facet.range.gap=%2B1YEAR&facet.range=crawl_date&f.crawl_date.facet.range.start=1980-01-01T00:00:00Z&f.crawl_date.facet.range.end=2020-01-01T00:00:00Z&facet=on>
 
-Then something link this to sample randomly:
+Then something like this to sample randomly, using the Solr random sort feature:
 
 <http://chrome.bl.uk:8080/solr/select/?q=*:*&rows=1&sort=random_2%20desc&fq=timestamp:[2004-01-01T00:00:00Z%20TO%202005-01-01T00:00:00Z]>
 
-In fact, the easiest way is simply to generate lots of random sample outputs and store the JSON offline, then process that.
+The `tools/halflife/yearwise_sampler.py` implements this logic. It queries Solr for year-wise samples of various sizes, and them process the response from Solr to generate source sample files of the form:
 
-I wrote a script to do this, called `yearwise-sampler.py`.
-
-So, I randomly sampled 100 URLs from each year of the Solr index of the Selective Archive, and stored the files a sub-folder (`./halflife`).
-
-I can then run a suitable status checked against that sample.
+    timestamp, url, title, first_text, ssdeep_hash
     
 
 Step 2. Checking Current Status Of The Samples
 ----------------------------------------------
 
-Then, periodically, for each sample, we revisit those links and attempt to determine what has happened to them.
-
-DETAILS
+Then, periodically, for each sample, we revisit those links and attempt to determine what has happened to them. We use the following taxonomy:
 
 * **OK** - Host and URL known: got a 200 response at the original URL
 * **MOVED** - Host and URL known: got a 200 response after following any 3xx redirects.
@@ -55,9 +49,13 @@ This works reasonably well, although it does not compare the contents, so the **
 
 Although **CHANGED** and **REDIRECTED** could probably be merged really.
 
-Those results are also added to this repository.
+So, we process the source samples and attempt to resolve each URL in turn.
 
-DETAILS
+The results are output in a folder based on the date of execution, with columns of the form:
+
+    year, quarter, month, state, status_code, reason, similarity, url
+
+This can then be further processed to generate visual representations of what is going on.
 
 
 Step 3. Publish The Overall Status
