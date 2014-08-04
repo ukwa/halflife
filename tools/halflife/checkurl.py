@@ -1,4 +1,4 @@
-# Utilities for checking network status
+4# Utilities for checking network status
 from urlparse import urlparse
 import httplib, socket, subprocess
 
@@ -14,43 +14,51 @@ def isResolvable(hostname):
 
 def checkUrl(url):
     if url is None or url == "":
-        return (900, "BAD-URL")
+        return { "status": 900, "reason": "BAD-URL" }
 
     o = urlparse(url)
     
     resolvable = isResolvable(o.hostname)
     if not resolvable:
-        return (903, "UNRESOLVABLE")
+        return { "status": 903, "reason": "UNRESOLVABLE" }
 
     try: 
         conn = httplib.HTTPConnection(o.netloc, timeout=10)
         conn.request("GET", o.path )
         res = conn.getresponse()
     except socket.timeout:
-        return (924, "TIMEOUT")
+        return { "status": 924, "reason": "TIMEOUT" }
     except Exception as e:
         if str(e) == "[Errno 65] No route to host":
-            return (903, "NOROUTE")
+            return { "status": 903, "reason": "NOROUTE" }
         elif str(e) == "[Errno 51] Network is unreachable":
-            return (903, "NETWORK-UNREACHABLE")
+            return { "status": 903, "reason": "NETWORK-UNREACHABLE" }
         elif str(e) == "[Errno 61] Connection refused" or str(e) == "[Errno 111] Connection refused":
-            return (903, "CONNECTION-REFUSED" )
+            return { "status": 903, "reason": "CONNECTION-REFUSED" }
         elif str(e) == "[Errno 54] Connection reset by peer":
-            return (903, "CONNECTION-RESET" )
+            return { "status": 903, "reason": "CONNECTION-RESET" }
         else:
-            return (903, "CONNECTION-FAILED: "+str(e))
+            return { "status": 903, "reason": "CONNECTION-FAILED: "+str(e) }
     
     if res.status / 100 == 3:
-        status, reason = checkUrl(res.getheader('location'))
+        state = checkUrl(res.getheader('location'))
+        status = state['status']
+        reason = state['reason']
         if reason.endswith("VIA-REDIRECT+"):
-            return ( status, reason )
+            return state
         else:
-            return ( status, reason+" VIA-REDIRECT+" )
+            state['reason'] = reason+" VIA-REDIRECT+" 
+            return state
+    elif res.status / 100 == 2:
+        # TODO get a copy, hash it, get the title and ssdeep the text
+        return { "status": res.status, "reason": res.reason }
     else:
-        return ( res.status, res.reason )
+        return { "status": res.status, "reason": res.reason }
 
 # This maps the recorded status and reason to out preferred taxonomy:
-def mapStatusToKey( status, reason ):
+def mapStatusToKey( state ):
+    status = state['status']
+    reason = state['reason']
     if status / 100 == 2:
         if reason.endswith("VIA-REDIRECT+"):
             return "MOVED"

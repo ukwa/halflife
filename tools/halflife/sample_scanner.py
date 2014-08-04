@@ -1,63 +1,44 @@
 from __future__ import print_function
-import json, sys, datetime, re,subprocess
+import json, sys, datetime, re, csv, codecs
 from pprint import pprint
-from checkurl import checkUrl
-
-# This maps the recorded status and reason to out preferred taxonomy:
-def mapStatusToKey( status, reason ):
-    if status / 100 == 2:
-        if reason.endswith("VIA-REDIRECT+"):
-            return "MOVED"
-        else:
-            return "OK"
-    elif status / 100 == 3:
-        return "REDIRECT"
-    elif status / 100 == 4:
-        return "MISSING"
-    elif status / 100 == 5:
-        return "ERROR"
-    elif status / 100 == 9:
-        return "GONE"
-    else:
-        return "UNKNOWN"
-
-def fuzzyHash(text):
-    # Pass through ssdeep:
-    p = subprocess.Popen(['ssdeep'], stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
-    output,err = p.communicate(text.encode('utf-8','replace'))
-    for line in output.split("\n"):
-        if ',"stdin"' in line:
-            return line.rstrip(',"stdin"')
-    return ""
+from checkurl import *
 
 
 # Input filename template:
-file_template = "2014-08-04-OUKWA-Sample/sample-of-%s-for-%s.json"
+file_template = "archive-sample/sample-of-%s/sample-for-%s.csv"
 # Output filename template:
-output_template = "sample-of-%s-scan-results.tsv"
+output_template = "sample-of-%s-scan-results.csv"
 
 # Loop over all sample sizes and check status:
 for size in [100,1000,10000,100000]:
     print("Scanning sample of size %s..." % size)
-    with open( output_template % size, "w") as out_file:
+    with codecs.open( output_template % size, "w", "utf-8") as out_file:
         for y in range(2000,2050):
             try:
                 with open( file_template % (size, y) ) as data_file:
                     print("Processing year %s..." % y )
-                    data = json.load(data_file)
-                    for doc in data['response']['docs']:
-                        url = doc['wct_url']
+                    reader = csv.reader(data_file, delimiter="\t")
+                    for row in reader:
+                        timestamp = datetime.datetime.strptime( row[0], "%Y-%m-%dT%H:%M:%SZ" )    
+                        url = row[1]
+                        title = row[2]
+                        text_frag = row[3]
+                        ssdeep = row[4]
+                        md5 = row[5]
+
+                        print(timestamp,url,title,md5)
 
                         # Normalise whitespace:
-                        text = re.sub(r"\s+"," ",doc['text'][0])
-                        first_fragment = text[:200]
-                        fh = fuzzyHash(text)
-                        print('"'+first_fragment+'"', fh)
+                        #text = re.sub(r"\s+"," ",doc['text'][0])
+                        #first_fragment = text[:200]
+                        #fh = fuzzyHash(text)
+                        #print('"'+first_fragment+'"', fh)
 
-                        timestamp = datetime.datetime.strptime( doc['timestamp'], "%Y-%m-%dT%H:%M:%SZ" )    
 
-                        status, reason = checkUrl( url )
-                        key = mapStatusToKey(status, reason )           
+                        state = checkUrl( url )
+                        status = state['status']
+                        reason = state['reason']
+                        key = mapStatusToKey( state )
 
                         try:
                             ascii_reason = reason.encode('ascii','replace')
