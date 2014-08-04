@@ -1,0 +1,13 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":1,
+    "params":{
+      "sort":"random_42 desc",
+      "indent":"true",
+      "wt":"json",
+      "rows":"100",
+      "q":"*:*",
+      "fq":"timestamp:[2014-01-01T00:00:00Z TO 2014-01-01T00:00:00Z+1YEAR]"}},
+  "response":{"numFound":0,"start":0,"docs":[]
+  }}
