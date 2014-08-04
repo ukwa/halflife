@@ -14,8 +14,12 @@ urlo=urllib.URLopener()
 # By using the id_ hack to pass-through the original item (no re-writing):
 # http://www.webarchive.org.uk/wayback/archive/20050329120000id_/http://www.royal-navy.mod.uk/static/pages/256577f4.html
 def getBinHash(url, wayback_date):
-    resource = urlo.open('http://www.webarchive.org.uk/wayback/archive/%sid_/%s' % (wayback_date,url) )
-    return hashlib.md5(resource.read()).hexdigest()
+    wb_url = 'http://www.webarchive.org.uk/wayback/archive/%sid_/%s' % (wayback_date,url)
+    try:
+        resource = urlo.open( wb_url )
+        return hashlib.md5(resource.read()).hexdigest()
+    except:
+        print("ERROR when attempting to get: %s" % wb_url)
 
 
 # First, get the number of years for which we have data:
