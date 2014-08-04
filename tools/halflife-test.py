@@ -1,17 +1,18 @@
-from halflife.checkurl import checkUrl
+from halflife.checkurl import *
 
 # Some example URLs:
-urls = [('http://this-domain-does-not-exist.org/', 'UNRESOLVABLE' ),
-        ('http://explorer.bl.uk', 'TIMEOUT' ),
+urls = [('http://this-domain-does-not-exist.org/', 'GONE' ),
+        ('http://explorer.bl.uk', 'GONE' ),
         ('http://example.org/', 'OK' ),
-        ('http://example.org:79/', 'NOROUTE' ),
-        ('http://httpstat.us/302', 'REDIRECT+OK' ),
-        ('http://httpstat.us/404', 'GONE' ),
+        ('http://example.org:79/', 'GONE' ),
+        ('http://httpstat.us/302', 'MOVED' ),
+        ('http://httpstat.us/404', 'MISSING' ),
         ('http://httpstat.us/500', 'ERROR') ]
 
 # Now check these example URLs:
 for url,state in urls:
-    newstate = checkUrl(url)
+    newstatus, response = checkUrl(url)
+    newstate = mapStatusToKey(newstatus, response)
     if state == newstate:
         print( "PASS " + url + " " + state )
     else:

@@ -1,7 +1,7 @@
 # Utilities for checking network status
 from urlparse import urlparse
-import httplib
-import socket
+import httplib, socket, subprocess
+
 
 def isResolvable(hostname):
     if hostname is None:
@@ -48,4 +48,31 @@ def checkUrl(url):
             return ( status, reason+" VIA-REDIRECT+" )
     else:
         return ( res.status, res.reason )
+
+# This maps the recorded status and reason to out preferred taxonomy:
+def mapStatusToKey( status, reason ):
+    if status / 100 == 2:
+        if reason.endswith("VIA-REDIRECT+"):
+            return "MOVED"
+        else:
+            return "OK"
+    elif status / 100 == 3:
+        return "REDIRECT"
+    elif status / 100 == 4:
+        return "MISSING"
+    elif status / 100 == 5:
+        return "ERROR"
+    elif status / 100 == 9:
+        return "GONE"
+    else:
+        return "UNKNOWN"
+
+def fuzzyHash(text):
+    # Pass through ssdeep:
+    p = subprocess.Popen(['ssdeep'], stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    output,err = p.communicate(text.encode('utf-8','replace'))
+    for line in output.split("\n"):
+        if ',"stdin"' in line:
+            return line.rstrip(',"stdin"')
+    return ""
 
