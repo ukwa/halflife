@@ -13,7 +13,7 @@ output_template = "sample-of-%s-scan-results.csv"
 for size in [100,1000,10000,100000]:
     print("Scanning sample of size %s..." % size)
     with codecs.open( output_template % size, "w", "utf-8") as out_file:
-        for y in range(2013,2050):
+        for y in range(2000,2050):
             try:
                 with open( file_template % (size, y) ) as data_file:
                     print("Processing year %s..." % y )

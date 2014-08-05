@@ -76,7 +76,8 @@ def checkUrl(url):
             # Just pull out the first bit:
             first_fragment = text[:200]
             # Fuzzy hash
-            fh = fuzzyHash(text)
+            if text != "":
+                fh = fuzzyHash(text)
         except:
             pass
         # And the binary hash:
