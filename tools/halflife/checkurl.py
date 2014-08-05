@@ -1,8 +1,8 @@
 # Utilities for checking network status
 from urlparse import urlparse
-from BeautifulSoup import BeautifulSoup
+from BeautifulSoup import BeautifulSoup, Comment
 from pprint import pprint
-import httplib, socket, subprocess, re
+import httplib, socket, subprocess, re, hashlib
 
 def isResolvable(hostname):
     if hostname is None:
@@ -52,17 +52,37 @@ def checkUrl(url):
             return state
     elif res.status / 100 == 2:
         # Get a copy, hash it, get the title and ssdeep the text
-        soup = BeautifulSoup(res.read())
-        title = soup.title.string
-        texts = soup.body(text=True)
-        text = title + " " + unicode(" ".join(texts))
-        # Normalise whitespace:
-        text = re.sub(r"\s+"," ",text)
-        print(text)
-        first_fragment = text[:200]
-        fh = fuzzyHash(text)
-        print(title,first_fragment,fh)
-        return { "status": res.status, "reason": res.reason, "title": title, "first_fragment": first_fragment, "fh":fh }
+        payload = res.read()
+        # Clean up and grab the text:
+        title = ""
+        text = ""
+        first_fragment = ""
+        fh = None
+        try:
+            soup = BeautifulSoup(payload,convertEntities=BeautifulSoup.HTML_ENTITIES)
+            if soup.title != None:
+                title = soup.title.string
+            [ elem.extract() for elem in soup.findAll(['script', 'link', 'style']) ]
+            comments = soup.findAll(text=lambda text:isinstance(text, Comment))
+            [comment.extract() for comment in comments]
+            if soup.body != None:
+                texts = [ unicode(x) for x in soup.body(text=True) ]
+                text =  soup.title.string + " ".join(texts)
+                #text = re.sub(r"\x95","?", text)
+                text = re.sub(r"[^\x00-\x7F]+","?", text)
+                text = re.sub(r"&amp;","&", text)
+                text = re.sub(r"\s+"," ",text)
+                #print(text)
+            # Just pull out the first bit:
+            first_fragment = text[:200]
+            # Fuzzy hash
+            fh = fuzzyHash(text)
+        except:
+            pass
+        # And the binary hash:
+        md5 = hashlib.md5(payload).hexdigest()
+        # And return:
+        return { "status": res.status, "reason": res.reason, "title": title, "first_fragment": first_fragment, "fh":fh, "md5":md5 }
     else:
         return { "status": res.status, "reason": res.reason }
 
@@ -122,5 +142,6 @@ def getBinHash(url, wayback_date):
         return hashlib.md5(resource.read()).hexdigest()
     except:
         print("ERROR when attempting to get: %s" % wb_url)
+
 
 
