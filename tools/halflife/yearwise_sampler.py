@@ -10,18 +10,6 @@ from checkurl import *
 urlo=urllib.URLopener()
 
 
-#
-# By using the id_ hack to pass-through the original item (no re-writing):
-# http://www.webarchive.org.uk/wayback/archive/20050329120000id_/http://www.royal-navy.mod.uk/static/pages/256577f4.html
-def getBinHash(url, wayback_date):
-    wb_url = 'http://www.webarchive.org.uk/wayback/archive/%sid_/%s' % (wayback_date,url)
-    try:
-        resource = urlo.open( wb_url )
-        return hashlib.md5(resource.read()).hexdigest()
-    except:
-        print("ERROR when attempting to get: %s" % wb_url)
-
-
 # First, get the number of years for which we have data:
 # this works by asking for a fifty year date range form 2000-2050, faceting by year, and only returning years that have results:
 yq = "http://chrome.bl.uk:8080/solr/select/?q=*:*&rows=0&wt=json&indent=true&facet=true&facet.mincount=1&facet.date=timestamp&facet.date.gap=%2B1YEAR&facet.date.start=2000-01-01T00:00:00Z&facet.date.end=2050-01-01T00:00:00Z"

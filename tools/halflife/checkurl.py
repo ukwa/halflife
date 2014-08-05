@@ -1,7 +1,8 @@
-4# Utilities for checking network status
+# Utilities for checking network status
 from urlparse import urlparse
-import httplib, socket, subprocess
-
+from BeautifulSoup import BeautifulSoup
+from pprint import pprint
+import httplib, socket, subprocess, re
 
 def isResolvable(hostname):
     if hostname is None:
@@ -50,8 +51,18 @@ def checkUrl(url):
             state['reason'] = reason+" VIA-REDIRECT+" 
             return state
     elif res.status / 100 == 2:
-        # TODO get a copy, hash it, get the title and ssdeep the text
-        return { "status": res.status, "reason": res.reason }
+        # Get a copy, hash it, get the title and ssdeep the text
+        soup = BeautifulSoup(res.read())
+        title = soup.title.string
+        texts = soup.body(text=True)
+        text = title + " " + unicode(" ".join(texts))
+        # Normalise whitespace:
+        text = re.sub(r"\s+"," ",text)
+        print(text)
+        first_fragment = text[:200]
+        fh = fuzzyHash(text)
+        print(title,first_fragment,fh)
+        return { "status": res.status, "reason": res.reason, "title": title, "first_fragment": first_fragment, "fh":fh }
     else:
         return { "status": res.status, "reason": res.reason }
 
@@ -83,4 +94,33 @@ def fuzzyHash(text):
         if ',"stdin"' in line:
             return line.rstrip(',"stdin"')
     return ""
+
+def writeFuzzyHashFile(filename, hash, hashname):
+    header = "ssdeep,1.1--blocksize:hash:hash,filename"
+    f = open(filename,'w')
+    f.write("%s\n" % header)
+    f.write("%s,\"%s\"\n" % (hash,hashname) )
+    f.close()
+
+def fuzzyHashCompare(hash1, hash2):
+    writeFuzzyHashFile("fh1",hash1,"fh1")
+    writeFuzzyHashFile("fh2",hash2,"fh2")
+    p = subprocess.Popen(['ssdeep','-a','-c','-k',"fh1","fh2"], stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    output,err = p.communicate()
+    for line in output.split("\n"):
+        if '"fh2","fh1",' in line:
+            return line.lstrip('"fh2","fh1",')
+    return ""
+
+#
+# By using the id_ hack to pass-through the original item (no re-writing):
+# http://www.webarchive.org.uk/wayback/archive/20050329120000id_/http://www.royal-navy.mod.uk/static/pages/256577f4.html
+def getBinHash(url, wayback_date):
+    wb_url = 'http://www.webarchive.org.uk/wayback/archive/%sid_/%s' % (wayback_date,url)
+    try:
+        resource = urlo.open( wb_url )
+        return hashlib.md5(resource.read()).hexdigest()
+    except:
+        print("ERROR when attempting to get: %s" % wb_url)
+
 

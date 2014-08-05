@@ -13,7 +13,7 @@ output_template = "sample-of-%s-scan-results.csv"
 for size in [100,1000,10000,100000]:
     print("Scanning sample of size %s..." % size)
     with codecs.open( output_template % size, "w", "utf-8") as out_file:
-        for y in range(2000,2050):
+        for y in range(2013,2050):
             try:
                 with open( file_template % (size, y) ) as data_file:
                     print("Processing year %s..." % y )
@@ -26,19 +26,15 @@ for size in [100,1000,10000,100000]:
                         ssdeep = row[4]
                         md5 = row[5]
 
-                        print(timestamp,url,title,md5)
-
-                        # Normalise whitespace:
-                        #text = re.sub(r"\s+"," ",doc['text'][0])
-                        #first_fragment = text[:200]
-                        #fh = fuzzyHash(text)
-                        #print('"'+first_fragment+'"', fh)
-
 
                         state = checkUrl( url )
                         status = state['status']
                         reason = state['reason']
                         key = mapStatusToKey( state )
+
+                        # print debug if this is a 200
+                        if state.has_key('fh'):
+                            print(timestamp,url,title,text_frag,ssdeep,md5)
 
                         try:
                             ascii_reason = reason.encode('ascii','replace')
