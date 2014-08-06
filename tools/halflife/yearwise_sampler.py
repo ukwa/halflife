@@ -58,7 +58,7 @@ for size in [100,1000]: #,10000,100000]:
                     # Normalise the text
                     text = ''
                     if doc.has_key('text'):
-                        text = normaliseText(doc['text'][0]))
+                        text = normaliseText(doc['text'][0])
 
                     first_fragment = text[:200]
                     fh = fuzzyHash(text)
