@@ -60,8 +60,7 @@ for size in [100,1000]: #,10000,100000]:
                     if doc.has_key('text'):
                         text = normaliseText(doc['text'][0])
 
-                    if text != None:
-                        first_fragment = text[:200]
+                    first_fragment = text[:200]
                     fh = fuzzyHash(text)
 
                     print( '"%s"\t"%s"\t"%s"\t"%s"\t"%s"\t"%s"' % ( doc['timestamp'], item_url, title, first_fragment, fh, bin_hash ), file=out_file ) 

@@ -17,6 +17,7 @@ def normaliseText(text):
     text = re.sub(r"&amp;","&", text)
     text = re.sub(r"[^\x00-\x7F]+","?", text)
     text = re.sub(r"\s+"," ",text)
+    return text
 
 def checkUrl(url):
     if url is None or url == "":
