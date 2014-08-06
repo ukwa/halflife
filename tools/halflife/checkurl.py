@@ -23,8 +23,11 @@ def checkUrl(url):
     if not resolvable:
         return { "status": 903, "reason": "UNRESOLVABLE" }
 
-    try: 
-        conn = httplib.HTTPConnection(o.netloc, timeout=10)
+    try:
+        if o.scheme == "https":
+            conn = httplib.HTTPSConnection(o.netloc, timeout=10)
+        else:
+            conn = httplib.HTTPConnection(o.netloc, timeout=10)
         conn.request("GET", o.path )
         res = conn.getresponse()
     except socket.timeout:
@@ -42,7 +45,8 @@ def checkUrl(url):
             return { "status": 903, "reason": "CONNECTION-FAILED: "+str(e) }
     
     if res.status / 100 == 3:
-        state = checkUrl(res.getheader('location'))
+        location = res.getheader('location')
+        state = checkUrl(location)
         status = state['status']
         reason = state['reason']
         if reason.endswith("VIA-REDIRECT+"):

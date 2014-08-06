@@ -7,6 +7,7 @@ from checkurl import *
 url = "http://www.hackwriters.com/QueenandCat.htm"
 #url = "http://www.bbc.co.uk/news/world-asia-22039373"
 #url = "http://www.bbc.co.uk/news/world-asia-22037844" # RELATED
+url = "http://www.flickr.com/photos/17223773@N00/archives/date-posted/2009/12/06/"
 
 state = checkUrl(url)
 pprint(state)

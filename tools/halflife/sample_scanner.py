@@ -13,7 +13,7 @@ output_template = "sample-of-%s-scan-results.csv"
 for size in [100,1000,10000,100000]:
     print("Scanning sample of size %s..." % size)
     with codecs.open( output_template % size, "w", "utf-8") as out_file:
-        for y in range(2000,2050):
+        for y in range(2011,2012):
             try:
                 with open( file_template % (size, y) ) as data_file:
                     print("Processing year %s..." % y )
@@ -60,7 +60,7 @@ for size in [100,1000,10000,100000]:
                             print("ERROR", y, url, key, status, ascii_reason)
                             sys.exit(1)
                         out_file.flush()
-            except IOError:
-                pass
+            except IOError as e: 
+                print("Got IOError: "+e)
                 
     out_file.close()
