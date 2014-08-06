@@ -32,7 +32,7 @@ output_template = "sample-of-%s/sample-for-%s.csv"
 # Now use the sort=random_{SEED} parameter to generate random samples:
 q = "http://chrome.bl.uk:8080/solr/select/?q=*:*&rows=%s&sort=random_%s desc&wt=json&indent=true&fq=timestamp:[%s-01-01T00:00:00Z TO %s-01-01T00:00:00Z%%2B1YEAR]&fl=wct_url,wct_wayback_date,timestamp,title,text"
 # Loop over samples:
-for size in [100,1000]; #,10000,100000]:
+for size in [100,1000]: #,10000,100000]:
     for y in years:
         with codecs.open( output_template % (size,y), "w", "utf-8") as out_file:
      	    url = q % (size,size,y,y)
