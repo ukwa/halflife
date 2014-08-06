@@ -10,7 +10,7 @@ file_template = "archive-sample/sample-of-%s/sample-for-%s.csv"
 output_template = "sample-of-%s-scan-results.csv"
 
 # Loop over all sample sizes and check status:
-for size in [100,1000,10000,100000]:
+for size in [100,1000]:
     print("Scanning sample of size %s..." % size)
     with codecs.open( output_template % size, "w", "utf-8") as out_file:
         for y in range(2011,2012):
