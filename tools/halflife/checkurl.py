@@ -2,7 +2,7 @@
 from urlparse import urlparse
 from BeautifulSoup import BeautifulSoup, Comment
 from pprint import pprint
-import httplib, socket, subprocess, re, hashlib
+import urllib, httplib, socket, subprocess, re, hashlib
 
 def isResolvable(hostname):
     if hostname is None:
@@ -140,8 +140,11 @@ def fuzzyHashCompare(hash1, hash2):
 
 #
 # By using the id_ hack to pass-through the original item (no re-writing):
+#
 # http://www.webarchive.org.uk/wayback/archive/20050329120000id_/http://www.royal-navy.mod.uk/static/pages/256577f4.html
+#
 def getBinHash(url, wayback_date):
+    urlo=urllib.URLopener()
     wb_url = 'http://www.webarchive.org.uk/wayback/archive/%sid_/%s' % (wayback_date,url)
     try:
         resource = urlo.open( wb_url )
