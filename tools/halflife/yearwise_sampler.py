@@ -32,7 +32,7 @@ output_template = "sample-of-%s/sample-for-%s.csv"
 # Now use the sort=random_{SEED} parameter to generate random samples:
 q = "http://chrome.bl.uk:8080/solr/select/?q=*:*&rows=%s&sort=random_%s desc&wt=json&indent=true&fq=timestamp:[%s-01-01T00:00:00Z TO %s-01-01T00:00:00Z%%2B1YEAR]&fl=wct_url,wct_wayback_date,timestamp,title,text"
 # Loop over samples:
-for size in [100,1000,10000,100000]:
+for size in [100,1000]; #,10000,100000]:
     for y in years:
         with codecs.open( output_template % (size,y), "w", "utf-8") as out_file:
      	    url = q % (size,size,y,y)
@@ -50,16 +50,16 @@ for size in [100,1000,10000,100000]:
 
                     bin_hash = getBinHash(item_url, wct_wayback_date)
 
+                    # Normalise the title
                     title = ''
                     if doc.has_key('title'):
-                        title = doc['title'][0]
-                    title = re.sub(r"\s+"," ", title)
+                        title = normaliseText(doc['title'][0])
 
-
-                    # Normalise whitespace:
+                    # Normalise the text
                     text = ''
                     if doc.has_key('text'):
-                        text = re.sub(r"\s+"," ",doc['text'][0])
+                        text = normaliseText(doc['text'][0]))
+
                     first_fragment = text[:200]
                     fh = fuzzyHash(text)
 

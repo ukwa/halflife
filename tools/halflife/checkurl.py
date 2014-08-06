@@ -13,6 +13,11 @@ def isResolvable(hostname):
     except socket.gaierror:
         return False
 
+def normaliseText(text):
+    text = re.sub(r"&amp;","&", text)
+    text = re.sub(r"[^\x00-\x7F]+","?", text)
+    text = re.sub(r"\s+"," ",text)
+
 def checkUrl(url):
     if url is None or url == "":
         return { "status": 900, "reason": "BAD-URL" }
@@ -65,18 +70,13 @@ def checkUrl(url):
         try:
             soup = BeautifulSoup(payload,convertEntities=BeautifulSoup.HTML_ENTITIES)
             if soup.title != None:
-                title = soup.title.string
+                title = normaliseText(soup.title.string)
             [ elem.extract() for elem in soup.findAll(['script', 'link', 'style']) ]
             comments = soup.findAll(text=lambda text:isinstance(text, Comment))
             [comment.extract() for comment in comments]
             if soup.body != None:
                 texts = [ unicode(x) for x in soup.body(text=True) ]
-                text =  soup.title.string + " ".join(texts)
-                #text = re.sub(r"\x95","?", text)
-                text = re.sub(r"[^\x00-\x7F]+","?", text)
-                text = re.sub(r"&amp;","&", text)
-                text = re.sub(r"\s+"," ",text)
-                #print(text)
+                text =  soup.title.string + normaliseText( " ".join(texts) )
             # Just pull out the first bit:
             first_fragment = text[:200]
             # Fuzzy hash
