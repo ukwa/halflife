@@ -149,7 +149,7 @@ def getBinHash(url, wayback_date):
     try:
         resource = urlo.open( wb_url )
         return hashlib.md5(resource.read()).hexdigest()
-    except as e:
+    except Exception as e:
         print("ERROR %s when attempting to get: %s" % (e, wb_url) )
 
 
