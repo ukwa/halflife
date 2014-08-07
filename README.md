@@ -35,6 +35,7 @@ The `tools/halflife/yearwise_sampler.py` implements this logic. It queries Solr 
 
     timestamp, url, title, first_text, ssdeep_hash
     
+The text is processed and normalised before output and hashing, so for the smallest sample size (100), the source JSON is also included here in order to make the hashing process more transparent.
 
 Step 2. Checking Current Status Of The Samples
 ----------------------------------------------
@@ -61,9 +62,11 @@ Although **CHANGED** and **REDIRECTED** could probably be merged really.
 
 So, we process the source samples and attempt to resolve each URL in turn.
 
+    $ python tools/halflife/sample_scanner.py
+
 The results are output in a folder based on the date of execution, with columns of the form:
 
-    year, quarter, month, state, status_code, reason, similarity, url
+    year, quarter, month, state, status_code, reason, identicalness, similarity, url
 
 This can then be further processed to generate visual representations of what is going on.
 
@@ -73,4 +76,5 @@ Step 3. Publish The Overall Status
 
 The results from the hundred thousand are then turned into an appropriate graph, and made available 
 
-DETAILS
+    $ python tools/halflife/scan_graph.py sample-of-100.csv
+

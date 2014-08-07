@@ -1,5 +1,5 @@
 from __future__ import print_function
-import json, sys, datetime, re, csv, codecs
+import json, sys, datetime, re, csv, codecs, traceback
 from pprint import pprint
 from checkurl import *
 
@@ -62,5 +62,6 @@ for size in [100,1000]:
                         out_file.flush()
             except IOError as e: 
                 print("Got IOError: "+str(e))
+                traceback.print_exc()
                 
     out_file.close()
