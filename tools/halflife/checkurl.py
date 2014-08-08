@@ -62,7 +62,11 @@ def checkUrl(url):
             return state
     elif res.status / 100 == 2:
         # Get a copy, hash it, get the title and ssdeep the text
-        payload = res.read()
+        try:
+            payload = res.read()
+        except Exception as e:
+            return { "status": 903, "reason": "READ-FAILED: "+str(e) }
+
         # Clean up and grab the text:
         title = ""
         text = ""
