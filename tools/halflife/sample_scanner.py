@@ -10,6 +10,7 @@ file_template = "archive-sample/sample-of-%s/sample-for-%s.csv"
 output_template = "sample-of-%s-scan-results.csv"
 
 # Loop over all sample sizes and check status:
+url = "<none>"
 for size in [100,1000]:
     print("Scanning sample of size %s..." % size)
     with codecs.open( output_template % size, "w", "utf-8") as out_file:
@@ -55,13 +56,14 @@ for size in [100,1000]:
 
                         try:
                             print( "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % ( y, quarter, month, key, status, ascii_reason, identical, similarity, url ), file=out_file )
+                            url = "<done>"
                             out_file.flush()
                         except:
                             print("ERROR", y, url, key, status, ascii_reason)
                             sys.exit(1)
                         out_file.flush()
             except IOError as e: 
-                print("Got IOError: "+str(e))
+                print("Got IOError: "+str(e) + " when processing " + url)
                 traceback.print_exc()
                 
     out_file.close()
