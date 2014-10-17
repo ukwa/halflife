@@ -1,5 +1,5 @@
-The Hundred Thousands
-=====================
+Halflife
+========
 
 This repository has been created to hold the results of experiments on a random sample of the holdings of the [Open UK Web Archive](http://www.webarchive.org.uk/).  
 

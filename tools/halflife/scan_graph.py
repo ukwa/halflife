@@ -3,7 +3,7 @@ import collections
 
 filename =  sys.argv[1]
 counts = collections.defaultdict(lambda: collections.defaultdict(int))
-with open(filename, 'rb') as f:
+with open(filename, 'r') as f:
     reader = csv.reader(f, delimiter="\t")
     for row in reader:
         key = row[0]+"-"+row[1]
@@ -20,11 +20,11 @@ with open(filename, 'rb') as f:
                 counts[key]["DISSIMILAR"] += 1
 
 # Create the header line
-print("\t".join(['Year', 'GONE', 'ERROR', 'MISSING','MOVED','OK', 'SAME','SIMILAR','DISSIM','TOTAL']))
+print("\t".join(['Year', 'GONE', 'ERROR', 'MISSING','MOVED','OK','DISSIM','SIMILAR','SAME','TOTAL']))
 for year in sorted(counts.keys()):
     # Now build up data
     line = year
-    for state in ['GONE', 'ERROR', 'MISSING','MOVED','OK','IDENTICAL','SIMILAR','DISSIMILAR','TOTAL']:
+    for state in ['GONE', 'ERROR', 'MISSING','MOVED','OK','DISSIMILAR','SIMILAR','IDENTICAL','TOTAL']:
         line = line + "\t" + str(counts[year][state])
     print(line)
 
