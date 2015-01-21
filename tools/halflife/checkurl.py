@@ -149,7 +149,8 @@ def fuzzyHashCompare(hash1, hash2):
 #
 def getBinHash(url, wayback_date):
     urlo=urllib.URLopener()
-    wb_url = 'http://www.webarchive.org.uk/wayback/archive/%sid_/%s' % (wayback_date,url)
+    wb_url = 'http://crawler03.bl.uk:8080/wayback/%sid_/%s' % (wayback_date,url)
+    #wb_url = 'http://www.webarchive.org.uk/wayback/archive/%sid_/%s' % (wayback_date,url)
     try:
         resource = urlo.open( wb_url )
         return hashlib.md5(resource.read()).hexdigest()
