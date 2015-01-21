@@ -1,7 +1,7 @@
 {
   "responseHeader":{
     "status":0,
-    "QTime":6620,
+    "QTime":196,
     "params":{
       "fl":"url,wayback_date,crawl_date,title,content_text",
       "sort":"random_100 desc",
