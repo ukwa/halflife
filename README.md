@@ -3,6 +3,15 @@ Halflife
 
 This repository has been created to hold the results of experiments on a random sample of the holdings of the [Open UK Web Archive](http://www.webarchive.org.uk/).  
 
+* IIPC Half-life follow up, 200s v soft 404s, reliability of ssdeep method, clean up codebase, compare with HUKWA, look at fine-structure of ssdeep similarity results (i.e. edit distance). Moved content (gap, use Solr indexes of hashes and fuzzy hashes), compare entities of example.com/realurl, example.com/garbage/realurl, example.com/lsfkj, etc. if they match then soft 404s . HTTP redirect analysis also shown to be feasible to ID soft404s www2009.eprints.org/140/1/p1119.pdf
+* PLUS Idea: allowing shallow contextual crawl to collect metadata, in-links, etc. CommonCrawl, IA.
+* In UI, we able to emphasis the lost ones.
+* PLUS: Is same/similar content at different URLs.
+* PLUS: Are our holdings unique or is it all in IA?
+
+PLUS? http://en.wikipedia.org/wiki/The_Million_Dollar_Homepage
+
+See <http://britishlibrary.typepad.co.uk/webarchive/2014/10/what-is-still-on-the-web-after-10-years-of-archiving-.html>
 
 Dependencies
 ------------
@@ -10,7 +19,6 @@ Dependencies
 * ssdeep
 
     $ pip install BeautifulSoup
-
 
 
 Link Half-Life
