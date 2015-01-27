@@ -49,10 +49,11 @@ print("Scanning years",years)
 output_template = "sample-of-%s/%s-sample-for-%s.csv"
 json_template = "sample-of-%s/%s-sample-for-%s.json"
 
-# Now use the sort=random_{SEED} parameter to generate random samples:
+# Now use the sort=random_{SEED} parameter to generate random samples.
+# This passes the 'size' field as the seed, so each list should always come out the same.
 q = solr_endpoint+"?q=*:*&rows=%s&sort=random_%s desc&wt=json&indent=true&fq="+date_field+":[%s-01-01T00:00:00Z TO %s-01-01T00:00:00Z%%2B1YEAR]&fl="+url_field+","+wayback_date_field+","+date_field+",title,"+text_field
 # Loop over samples:
-for size in [100,1000]: #,10000,100000]:
+for size in [2000]:#[100,1000]: #,10000,100000]:
     for y in years:
         with codecs.open( output_template % (size,prefix,y), "w", "utf-8") as out_file:
      	    url = q % (size,size,y,y)

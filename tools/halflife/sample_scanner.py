@@ -5,13 +5,13 @@ from checkurl import *
 
 
 # Input filename template:
-file_template = "archive-sample/sample-of-%s/sample-for-%s.csv"
+file_template = "archive-sample/sample-of-%s/ldwa-sample-for-%s.csv"
 # Output filename template:
-output_template = "sample-of-%s-scan-results.csv"
+output_template = "ldwa-sample-of-%s-scan-results.csv"
 
 # Loop over all sample sizes and check status:
 url = "<none>"
-for size in [100,1000]:
+for size in [2000]:
     print("Scanning sample of size %s..." % size)
     with codecs.open( output_template % size, "w", "utf-8") as out_file:
         for y in range(2004,2015):
@@ -20,6 +20,7 @@ for size in [100,1000]:
                     print("Processing year %s..." % y )
                     reader = csv.reader(data_file, delimiter="\t")
                     for row in reader:
+                        print("Scanning:",row)
                         timestamp = datetime.datetime.strptime( row[0], "%Y-%m-%dT%H:%M:%SZ" )    
                         url = row[1]
                         title = row[2]
