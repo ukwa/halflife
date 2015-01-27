@@ -31,13 +31,13 @@ def checkUrl(url):
 
     try:
         if o.scheme == "https":
-            #conn = httplib.HTTPSConnection(o.netloc, timeout=10)
-            conn = httplib.HTTPSConnection("explorer.bl.uk", 3127, timeout=10)
+            conn = httplib.HTTPSConnection(o.netloc, timeout=10)
+            #conn = httplib.HTTPSConnection("explorer.bl.uk", 3127, timeout=10)
         else:
-            #conn = httplib.HTTPConnection(o.netloc, timeout=10)
-            conn = httplib.HTTPConnection("explorer.bl.uk", 3127, timeout=10)
-        #conn.request("GET", o.path )
-        conn.request("GET", url )
+            conn = httplib.HTTPConnection(o.netloc, timeout=10)
+            #conn = httplib.HTTPConnection("explorer.bl.uk", 3127, timeout=10)
+        conn.request("GET", o.path )
+        #conn.request("GET", url )
         res = conn.getresponse()
     except socket.timeout:
         return { "status": 924, "reason": "TIMEOUT" }
