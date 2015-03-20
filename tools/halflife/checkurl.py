@@ -2,7 +2,7 @@
 from urlparse import urlparse
 from BeautifulSoup import BeautifulSoup, Comment
 from pprint import pprint
-import urllib, httplib, socket, subprocess, re, hashlib
+import urllib, httplib, socket, subprocess, re, hashlib, sys
 
 def isResolvable(hostname):
     if hostname is None:
@@ -31,13 +31,13 @@ def checkUrl(url):
 
     try:
         if o.scheme == "https":
-            #conn = httplib.HTTPSConnection(o.netloc, timeout=10)
-            conn = httplib.HTTPSConnection("explorer.bl.uk", 3127, timeout=10)
+            conn = httplib.HTTPSConnection(o.netloc, timeout=10)
+            #conn = httplib.HTTPSConnection("explorer.bl.uk", 3127, timeout=10)
         else:
-            #conn = httplib.HTTPConnection(o.netloc, timeout=10)
-            conn = httplib.HTTPConnection("explorer.bl.uk", 3127, timeout=10)
-        #conn.request("GET", o.path )
-        conn.request("GET", url )
+            conn = httplib.HTTPConnection(o.netloc, timeout=10)
+            #conn = httplib.HTTPConnection("explorer.bl.uk", 3127, timeout=10)
+        conn.request("GET", o.path )
+        #conn.request("GET", url )
         res = conn.getresponse()
     except socket.timeout:
         return { "status": 924, "reason": "TIMEOUT" }
@@ -95,7 +95,7 @@ def checkUrl(url):
         # And the binary hash:
         md5 = hashlib.md5(payload).hexdigest()
         # And return:
-        return { "status": res.status, "reason": res.reason, "title": title, "first_fragment": first_fragment, "fh":fh, "md5":md5 }
+        return { "status": res.status, "reason": res.reason, "title": title, "first_fragment": first_fragment, "fh":fh, "md5":md5, "text":text }
     else:
         return { "status": res.status, "reason": res.reason }
 
@@ -160,5 +160,7 @@ def getBinHash(url, wayback_date):
     except Exception as e:
         print("ERROR %s when attempting to get: %s" % (e, wb_url) )
 
+if __name__ == "__main__":
+    print(checkUrl(sys.argv[1]))
 
 
