@@ -1,0 +1,21 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":41,
+    "params":{
+      "facet":"true",
+      "facet.mincount":"1",
+      "indent":"true",
+      "q":"hash:\"sha1:GKHEOJZBVEZULAA62VJTEQHKYLI7QSMM\"",
+      "facet.field":"domain",
+      "wt":"json",
+      "fq":"crawl_years:2000",
+      "rows":"1"}},
+  "response":{"numFound":0,"start":0,"maxScore":0.0,"docs":[]
+  },
+  "facet_counts":{
+    "facet_queries":{},
+    "facet_fields":{
+      "domain":[]},
+    "facet_dates":{},
+    "facet_ranges":{}}}
