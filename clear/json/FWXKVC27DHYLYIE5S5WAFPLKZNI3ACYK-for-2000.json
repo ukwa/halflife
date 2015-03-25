@@ -1,17 +1,18 @@
 {
   "responseHeader":{
     "status":0,
-    "QTime":45,
+    "QTime":44,
     "params":{
       "facet":"true",
+      "sort":"crawl_date asc",
       "facet.mincount":"1",
       "indent":"true",
       "q":"hash:\"sha1:FWXKVC27DHYLYIE5S5WAFPLKZNI3ACYK\"",
       "facet.field":"domain",
       "wt":"json",
       "fq":"crawl_years:2000",
-      "rows":"1"}},
-  "response":{"numFound":0,"start":0,"maxScore":0.0,"docs":[]
+      "rows":"100"}},
+  "response":{"numFound":0,"start":0,"docs":[]
   },
   "facet_counts":{
     "facet_queries":{},
