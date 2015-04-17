@@ -180,9 +180,13 @@ if __name__ == "__main__":
 # Based on robustify.js's 95 similarity threshold.
 #
 def tryRandomUrlFor(state, url):
-    url_parts = urlparse(url)
     rndName = ''.join(random.choice(string.ascii_uppercase) for i in range(12))
-    rndUrl = url_parts[0]+"://"+url_parts[1]+"/"+rndName+"/"
+    url_parts = urlparse(url)
+    # Add random string to path:
+    rndUrl = url_parts[0]+"://"+url_parts[1]+"/"+url_parts[2]+rndName
+    if url_parts.query:
+        rndUrl = rndUrl + "?" + url_parts.query
+    print(rndUrl)
     if state.has_key('fh'):
         state2 = checkUrl(rndUrl)
         print("CUR-URL",state)
