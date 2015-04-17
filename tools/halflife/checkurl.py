@@ -3,6 +3,8 @@ from urlparse import urlparse
 from BeautifulSoup import BeautifulSoup, Comment
 from pprint import pprint
 import urllib, httplib, socket, subprocess, re, hashlib, sys
+import string
+import random
 
 def isResolvable(hostname):
     if hostname is None:
@@ -36,8 +38,17 @@ def checkUrl(url):
         else:
             conn = httplib.HTTPConnection(o.netloc, timeout=10)
             #conn = httplib.HTTPConnection("explorer.bl.uk", 3127, timeout=10)
-        conn.request("GET", o.path )
-        #conn.request("GET", url )
+
+        # Rebuild the full path inc. query etc.
+        fullpath = o.path
+        if o.params:
+            fullpath += ';'+o.params
+        if o.query:
+            fullpath += '?'+o.query
+
+        # Now make the request:
+        conn.request("GET", fullpath )
+        #conn.request("GET", url ) FOR PROXIES
         res = conn.getresponse()
     except socket.timeout:
         return { "status": 924, "reason": "TIMEOUT" }
@@ -163,4 +174,24 @@ def getBinHash(url, wayback_date):
 if __name__ == "__main__":
     print(checkUrl(sys.argv[1]))
 
+#
+# Perform a soft-4xx check, but testing if the current response appears to be the same as that for a randomly generated URL.
+#
+# Based on robustify.js's 95 similarity threshold.
+#
+def tryRandomUrlFor(state, url):
+    url_parts = urlparse(url)
+    rndName = ''.join(random.choice(string.ascii_uppercase) for i in range(12))
+    rndUrl = url_parts[0]+"://"+url_parts[1]+"/"+rndName+"/"
+    if state.has_key('fh'):
+        state2 = checkUrl(rndUrl)
+        print("CUR-URL",state)
+        print("RND-URL",state2)
+        if state2.has_key('fh'):
+            similarity = fuzzyHashCompare(state['fh'], state2['fh'])
+            print("SIM1",similarity,similarity.isdigit())
+            if similarity.isdigit() and int(similarity) > 95:
+                print("SIM2",similarity,similarity.isdigit(),int(similarity))
+                return True
+    return False
 
