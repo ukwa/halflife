@@ -182,11 +182,13 @@ if __name__ == "__main__":
 def tryRandomUrlFor(state, url):
     rndName = ''.join(random.choice(string.ascii_uppercase) for i in range(12))
     url_parts = urlparse(url)
-    # Add random string to path:
-    rndUrl = url_parts[0]+"://"+url_parts[1]+"/"+url_parts[2]+rndName
+    # Use random string for last path element:
+    path = url_parts[2]
+    path = path.rsplit("/",1)[0] + "/"
+    rndUrl = url_parts[0]+"://"+url_parts[1]+path+rndName
     if url_parts.query:
         rndUrl = rndUrl + "?" + url_parts.query
-    print(rndUrl)
+    print("Soft-4XX-RND-URL:",rndUrl)
     if state.has_key('fh'):
         state2 = checkUrl(rndUrl)
         print("CUR-URL",state)
