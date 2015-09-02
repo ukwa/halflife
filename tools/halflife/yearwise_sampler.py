@@ -18,12 +18,13 @@ urlo=urllib.URLopener()
 #text_field="text"?
 #prefix="open"
 
-solr_endpoint = "http://192.168.45.17:8996/solr/ldwa/select"
+#solr_endpoint = "http://192.168.45.17:8983/solr/ldwa/select"
+solr_endpoint = "http://192.168.1.65:8983/solr/ldwa/select"
 date_field = "crawl_date"
 url_field = "url"
 wayback_date_field = "wayback_date"
 text_field="content_text"
-prefix="ldwa"
+prefix="ldwa"+datetime.datetime.now().strftime(".%Y.%m")
 
 # First, get the number of years for which we have data:
 # this works by asking for a fifty year date range form 2000-2050, faceting by year, and only returning years that have results:
@@ -36,10 +37,10 @@ with open( "total-urls-per-year.json" ) as data_file:
     data = json.load(data_file)
     for item in data['facet_counts']['facet_dates'][date_field]:
         count = data['facet_counts']['facet_dates'][date_field][item]
-    	if item == "gap" or item == "start" or item == "end" or count == 0:
-    		continue
-    	timestamp = datetime.datetime.strptime( item, "%Y-%m-%dT%H:%M:%SZ" )
-    	years.append(timestamp.year)
+        if item == "gap" or item == "start" or item == "end" or count == 0:
+            continue
+        timestamp = datetime.datetime.strptime( item, "%Y-%m-%dT%H:%M:%SZ" )
+        years.append(timestamp.year)
 
 # Sort them
 years = sorted(years)

@@ -21,7 +21,7 @@ def normaliseText(text):
     text = re.sub(r"\s+"," ",text)
     return text
 
-def checkUrl(url):
+def checkUrl(url, use_proxy=True):
     if url is None or url == "":
         return { "status": 900, "reason": "BAD-URL" }
 
@@ -33,11 +33,15 @@ def checkUrl(url):
 
     try:
         if o.scheme == "https":
-            conn = httplib.HTTPSConnection(o.netloc, timeout=10)
-            #conn = httplib.HTTPSConnection("explorer.bl.uk", 3127, timeout=10)
+            if use_proxy:
+                conn = httplib.HTTPSConnection("explorer.bl.uk", 3127, timeout=10)
+            else:
+                conn = httplib.HTTPSConnection(o.netloc, timeout=10)
         else:
-            conn = httplib.HTTPConnection(o.netloc, timeout=10)
-            #conn = httplib.HTTPConnection("explorer.bl.uk", 3127, timeout=10)
+            if use_proxy:
+                conn = httplib.HTTPConnection("explorer.bl.uk", 3127, timeout=10)
+            else:
+                conn = httplib.HTTPConnection(o.netloc, timeout=10)
 
         # Rebuild the full path inc. query etc.
         fullpath = o.path
@@ -47,8 +51,10 @@ def checkUrl(url):
             fullpath += '?'+o.query
 
         # Now make the request:
-        conn.request("GET", fullpath )
-        #conn.request("GET", url ) FOR PROXIES
+        if use_proxy:
+            conn.request("GET", url )
+        else:
+            conn.request("GET", fullpath )
         res = conn.getresponse()
     except socket.timeout:
         return { "status": 924, "reason": "TIMEOUT" }

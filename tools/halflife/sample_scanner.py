@@ -1,5 +1,5 @@
 from __future__ import print_function
-import json, sys, datetime, re, csv, codecs, traceback
+import json, sys, datetime, re, csv, codecs, traceback, os
 from pprint import pprint
 from checkurl import *
 
@@ -7,15 +7,18 @@ from checkurl import *
 # Input filename template:
 file_template = "archive-sample/sample-of-%s/ldwa-sample-for-%s.csv"
 # Output filename template:
-output_template = "ldwa-sample-of-%s-scan-results.csv"
-output_2_template = "ldwa-sample-of-%s-scan-data.csv"
+output_dir = datetime.datetime.now().strftime("sample-scan-results/%Y-%m-Explorer")
+output_template = "%s/ldwa-sample-of-%s-scan-results.csv"
+output_2_template = "%s/ldwa-sample-of-%s-scan-data.csv"
 
 # Loop over all sample sizes and check status:
 url = "<none>"
 for size in [2000]:
     print("Scanning sample of size %s..." % size)
-    out_file_2 = codecs.open( output_2_template % size, "w", "utf-8" )
-    with codecs.open( output_template % size, "w", "utf-8") as out_file:
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+    out_file_2 = codecs.open( output_2_template % (output_dir, size), "w", "utf-8" )
+    with codecs.open( output_template % (output_dir, size), "w", "utf-8") as out_file:
         for y in range(2004,2015):
             try:
                 with open( file_template % (size, y) ) as data_file:

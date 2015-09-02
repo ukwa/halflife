@@ -54,7 +54,12 @@ Then something like this to sample randomly, using the Solr random sort feature:
 
 <http://chrome.bl.uk:8080/solr/select/?q=*:*&rows=1&sort=random_2%20desc&fq=timestamp:[2004-01-01T00:00:00Z%20TO%202005-01-01T00:00:00Z]>
 
-The `tools/halflife/yearwise_sampler.py` implements this logic. It queries Solr for year-wise samples of various sizes, and them process the response from Solr to generate source sample files of the form:
+The `tools/halflife/yearwise_sampler.py` implements this logic. 
+
+    $ cd archive-sample
+    $ python ../tools/halflife/yearwise_sampler.py
+
+It queries Solr for year-wise samples of various sizes, and them process the response from Solr to generate source sample files of the form:
 
     timestamp, url, title, first_text, ssdeep_hash
     
@@ -83,7 +88,7 @@ This works reasonably well, although it does not compare the contents, so the **
 
 Although **CHANGED** and **REDIRECTED** could probably be merged really.
 
-So, we process the source samples and attempt to resolve each URL in turn.
+So, we process the source samples and attempt to resolve each URL in turn. In the root folder:
 
     $ python tools/halflife/sample_scanner.py
 
@@ -97,7 +102,13 @@ This can then be further processed to generate visual representations of what is
 Step 3. Publish The Overall Status
 ----------------------------------
 
-The results from the hundred thousand are then turned into an appropriate graph, and made available 
+The results from the hundred thousand are then visualised. A simple example is here:
 
     $ python tools/halflife/scan_graph.py sample-of-100.csv
+    
+But a more detailed view is generated using the IPython Notebook
+
+    half-life.ipynb
+
+
 
