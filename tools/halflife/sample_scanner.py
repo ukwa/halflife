@@ -5,7 +5,7 @@ from checkurl import *
 
 
 # Input filename template:
-file_template = "archive-sample/sample-of-%s/ldwa-sample-for-%s.csv"
+file_template = "archive-sample/sample-of-%s/ldwa"+datetime.datetime.now().strftime(".%Y.%m")+"-sample-for-%s.csv"
 # Output filename template:
 output_dir = datetime.datetime.now().strftime("sample-scan-results/%Y-%m-Explorer")
 output_template = "%s/ldwa-sample-of-%s-scan-results.csv"
