@@ -19,7 +19,7 @@ for size in [2000]:
         os.mkdir(output_dir)
     out_file_2 = codecs.open( output_2_template % (output_dir, size), "w", "utf-8" )
     with codecs.open( output_template % (output_dir, size), "w", "utf-8") as out_file:
-        for y in range(2004,2015):
+        for y in range(2013,2018):
             try:
                 with open( file_template % (size, y) ) as data_file:
                     print("Processing year %s..." % y )
