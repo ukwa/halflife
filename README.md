@@ -31,7 +31,7 @@ See <http://britishlibrary.typepad.co.uk/webarchive/2014/10/what-is-still-on-the
 Dependencies
 ------------
 
-* ssdeep
+* ssdeep 2.13 or later
 
     $ pip install BeautifulSoup
 

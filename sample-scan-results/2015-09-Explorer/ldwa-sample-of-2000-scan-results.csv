@@ -108,7 +108,7 @@
 2013	2	04	OK	200	OK	True		http://www.nantwichtownfc.co.uk/wp-content/themes/LondonLive/thumb.php?src=/wp-content/uploads/2012/11/BlythSpartans-badge.png&w=300&h=300&zc=1&q=100
 2013	2	04	MISSING	404	Not Found	None	None	http://www.forbesandsawyer.co.uk/detailGM.asp?propcode=FORBE_000524
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.citishoppingguide.co.uk/brand/morros/
-2013	2	05	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.superbikenews.co.uk/tag/robin-croft/
+2013	2	05	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://www.superbikenews.co.uk/tag/robin-croft/
 2013	2	05	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.smcbikes.co.uk/3022-medium_default/gerbing-splitter-cable.jpg
 2013	2	06	OK	200	OK	True		http://www.clickin2findit.co.uk/search.aspx?type=accounting%20services&name=&town=&location=CV10&dist=&sort=&siteID=0&matchedTown=1357
 2013	2	04	OK	200	OK	False	0	http://www.cambridgeshireandpeterboroughccg.nhs.uk/system/textonlysettings.aspx?colour=1&font=0&size=6&returnurl=/Default.aspx.ShortcutID-198893.faq_id-1011.htm
@@ -132,7 +132,7 @@
 2013	2	05	MISSING	404	Not Found	None	None	http://www.martcom.co.uk/floppy-drives/ibm-teac-3-5-floppy-disk-drive-fd-235hf-2.html
 2013	2	05	MISSING	404	Category not found	None	None	http://www.independencehomes.co.uk/Parent/success-stories/87/success-stories/89/success-stories/89/success-stories/89/success-stories/90/laurens-story
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.removals-plymouth.co.uk/Great-and-Little-Broughton/North-Yorkshire/Removals/Partner-Directory
-2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://q-a.moneyfacts.co.uk/tags/non_payment/?type=unanswered
+2013	2	04	ERROR	500	Internal Server Error VIA-REDIRECT+	None	None	http://q-a.moneyfacts.co.uk/tags/non_payment/?type=unanswered
 2013	2	05	OK	200	OK	False		http://www.chelsea-square.co.uk/news/property-of-the-week-for-sale-4/feed/
 2013	2	05	MISSING	404	Not Found	None	None	http://www.lindamellorphotography.co.uk/gallery/displayimage.php?album=lastup&cat=7&pid=1346
 2013	2	04	OK	200	OK	False	0	http://www.blushies.co.uk/login.aspx?returnurl=%2fLingerieCatalogue%2fBras.aspx
@@ -165,7 +165,7 @@
 2013	2	04	OK	200	OK	False	0	http://www.ramelsflorist.co.uk/bouquet-in-box-00bx4-269-p.asp
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False		http://www.poetinthecity.co.uk/events/129
 2013	2	04	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.bedandbreakfasts.co.uk/propertysearch.asp?query=LD3+7YL&paramlink=Talybont%2Don%2DUsk%2C+Restormel+Powys+LD3
-2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.gifts-for-u.co.uk/item/Teamsters-Cruiser-Coach_W0QQitemZ111047889661
+2013	2	04	MOVED	200	Soft 4xx	False	0	http://www.gifts-for-u.co.uk/item/Teamsters-Cruiser-Coach_W0QQitemZ111047889661
 2013	2	04	OK	200	OK	False	0	http://www.homesteadfarmsupplies.co.uk/-c-39_232.html?csslist=cols&sort=6a
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://opera-now.co.uk/
 2013	2	04	MISSING	404	Not Found	None	None	http://associatednewspapers.newsprints.co.uk/view/24186797/20130408_jus_d75_310.jpg
@@ -226,7 +226,7 @@
 2013	2	05	OK	200	OK	False	0	http://www.donberg.co.uk/catalogue/line_output_transformers/hr_diemen_line_output_traformers/hr_46019.html
 2013	2	05	OK	200	OK	True		http://www.eyeexperts.co.uk/images/prods-elarge/eli1-givenchy-vgv280-c0f53.jpg
 2013	2	04	MISSING	404	Not Found VIA-REDIRECT+	None	None	http://www.buyprintsafe.co.uk/js/libs/dd_belatedpng.js
-2013	2	05	MOVED	200	Soft 4xx	False	0	http://www.glenroydesigns.co.uk/section/162/1/tonga_treats_by_timeless_treasures/e3d256a7383a3bcbe28d1c764a5d4c47
+2013	2	05	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.glenroydesigns.co.uk/section/162/1/tonga_treats_by_timeless_treasures/e3d256a7383a3bcbe28d1c764a5d4c47
 2013	2	04	MISSING	404	Not Found	None	None	http://www.ctge.co.uk/self-catering/E4500-EX1_E.jpg
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.estateagentsinmaidstone.co.uk/Clint/North-Yorkshire/Mortgage-Advisors
 2013	2	05	OK	200	OK	False	0	http://www.agriaffaires.co.uk/used/plates-material-carrier/1/27168/la-crosse.html
@@ -252,7 +252,7 @@
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.moneyowl.co.uk/w3/forex-rates/images/forex_graph_historical.php?historical_period=90&url_folder_2=BDT&url_folder_3=ALL&avg_price=1.376&min_price=1.369&max_price=1.383&period_start=136006383
 2013	2	04	OK	200	OK	False	0	http://www.techgems.co.uk/index.php?dispatch=auth.login_form&return_url=index.php%3Fdispatch%3Dcategories.view%26category_id%3D171%26sl%3DNL
 2013	2	05	OK	200	OK	False	0	http://www.nwleics-homes.org.uk/Data/ASPPages/1/305.aspx?LettingCycleID=51%3fviewstyle%3dnormal%2c55&CurrentPage=5
-2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://www.access-electrical.co.uk/index.php?action=browse&cat=71
+2013	2	04	OK	200	OK	False	0	http://www.access-electrical.co.uk/index.php?action=browse&cat=71
 2013	2	05	GONE	924	TIMEOUT	None	None	http://www.bookgeeks.co.uk/2011/12/04/a-second-look-at-day-by-day-armageddon-by-j-l-bourne/
 2013	2	05	MISSING	404	Not Found VIA-REDIRECT+	None	None	http://startright.co.uk/index.php?main_page=product_reviews_info&products_id=12923&reviews_id=4
 2013	2	04	OK	200	OK	True	0	http://www.cherryhintontsd.co.uk/styled-2/styled-19/styled-17/photos-2/files/page10-1048-full.html
@@ -276,7 +276,7 @@
 2013	2	05	OK	200	OK	False	0	http://www.charnockrichardfc.co.uk/leaguetables.php?news1Page=9&newsid=12&details_id=1
 2013	2	04	MISSING	404	Not Found	None	None	http://www.lincolnshirelistings.co.uk/1/listings.html?word=wardrobe&country=Lincolnshire
 2013	2	05	MOVED	200	OK VIA-REDIRECT+	False	0	http://plumbing.eezy.co.uk/shop/index.php?categoryID=749&sort=customers_rating&direction=DESC
-2013	2	04	MISSING	404	Not Found	None	None	http://www.justchecking.co.uk/sitemap/?postsort=author
+2013	2	04	OK	200	OK	False	0	http://www.justchecking.co.uk/sitemap/?postsort=author
 2013	2	05	OK	200	OK	True		http://www.swpp.co.uk/image_exhibition/Mackin87413/14.jpg
 2013	2	04	OK	200	OK	False	0	http://www.alexiaelliott.co.uk/shamanism-Psycho-FAQs-23.php
 2013	2	04	MISSING	404	Not Found	None	None	http://images.renwickmotorcompany.co.uk/vehicles/mercedes-benz-s-class-saloon-s320-cdi-4dr-auto-142235293-640x480.jpg
@@ -335,7 +335,7 @@
 2013	2	05	OK	200	OK	True	0	http://www.repairbrokenwindows.org.uk/REPAIR_BROKEN_WINDOWS_MAIDSTONE.html
 2013	2	05	MISSING	404	Not Found	None	None	http://blog.wiganworld.co.uk/photos/user1/zj5t6jmm.jpg
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://i2.shoocare.co.uk/di-modaclothing.jpg
-2013	2	04	MOVED	200	Soft 4xx	False	0	http://www.lighting-by-gabrielli.co.uk/products/Contemporary-Crystal-Wall-Lights/5634/2-Light-Wall-Light-Polished-Chrome/124-MED0950
+2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.lighting-by-gabrielli.co.uk/products/Contemporary-Crystal-Wall-Lights/5634/2-Light-Wall-Light-Polished-Chrome/124-MED0950
 2013	2	04	OK	200	OK	False	0	http://flfbm.co.uk/category/uncategorized/
 2013	2	05	MISSING	404	Not Found	None	None	http://www.katekuba.co.uk/catalogsearch/result/index/?cat=25&q=Chinese+Laundry
 2013	2	05	OK	200	Soft 4xx	False	0	http://www.autopartstrader.co.uk/carparts/honda/civic/cruise-control-unit
@@ -412,7 +412,7 @@
 2013	2	06	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.alfleming.co.uk/shop/catalog/browse?sessid=B0UPNGJZCwDrglUrnZcMeXRFYUBGA0yGeskagjS6yLJhcpuqPAwOCRHU0xjz58eO&shop_param=
 2013	2	04	OK	200	OK	False	0	http://www.norfolkcommunityhealthandcare.nhs.uk/system/textonlysettings.aspx?colour=3&font=8&size=5&returnurl=/The-care-we-offer/Conditions-finder/mental-health.htm.pr
 2013	2	04	MISSING	404	Not Found	None	None	http://www.locksmithswestyorkshire.co.uk/comments/feed/
-2013	2	05	MISSING	429	Too many request, you try again later	None	None	http://thebikeshed.forumup.co.uk/fuabuse.php?fuurlref=%2Ffuabuse.php%3Ffuurlref%3D%252Flogin.php%253Fredirect%253Dposting.php%2526mode%253Dquote%2526p%253D17%2526mforum%253Dthebikeshed
+2013	2	05	OK	200	OK	False	0	http://thebikeshed.forumup.co.uk/fuabuse.php?fuurlref=%2Ffuabuse.php%3Ffuurlref%3D%252Flogin.php%253Fredirect%253Dposting.php%2526mode%253Dquote%2526p%253D17%2526mforum%253Dthebikeshed
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.staustellremovals.co.uk/Faversham/Kent/Home-Insurance-Advisors
 2013	2	04	OK	200	OK	False	0	http://www.chippenhamsurgery.co.uk/new_patients.htm
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.solicitors-hove.co.uk/Marple/Greater-Manchester-/Mortgage-Advisors/Partner-Directory
@@ -498,7 +498,7 @@
 2013	2	05	GONE	924	TIMEOUT	None	None	http://www.schools.org.uk/index_schools.php?school=7953&action=select
 2013	2	05	OK	200	OK	False	0	http://www.marketingconsultantslocally.co.uk/south-east/east-sussex/albourne.htm
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.prchouserepairs.co.uk/blog/viewtag/1046.html
-2013	2	04	GONE	924	TIMEOUT	None	None	http://www.blendworth.co.uk/catalogue/collection.php?cID=42
+2013	2	04	MISSING	404	Not Found	None	None	http://www.blendworth.co.uk/catalogue/collection.php?cID=42
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.datinguk.org.uk/dating/?xargs=12KPjg1oduy5a3vOHvKvjFSvXBhg9O0JC3890uXsYsfIwUpX9rR6AuOfa%5F3pgqGK5q6y%5Fg%5FQ%2E%2E&hData=12KPjg1o1gk7L6zr3YfbrKTuaLxioMkJCxh85vDONwGddc9XtpJeB7T5Px
 2013	2	05	OK	200	OK	False	0	http://somehow-someday.blogspot.co.uk/2011/03/21032011-blog-anniversaire.html
 2013	2	04	OK	200	OK	True		http://www.am-pavingcontractors.co.uk/images/project40/6.jpg
@@ -537,7 +537,7 @@
 2013	2	04	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://www.asq4finance.co.uk/robots.txt
 2013	2	05	OK	200	OK	False	0	http://easi-cook.co.uk/comendaspareparts/120124?sort=pd.name&order=ASC&limit=75
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.cococrafts.co.uk/coco/images/addimage_thumb1/BIBS03.jpg
-2013	2	05	MISSING	429	Too many request, you try again later	None	None	http://debtconsolidation.forumup.co.uk/ptopic41-debtconsolidation.html
+2013	2	05	GONE	924	TIMEOUT	None	None	http://debtconsolidation.forumup.co.uk/ptopic41-debtconsolidation.html
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.donnabijoux.co.uk/index.php/necklaces.html?dir=asc&order=price&stone_type=80
 2013	2	04	OK	200	OK	True		http://www.pawtions.co.uk/images/txtMakeItYourWay.png
 2013	2	05	MISSING	404	Not Found	None	None	http://www.redeyeheadshop.co.uk/media/catalog/product/cache/1/thumbnail/173x170/5e06319eda06f020e43594a9c230972d/g/a/gas-mask-bong.jpg
@@ -649,7 +649,7 @@
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://css.assemblyhalltheatre.co.uk/join-the-conversation?calShowYear=2012&calShowMonth=5
 2013	2	05	OK	200	OK	False	0	http://www.your-hertfordshirewedding.co.uk/advert-showcase/Cakes/advert-showcase/Florists/A-Bouquet-273.html
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://accountants.bestquote-bristol.co.uk/Bristol/an-accounting-firm/Bristol-BS98/
-2013	2	04	GONE	924	TIMEOUT	None	None	http://www.ritechempharmacy.co.uk/index.php?option=com_shopping&controller=products&opt=dept&id=15&sid=&Itemid=74&bid=4949
+2013	2	04	OK	200	OK	False	0	http://www.ritechempharmacy.co.uk/index.php?option=com_shopping&controller=products&opt=dept&id=15&sid=&Itemid=74&bid=4949
 2013	2	05	OK	200	OK	False	0	http://www.cableforum.co.uk/board/newreply.php?do=newreply&noquote=1&p=35517161
 2013	2	05	OK	200	OK	False	0	http://www.richards-furnishing.co.uk/carpet-tiles.aspx?&clear=3&clear=3&clear=4&clear=2&clear=2&clear=1
 2013	2	05	MISSING	404	Not Found	None	None	http://www.ozzys.co.uk/browse/ozzys_27948_0_0_na_m.html
@@ -658,7 +658,7 @@
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://www.mobilityscootersbristol.co.uk/3392/richard-talks-about-using-mobility-equipment/
 2013	2	05	GONE	924	TIMEOUT	None	None	http://images.directorieslist.co.uk/d/a/v/i/d/davidlerner.net.jpg
 2013	2	05	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://m.stylefruits.co.uk/evening-outfit-glam/o32421
-2013	2	04	OK	200	OK	False	0	http://www.linerentals.co.uk/iframeshow.php?lang=php&site=linerentals.co.uk&options=&n=o2&gift=&hs=galaxys3ltegrey
+2013	2	04	GONE	924	TIMEOUT	None	None	http://www.linerentals.co.uk/iframeshow.php?lang=php&site=linerentals.co.uk&options=&n=o2&gift=&hs=galaxys3ltegrey
 2013	2	05	MISSING	404	Not Found VIA-REDIRECT+	None	None	http://www.it-performs.co.uk/resources/solution-briefs/microsoft-solution-briefs/view?path=SQLServer2012_Upgrade_from2008_Datasheet.pdf
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://northeast.globeslist.co.uk/mycircle/view-message.php?mid=14774&KeepThis=true&TB_iframe=true&height=400&width=600
 2013	2	05	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.badgebeast.co.uk/acatalog/I-Love-Wine-Shopping-Trolley-Token-Coin-Key-Rings.html
@@ -688,7 +688,7 @@
 2013	2	05	OK	200	OK	True		http://www.cyber-heritage.co.uk/museum/sta.jpg
 2013	2	05	OK	200	OK	False	0	http://www.scorebook.co.uk/ProductCats.asp?Keywords=sports%2Btickets&xargs=12KPjg1oduy5a3vOHvKvjFRPXBhg9O0JC19d0uXsYsfIwUpX9lR6AuOfa%5F3pgqGK5q7C%5Fg%5FQ%2E%2E&hData=12KPjg1o1gkc77yrvfAcjLT%2DGFsV9%5F
 2013	2	05	OK	200	OK	False	0	http://www.zonefurniture.co.uk/search/?page=8&category_id=21&range_id=0&searchtext=&searchtype=
-2013	2	04	GONE	924	TIMEOUT	None	None	http://www.galanthus.co.uk/contact/css/css/Upload_products/G10.JPG
+2013	2	04	OK	200	OK	False	0	http://www.galanthus.co.uk/contact/css/css/Upload_products/G10.JPG
 2013	2	05	OK	200	OK	False	0	http://wolfit.webscriptuat.co.uk/privacy-policy/?osCsid=abf7d0806eej8s5pc1a0celg87
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://llangua-dating.webcamo.co.uk/dating/nickname-jepjep
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.escortadvertsuk.co.uk/towns-escorts-outcall-locations.php?Town=Lower%20Strensham
@@ -768,7 +768,7 @@
 2013	2	05	GONE	924	TIMEOUT	None	None	http://www.mobilemole.co.uk/index.php?domain=mobilemole.co.uk&more=1&nst=1&search=Orange+Mobile+Phone&qs=06oENya4ZG1YS6vOLJwpLiFdjG91IChUiKqp1J9I1tDZsdAfUohTbMKcgYPpNb9TdjfrVs1v_uUErm7c8aBctorAN0eE703
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.farmvenison.co.uk/viewcart.php3?UID=20130420164712194.66.232.88
 2013	2	05	MISSING	404	Not Found	None	None	http://www.healthandsafety-jobs.co.uk/jobs/acoustic-consultant-and-noise-control/north-west/-30-000-39-999/permanent/recruitment-consultant/
-2013	2	05	OK	200	OK	False		http://www.animesoc.co.uk/phpBB3/viewtopic.php?p=12257
+2013	2	05	OK	200	OK	False	0	http://www.animesoc.co.uk/phpBB3/viewtopic.php?p=12257
 2013	2	04	OK	200	OK	False	0	http://jobbingwriter.blogspot.co.uk/2011/05/learning-to-read.html
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://kitchens.bestquote-southport.co.uk/Merseyside/Fitted_Kitchens/Liverpool%20L36
 2013	2	04	OK	200	OK	False	0	http://www.snowrepublic.co.uk/Kunzmann?sort=4d&fltAngle[]=1%20degree&perPage=64&page=1&fltType[]=Base%20Edge
@@ -916,7 +916,7 @@
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://www.londonhomecleaning.foracleanerhome.co.uk/images/nav201957347i.gif
 2013	2	05	GONE	924	TIMEOUT	None	None	http://pro.org.uk/classified/Directory?a=viewcountry&rd=1&cat=155&name=Office%20Furniture%20&%20Equipment&city=barking&range=30
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.bsac1084.co.uk/forum/index.php?action=profile;area=statistics;u=6
-2013	2	04	MISSING	429	Too many request, you try again later	None	None	http://emfc.forumup.co.uk/about1078-emfc.html
+2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://emfc.forumup.co.uk/about1078-emfc.html
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://reservation.hotel-birmingham.co.uk/hotel/10011159-11352098M.html?&doa_yy=2000&num_children=&smoking_pref=NP&bed_type=NP&dod_dd=&num_rooms=&num_adults=&num_beds=&minorAge2=&currency_id=&dod_mm=&
 2013	2	04	OK	200	OK	True	0	http://www.linkdom.co.uk/html/links.php?username=marie&tags=the%20oc&type=Fan%20Site
 2013	2	05	GONE	924	TIMEOUT	None	None	http://alpha.shropshirefire.gov.uk/user/login?destination=incidents%3Forder%3Dtitle%26sort%3Dasc%26page%3D431%26keys%3D
@@ -1065,7 +1065,7 @@
 2013	4	11	OK	200	OK	False	0	http://www.cmft.nhs.uk/health-a-to-z?letter=F&path=articles%2fhip-fracture%2fprevention&style=normal
 2013	4	12	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.northwalespioneer.co.uk/businessdirectory/view.aspx?id=100613
 2013	3	08	OK	200	OK	False	0	http://www.dorsethealthcare.nhs.uk/system/textonlysettings.aspx?colour=2&font=8&size=2&returnurl=/yourhealth/article-detail.htm?name=cluster-headaches/causes
-2013	4	11	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.newtownabbeytoday.co.uk/register?referrer=http://www.newtownabbeytoday.co.uk/motors/reviews/rolls-royce
+2013	4	11	GONE	924	TIMEOUT	None	None	http://www.newtownabbeytoday.co.uk/register?referrer=http://www.newtownabbeytoday.co.uk/motors/reviews/rolls-royce
 2013	2	04	OK	200	OK	False	0	http://www.southernhealth.nhs.uk/search/?s=1&searchRequestDefaultsId=7009973&baseResultsSearchRequestId=7034554&page=13
 2013	2	04	OK	200	OK	False	0	http://www.swims.nhs.uk/webview/?infile=details.glu&loid=417378&rs=136176&hitno=9
 2013	4	11	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.mirfieldreporter.co.uk/register?referrer=http://www.mirfieldreporter.co.uk/motors/reviews/bentley/bentley-s-curve-ball-1-5140974
@@ -1117,7 +1117,7 @@
 2013	2	05	OK	200	OK	False	0	http://firstpageonlineuknews.co.uk/?s=%26esrc%3Ds%26source%3Dweb%26cd%3D204%26cad%3Drja%26ved%3D0CEgQFjADOMgB%26url%3Dhttp%3A%2F%2Ffirstpageonlineuknews+co+uk%2Feuro+2012+blog+21+june+as+it+happened+t
 2013	2	05	OK	200	OK	False	0	http://berlin2007.blog.co.uk/tags/seven-guinnesses-later/
 2013	2	05	MISSING	404	Not Found VIA-REDIRECT+	None	None	http://www.hawcobusinesssales.co.uk/deals/volkswagen-commercial/diesel/4x4-commercial/all-prices/all-transmissions/caravelle/1172
-2013	2	06	GONE	924	TIMEOUT	None	None	http://www.yewtree.bham.sch.uk/index.php?option=com_jevents&task=day.listevents&year=2012&month=05&day=15&catids=65&Itemid=0&lang=en
+2013	2	06	OK	200	OK	False	0	http://www.yewtree.bham.sch.uk/index.php?option=com_jevents&task=day.listevents&year=2012&month=05&day=15&catids=65&Itemid=0&lang=en
 2013	2	05	MOVED	200	OK VIA-REDIRECT+	False		http://www.planet-f1.co.uk/print-article/3422/8063867/
 2013	2	05	GONE	924	TIMEOUT	None	None	http://wiki.thecuckoosnest.co.uk/wikka/wikka.php?wakka=Amadeo/showcode
 2013	2	04	OK	200	OK	False	0	http://www.croydonhealthservices.nhs.uk/system/textonlysettings.aspx?colour=2&font=9&size=5&returnurl=/services/Vascular_surgery/consultants.htm.atf_action-register.html
@@ -1183,7 +1183,7 @@
 2013	2	05	OK	200	OK	False		http://matrixstats.markpierce-photography.co.uk/dyn?page_id=init.menu&SITE_ID=873210&section=Sessions&PAGE=menu&sel=end_time&m_off=-1&begin_time=41376&switch=on&end_time=41330
 2013	2	05	OK	200	OK	False	0	http://justatibetanpup.blogspot.co.uk/2011/02/video-viernes_25.html
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.doubleglazingontheweb.co.uk/blog/tag/the-bfrc
-2013	2	05	GONE	924	TIMEOUT	None	None	http://www.concept-data.co.uk/shop/page/privacy?sessid=AbGdpg0x3C9jHIW5WpJmjJAvJXL8pKbkUYxEB72e6rDmyQFglEys8QCirF6oWw5W&shop_param=
+2013	2	05	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.concept-data.co.uk/shop/page/privacy?sessid=AbGdpg0x3C9jHIW5WpJmjJAvJXL8pKbkUYxEB72e6rDmyQFglEys8QCirF6oWw5W&shop_param=
 2013	2	04	GONE	924	TIMEOUT	None	None	http://www.s2o.co.uk/search-engine-promotion-faqs.html
 2013	2	04	OK	200	OK	False	0	http://www.apbrakediscs.co.uk/front-brembo-brake-pads-nissan-primera-p12-1-9-dci-04-03-on.html
 2013	2	04	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://digirep.rhul.ac.uk/items/60f905d0-7c4b-527f-220e-0edca2648f69/1/
@@ -1323,7 +1323,7 @@
 2013	2	04	OK	200	OK	True	0	http://www.corewar.co.uk/irct06/index.htm
 2013	2	06	OK	200	OK	True		http://www.bcf.nhs.uk/html_version/3749_8186534858.html?_ts=180121152&_ts=180121152
 2013	2	04	OK	200	OK	True		http://www.ashington-removals-storage.co.uk/wp-content/themes/spacecowboy/images/prettyPhoto/light_rounded/btnNext.png
-2013	2	05	GONE	903	READ-FAILED: timed out	None	None	http://www.inerd.co.uk/?p=request&products_id=2938
+2013	2	05	OK	200	OK	False	0	http://www.inerd.co.uk/?p=request&products_id=2938
 2013	2	04	OK	200	OK	False	0	http://www.warringtonccg.nhs.uk/system/textonlysettings.aspx?colour=1&font=1&size=7&returnurl=/your-health/Article.htm?id=articles/acne/causes
 2013	2	05	MISSING	404	Not Found	None	None	http://www.dubplates.co.uk/members/antony.html?tab=activitystream&type=user
 2013	2	04	OK	200	OK	True	0	http://news.tgsn.co.uk/rvwpcgen.php?id=506
@@ -1381,7 +1381,7 @@
 2013	2	04	ERROR	502	Proxy Error	None	None	http://www.peppermintiguana.co.uk/images/Alabama3port2.gif
 2013	2	05	OK	200	OK	False	0	http://www.steveenglish.co.uk/forum/posting.php?mode=reply&f=2&t=46475&sid=6ac9b184f5eb799eec2b31f5857f0b42
 2013	2	05	OK	200	OK	False	0	http://www.kvm-raritan.co.uk/subinventory.asp?mid=24&cid=11
-2013	2	05	GONE	924	TIMEOUT	None	None	http://www.wowowo.co.uk/top_products/5064/5064-45210.htm
+2013	2	05	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.wowowo.co.uk/top_products/5064/5064-45210.htm
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.staustellremovals.co.uk/Castle-Bromwich/West-Midlands/Life-Insurance-Advisors
 2013	2	05	GONE	903	UNRESOLVABLE	None	None	http://www.rolexsale.org.uk/bmz_cache/c/cdeefa444deba53c19cd94fbf4ac642a.image.184x138.jpg
 2013	2	04	GONE	924	TIMEOUT	None	None	http://www.bespokebeauty.co.uk/Bride-Things/wedding-rings-uk-platinum/
@@ -1397,7 +1397,7 @@
 2013	2	04	MISSING	404	Not Found	None	None	http://www.toysforthegarden.co.uk/turret_playhouse-11-0-328-6.htm
 2013	2	05	OK	200	OK	False	0	http://www.thatchamhomeimprovements.co.uk/Berkshire/cost-of-fitted-kitchens/Bracknell-RG42/
 2013	2	05	OK	200	OK	False		http://www.thebikelist.co.uk/imagecache/file/height/70/media/201629/_adm8502.jpg
-2013	2	04	OK	200	OK	False	0	http://www.a2zjewellery.co.uk/component/virtuemart/watches/134-karen-millen/13503-karen-millen-watch
+2013	2	04	OK	200	Soft 4xx	False	0	http://www.a2zjewellery.co.uk/component/virtuemart/watches/134-karen-millen/13503-karen-millen-watch
 2013	2	04	OK	200	OK	False	0	http://www.revolutionshirts.co.uk/product.php?prodId=1107
 2013	2	05	OK	200	OK	False	0	http://www.mathgenius.co.uk/tagged/london/page/4
 2013	2	05	ERROR	500	Internal Server Error	None	None	http://test.nottsaboutmusic.co.uk/whats-on/2012/04/28/fresh-eyes-for-the-dead-guy-tribal-fighters-some-skeletons-great-deeds/
@@ -1424,7 +1424,7 @@
 2013	2	04	OK	200	OK	False	0	http://www.activereikicourses.co.uk/press-releases.html?type=atom&el_mcal_month=1&el_mcal_year=2013
 2013	2	04	OK	200	OK	True	0	http://www.enzoindustries.co.uk/en/vewdetail.asp?cat=91-18-0-0-396
 2013	2	04	OK	200	OK	True		http://www.jewelleryitems.co.uk/modules/shop/images/thumbs/er0512.jpg
-2013	2	05	OK	200	OK	False	0	http://www.probyns.co.uk/ProductDetails/612015/Eurocharts%20T-Card%20Size%203%20Yellow%20Pack%20100%20Ref%201053009.aspx
+2013	2	05	GONE	924	TIMEOUT	None	None	http://www.probyns.co.uk/ProductDetails/612015/Eurocharts%20T-Card%20Size%203%20Yellow%20Pack%20100%20Ref%201053009.aspx
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://ibsdelhi.bestwebdesignagencies.co.uk/img/images/seo-advertise-membership-opportunities-basic.png
 2013	2	06	MISSING	404	Not Found	None	None	http://www.modelsrgo.co.uk/weathering.html?sort_by=popularity&sort_order=desc&currency=EUR
 2013	2	04	OK	200	OK	False	0	http://www.barkingdagenhamccg.nhs.uk/system/textonlysettings.aspx?colour=1&font=3&size=3&returnurl=/nhs-choices/health-a-z/health-a-z-details.htm?id=ichthyosis
@@ -1500,7 +1500,7 @@
 2013	4	12	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.wirralnews.co.uk/environment/sponsors/merseytravel/2009/09/28/it-s-our-world-merseytravel-art-competition-100252-24802714/
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.evidence.nhs.uk/medicine/cholera-vaccine?pa=5
 2013	2	04	MISSING	404	Not Found	None	None	http://www.regentsparksurgery.nhs.uk/search/?s=1&searchRequestDefaultsId=120&baseResultsSearchRequestId=58224791&page=61
-2013	2	06	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.mcs.scot.nhs.uk/resources.aspx?mode=allbytagphrase&TagCloudType=resources&tagphrase=deafblind&page=1&sort=date&rows=10
+2013	2	06	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://www.mcs.scot.nhs.uk/resources.aspx?mode=allbytagphrase&TagCloudType=resources&tagphrase=deafblind&page=1&sort=date&rows=10
 2013	2	06	OK	200	OK	False	0	http://www.femalefirst.co.uk/lifestyle-fashion/styletrends/?page=16
 2013	2	05	OK	200	OK	False		http://www.healthpromotioninherts.nhs.uk/HPAC/OAIMoreDetails.jsp?id=312260&referrer=http://www.healthpromotioninherts.nhs.uk/HPAC/OAIBrowseSearch.jsp?keyWords=&searchOptions=Match%20all%20words&subjec
 2013	2	06	OK	200	OK	False	0	http://www.knowledge.scot.nhs.uk/dementia/resources-library/topic-links-results.aspx?id=467&fn=msourcenamenavigator;taxonomynavigator&fv=Social+Care+Online;e-Library%2fAfter+Treatment%2fPalliative+and
@@ -1551,7 +1551,7 @@
 2013	2	05	OK	200	OK	False	0	http://www.mylocalservices.co.uk/Fife/Architectural_Services/Burntisland/
 2013	2	04	OK	200	OK	True		http://www.msmm.org.uk/ham/beverley_folk_festival_2008/Shaun_T_Hunter/sth////resources/js/pngfix.js
 2013	2	04	OK	200	OK	False	0	http://southampton.1000dreamgirls.co.uk/dating/men-seeking-women/classified-personals-ads/reply-ad.html?aid=36438
-2013	2	04	MISSING	404	Not Found	None	None	http://emediagallery.fells.co.uk/ImageHandler/7792/570/340/0/
+2013	2	04	OK	200	OK	True		http://emediagallery.fells.co.uk/ImageHandler/7792/570/340/0/
 2013	2	04	OK	200	OK	True		http://www.coolcrafting.co.uk/wp-content/uploads/Let-It-Snow.jpg
 2013	2	04	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.accountant-directory.co.uk/postcode/LA1
 2013	2	04	OK	200	OK	False	0	http://trinity.newcastle.sch.uk/_trinity-school/trinity-school/policies.html
@@ -1609,7 +1609,7 @@
 2013	2	05	OK	200	OK	True	0	http://www.gerardkeegan.co.uk/resource/games/hangman/interview_method/hangman.php?letters=HLV&n=3
 2013	2	05	OK	200	OK	False	0	http://chantillyrosecrafts.blogspot.co.uk/2011/06/sneak-peek-2.html
 2013	2	05	OK	200	OK	False		http://images.bike-treks.co.uk/download/sc-heckler-bike-blue.jpg?width=48&height=48
-2013	2	04	MISSING	404	Not Found	None	None	http://cheapmobilephoneoffers.org.uk/blog/?p=913
+2013	2	04	OK	200	OK	False	0	http://cheapmobilephoneoffers.org.uk/blog/?p=913
 2013	2	05	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.fruitsaladretro.co.uk/index.php?route=product/category&path=570_571_572&page=2
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://www.dgdonnelly.co.uk/515_500_csupload_23036042.jpg?u=867296386
 2013	2	05	MOVED	200	OK VIA-REDIRECT+	True		http://thisischristmas.eveningtimes.co.uk/sites/default/files/Victoria-Weldon-wee.jpg
@@ -1626,7 +1626,7 @@
 2013	2	05	OK	200	OK	False		http://ladsandlasses.co.uk/index.php?route=product/product&filter_tag=embroidered&sort=pd.name&order=DESC&limit=75&product_id=63
 2013	2	05	MISSING	403	Forbidden	None	None	http://www.gamehunters.co.uk/forum/index.php?app=members&section=view&module=list&showall=0&sort_key=joined&sort_order=desc&max_results=20&app=members&section=view&module=list&quickjump=A&name_box=beg
 2013	2	05	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.carpettilewholesale.co.uk/carpet-tiles/other-tiles.html?color=8&carpet_composite=2&order=price&dir=asc&price=2%2C10
-2013	2	05	GONE	924	TIMEOUT	None	None	http://ols.kedst.ac.uk/website/onlineservices/help.aspx?page=%2fwebsite%2fonlineservices%2fpassword.aspx%3fpage%3d%252fwebsite%252fonlineservices%252flogin.aspx%253fpage%253d%25252fwebsite%25252fonlin
+2013	2	05	OK	200	OK	False	0	http://ols.kedst.ac.uk/website/onlineservices/help.aspx?page=%2fwebsite%2fonlineservices%2fpassword.aspx%3fpage%3d%252fwebsite%252fonlineservices%252flogin.aspx%253fpage%253d%25252fwebsite%25252fonlin
 2013	2	05	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://heritage.cumbernauld.ac.uk/HeritageScripts/Hapi.dll/retrieve2?SetID=262F4BD3-818F-4E06-A7AA-F246EB466357&SearchTerm=JENNIE%20LINDON&Fields=A&Media=%23&SearchPrecision=10&SortOrder=0&Offset=4&Di
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.flexibleholidays.co.uk/wpimages/wpa462d1ca_0f.jpg
 2013	2	04	OK	200	OK	False	0	http://training.kingstonforklifts.co.uk/Greater-London/fork-lift-courses/Lewisham-London-SE6/
@@ -1728,7 +1728,7 @@
 2013	2	04	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://directory.independent.co.uk/company/guthrie-jones-and-jones/3944100
 2013	2	04	ERROR	502	Proxy Error	None	None	http://www.garyroberts.me.uk/site-map/weblinks
 2013	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.aceculturaltours.co.uk/subject/10012
-2013	2	04	GONE	924	TIMEOUT	None	None	http://www.duck2watercarinsurance.co.uk/images/images/duck2water-splash-image_14.jpg
+2013	2	04	MISSING	404	Not Found	None	None	http://www.duck2watercarinsurance.co.uk/images/images/duck2water-splash-image_14.jpg
 2013	2	05	MISSING	404	Not Found	None	None	http://www.cadlinecommunity.co.uk/Forums/User/Default.aspx?Name=Luke6of9&ReturnUrl=%2fForums%2fUser%2fDefault.aspx%3fName%3dClintBrown%26ReturnUrl%3d%252fForums%252fThread%252fDefault.aspx%253fThreadI
 2013	2	04	OK	200	OK	False	0	http://www.proactiveinvestors.co.uk/genera/files/sponsor_extras/Image/sefton%20resources.gif
 2013	2	05	OK	200	OK	True		http://www.architectsjournal.co.uk/pictures/81xAny/1/2/8/1314128_NEX_061_A1_X3_17.jpg
@@ -1743,9 +1743,9 @@
 2013	2	05	OK	200	OK	False		http://www.moorlandprm.cardiff.sch.uk/gallery/album440/IMG_5082
 2013	2	05	MISSING	404	Not Found	None	None	http://www.zouch.wilts.sch.uk/cms/news/showmedia.asp?mediafolder=gallery&mediaID=583
 2013	2	05	GONE	924	TIMEOUT	None	None	http://www.getlist.co.uk/Search/keyword/big+game+coolers
-2013	4	12	OK	200	OK	False	0	http://www.thejc.com/comment-and-debate/analysis/109029/fast-exit-palestinian-pm-a-worrying-sign
+2013	4	12	GONE	924	TIMEOUT	None	None	http://www.thejc.com/comment-and-debate/analysis/109029/fast-exit-palestinian-pm-a-worrying-sign
 2013	3	09	OK	200	OK	False	0	http://news.bbc.co.uk/1/shared/spl/hi/in_depth/uk_house_prices/html/21ud.stm?s
-2013	4	12	GONE	924	TIMEOUT	None	None	http://www.express.co.uk/news/property/434175/The-pod-shedding-a-new-light-on-healthy-living
+2013	4	12	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.express.co.uk/news/property/434175/The-pod-shedding-a-new-light-on-healthy-living
 2013	2	06	GONE	903	UNRESOLVABLE	None	None	http://www.croydonremoval.co.uk/North-Cheam/Greater-London/Pension-Advisors/Partner-Directory
 2013	2	04	GONE	924	TIMEOUT	None	None	http://www.homelesshealthcare-southampton.nhs.uk/search/?s=1&searchRequestDefaultsId=137&baseResultsSearchRequestId=56673959&page=141
 2013	4	12	OK	200	OK	False	0	http://www.dailyecho.co.uk/news/district/romsey/10699996.Had_woman_killed_by_car_been_standing_in_road_/
@@ -1785,7 +1785,7 @@
 2013	2	05	OK	200	OK	False	0	http://www.daventrypharmacy.co.uk/index.php?option=com_mccontent&view=nhsarticle&id=496&Itemid=481
 2013	2	04	OK	200	OK	False		http://www.tryacstreasures.co.uk/ekmps/shops/tryacstreasu/images/10-x-gold-plated-spacer-beads-10mm-g.p.-3093-p%5Bekm%5D80x77%5Bekm%5D.jpg
 2013	2	04	GONE	903	UNRESOLVABLE	None	None	http://tpjjud5.co.uk/resize/23957068/0/390?show_badge=1
-2013	2	04	ERROR	500	Internal Server Error	None	None	http://www.quickrelease.co.uk/wp-content/uploads/2011/12/santa_widescreen-1280x800-faurecia1-150x150.jpg
+2013	2	04	MISSING	404	Not Found	None	None	http://www.quickrelease.co.uk/wp-content/uploads/2011/12/santa_widescreen-1280x800-faurecia1-150x150.jpg
 2013	2	04	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://www.certes.co.uk/client/postjob_FULL.asp?nodeid=67&session_id={0DAABD46-8EE5-42B8-B48C-2800FF55F45C}&certessectorname=1
 2013	2	04	MISSING	404	Not Found	None	None	http://www.livingroomonline.co.uk/53-57-large/Brooklyn-Oak-Low-Corner-Video-Cabinet.jpg
 2013	2	04	OK	200	OK	False	0	http://kia.carsparefinder.co.uk/KIA-SPORTAGE-THROTTLE-BODY.html
@@ -1913,7 +1913,7 @@
 2013	2	04	OK	200	OK	False	0	http://blogs.spectator.co.uk/coffeehouse/2013/02/cameron-closes-in-on-eu-budget-success/
 2013	2	04	OK	200	OK	False	0	http://double-glazing.bestquote-welwyn-garden-city.co.uk/Hertfordshire/upvc-replacement-windows/Bushey-WD23/
 2013	2	04	OK	200	OK	False	0	http://doubleglazing.bristolhomeimprovements.co.uk/bristol/quotes-for-replacement-windows/Bristol-BS80/
-2013	2	05	MISSING	429	Too many request, you try again later	None	None	http://scottishfivers.forumup.co.uk/fuabuse.php?fuurlref=%2Fabout2285-scottishfivers.html
+2013	2	05	OK	200	OK	False	0	http://scottishfivers.forumup.co.uk/fuabuse.php?fuurlref=%2Fabout2285-scottishfivers.html
 2013	2	04	OK	200	OK	True		http://www.fitness-sports.co.uk/images/422900.gif
 2013	2	05	OK	200	OK	False	0	http://www.4jc.ndo.co.uk/_4jcnavbar_B1.gif
 2013	2	04	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://www.mitsubishi-automation.co.uk//newscenter/newsletter.html
@@ -2059,13 +2059,13 @@
 2014	4	11	MISSING	404	Category not found	None	None	http://www.aptoolsltd.co.uk/A-P-Drill-Collet-C/View-all-products.html?limit=5&limitstart=10
 2014	4	12	MISSING	404	Not Found	None	None	http://www.moniles.co.uk/diy-tools/electrical/exactly-what-i-wanted-brilliant-product-ipad-flip-stand-case-kinps-soundboost-executive-magnetic-9988.html?replytocom=20034
 2014	4	10	OK	200	OK	False	0	http://www.planetside.co.uk/forums/index.php/topic,15829.msg155089.html
-2014	4	10	GONE	924	TIMEOUT	None	None	http://www.cbpmag.com/wp-content/uploads/2013/05/@mx_634-634x322.jpeg
+2014	4	10	MISSING	404	Not Found VIA-REDIRECT+	None	None	http://www.cbpmag.com/wp-content/uploads/2013/05/@mx_634-634x322.jpeg
 2014	4	10	ERROR	502	Proxy Error	None	None	http://jadetec.co.uk/?reqp=1&reqr=
 2014	4	12	OK	200	OK	False	0	http://www.sundaymailcashback.co.uk/login.php?c=login
 2014	4	11	OK	200	OK	True		http://www.goc.org.uk/cms/images/F000058/goc-52124299-9QJO077ITGZUDXJ1FXCCYO4V1XCIHPFF_500.jpg
 2014	4	11	GONE	924	TIMEOUT	None	None	http://www.creditsure.co.uk/blog/index.php/tag/debt-management-plan/feed/
 2014	4	10	OK	200	OK	False	0	http://vehicles-transport-equipment.europages.co.uk/companies/France/201-500/Ship%20maintenance%20and%20repairs.html
-2014	3	07	GONE	924	TIMEOUT	None	None	http://highleghscouts.co.uk/images/water%20day%201.jpg
+2014	3	07	OK	200	OK	True		http://highleghscouts.co.uk/images/water%20day%201.jpg
 2014	1	03	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://www.rcog.org.uk/printpdf/65479
 2014	4	10	OK	200	OK	False		http://southshields.yalwa.co.uk/Fast-Food-Restaurants/32021/index.rss
 2014	4	11	OK	200	OK	True		http://prince.ecbdev.co.uk/interfaces/html/common/graphics/icon-previous-TD.jpg
@@ -2134,7 +2134,7 @@
 2014	4	11	OK	200	OK	False	0	http://www.dailymail.co.uk/tvshowbiz/azstar/archives/keira-knightley.html?pageOffset=2&pageSize=20
 2014	4	11	OK	200	OK	True		http://www.motorcycletransportation.co.uk/src/shadowbox.js
 2014	4	11	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://services2.salford.gov.uk/locateinsalford/businessdirectory/categorysearch.aspx?M=5&S=IM
-2014	4	12	GONE	924	TIMEOUT	None	None	http://www.retailtechnology.co.uk/tag_search.php?tag=books
+2014	4	12	OK	200	OK	False	0	http://www.retailtechnology.co.uk/tag_search.php?tag=books
 2014	3	09	OK	200	OK	True		http://ecx.images-amazon.com/images/I/41Ybw0LyZ9L._SS120_RO10,1,201,225,243,255,255,255,15_.jpg
 2014	3	08	OK	200	OK	False		http://stats.bbc.co.uk/o.gif?~RS~s~RS~Democracy~RS~t~RS~HighWeb_AV~RS~i~RS~8733506~RS~p~RS~92010~RS~a~RS~Domestic~RS~u~RS~/democracylive/hi/house_of_commons/newsid_8733000/8733506.stm~RS~r~RS~http://n
 2014	2	05	OK	200	OK	False	0	http://www.bbc.co.uk/news/business-22123316?postId=115894851
@@ -2145,13 +2145,13 @@
 2014	4	11	MOVED	200	OK VIA-REDIRECT+	False		http://www.mondayschildjewellery.co.uk/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.1.4&ver=3.8.4
 2014	3	09	OK	200	OK	False	0	http://www.bbc.co.uk/news/magazine-26554710?print=true
 2014	2	05	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://twitter.com/intent/tweet?source=tweetbutton&url=http://www.thesun.co.uk/sol/homepage/sport/football/5639784/Steven-Gerrard-in-a-sweat-over-Englands-World-Cup-campaign.html&text=Gerro%20in%20a%
-2014	4	11	GONE	924	TIMEOUT	None	None	http://www.express.co.uk/pictures/galleries/1355/Kate-Duchess-of-Cambridge-pictures/39503
+2014	4	11	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.express.co.uk/pictures/galleries/1355/Kate-Duchess-of-Cambridge-pictures/39503
 2014	4	10	OK	200	OK	True		http://wealthfinance-intl.co.uk/images/PageImages/WebPageImages/97884704-e520-4e0e-a813-dabafd6c1913/banner_97884704-e520-4e0e-a813-dabafd6c1913.jpg
 2014	4	10	OK	200	OK	False	0	http://climateanswers.info/2012/04/13-april-2012-energy-efficiency-made-in-denmark-exportable-to-the-rest-of-the-eu/
 2014	1	02	MISSING	403	Forbidden	None	None	http://images.dailystar-uk.co.uk/dynamic/58/photos/657000/74657.jpg
 2014	4	10	OK	200	OK	False	0	http://www.huffingtonpost.co.uk/realbuzzcom/
 2014	4	11	OK	200	OK	False	0	http://www.less2decorate.com/emulsion-paint/pink-emulsion/glidden-trade-vinyl-matt-mallow
-2014	4	10	MISSING	404	Not Found	None	None	http://lasvegas.verticaldemo.co.uk//Vegas-4-Star-Hotels/Monte-Carlo/Spa/dd/MM/dd/MM/yyyy
+2014	4	10	GONE	924	TIMEOUT	None	None	http://lasvegas.verticaldemo.co.uk//Vegas-4-Star-Hotels/Monte-Carlo/Spa/dd/MM/dd/MM/yyyy
 2014	4	11	OK	200	OK	False		http://www.thewheelhousescilly.co.uk/wp-content/uploads/2012/07/st-martins-maps1.png
 2014	3	07	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://londoncoal.co.uk/sites/all/modules/pngbehave/iepngfix_tilebg.js
 2014	4	11	OK	200	OK	False		http://www.payroll-help.com/tag/centre-for-research-in-social-policy/feed/
@@ -2279,7 +2279,7 @@
 2014	4	10	OK	200	OK	True	0	http://brooklandsarchives.co.uk/Gallery_C1/c1page38.html
 2014	4	12	OK	200	OK	False	0	http://shop-fitting.wingroup-jobs-billericay.co.uk/essex/shopfitting-electrician-jobs/Chelmsford-CM3/
 2014	4	11	OK	200	OK	False	0	http://www.printingwillington.co.uk/guides.aspx
-2014	4	12	OK	200	OK	True		http://www.verdictoncars.com/features/Exeo_front1_660.jpg
+2014	4	12	ERROR	503	Service Unavailable	None	None	http://www.verdictoncars.com/features/Exeo_front1_660.jpg
 2014	4	11	OK	200	OK	False	0	http://www.glazers.co.uk/blog/comments.php?y=11&m=11&entry=entry111104-112531
 2014	4	11	OK	200	OK	True		http://www.greenmanherbalist.co.uk/blog/wp-content/uploads/2010/03/Chickweed1-150x150.jpg
 2014	4	11	OK	200	OK	False	0	http://www.componentforce.co.uk/product/390/SBF6/sample
@@ -2348,7 +2348,7 @@
 2014	3	07	MOVED	200	OK VIA-REDIRECT+	False	0	http://gavi.uvinum.co.uk/michele-chiarlo-gavi-rovereto-2012_buy:RO
 2014	3	07	OK	200	OK	False	0	http://hovecollege.co.uk/advanced_diplomas/certificates/images/ISI.png
 2014	2	04	OK	200	OK	False	0	http://www.nta.nhs.uk/404-error.aspx?aspxerrorpath=/wEWAwL1/OfNDwKZ7YzdCgKln/scripts/css/ndtms.aspx
-2014	3	07	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://coffeehouseathome.co.uk/wp-content/themes/DailyJournal/images/note-bottom-right.png
+2014	3	07	OK	200	OK	True		http://coffeehouseathome.co.uk/wp-content/themes/DailyJournal/images/note-bottom-right.png
 2014	3	07	OK	200	OK	True		http://datingplymouth.co.uk/picture.php?size=square&sex=1&loguserid=524411
 2014	2	06	OK	200	OK	False	0	http://axmedbahjad.blog.co.uk/tags/argument/mostread/
 2014	2	06	OK	200	OK	False	0	http://www.the-tls.co.uk/tls/public/article1324835.ece
@@ -2420,7 +2420,7 @@
 2014	4	12	OK	200	OK	True		http://openprovenance.org/java/site/1_1_2/testapidocs/index.html?org/openprovenance/model//class-useExample3Test.html
 2014	4	12	MISSING	404	Not Found	None	None	http://www.humanandcargo.co.uk/wp-content/themes/envision/includes/shortcodes/shortcode.socialbar/source/white_p50-gradient/40px.png
 2014	2	06	MOVED	200	OK VIA-REDIRECT+	False		http://addisonmckee-spares.co.uk/products/fuji/1019/null/0/1
-2014	4	11	OK	200	OK	False	0	http://www.cknet.org.uk/store/lewis_books.asp
+2014	4	11	GONE	924	TIMEOUT	None	None	http://www.cknet.org.uk/store/lewis_books.asp
 2014	2	06	OK	200	OK	False	0	http://actsandbands.co.uk/seikosu.htm
 2014	4	11	OK	200	OK	True		http://www.gaydvds.co.uk/Kinky-Angels/filmphotos/KinkyAngels4c.jpg
 2014	4	10	OK	200	OK	False	0	http://gary.cottam.co.uk/blog/tag/lex.html?page=3
@@ -2456,7 +2456,7 @@
 2014	2	06	MISSING	404	Not Found	None	None	http://benidorm.holidays-2.co.uk/taba-holidays/roundedcornr_476879_br.png
 2014	4	11	OK	200	OK	False	0	http://www.121247.com/blog/?p=346
 2014	4	10	OK	200	OK	False	0	http://www.bridgman.co.uk/garden-furniture/garden-furniture-sets/filter/brand/allseasons/material/rattan/number_of_seats/6seater/price/2,500,6,500
-2014	4	10	GONE	924	TIMEOUT	None	None	http://travel-tickets-tickets.okbazar.co.uk/sitemap.php?inzeraty=electronic,travel-other-countries
+2014	4	10	OK	200	OK	False	0	http://travel-tickets-tickets.okbazar.co.uk/sitemap.php?inzeraty=electronic,travel-other-countries
 2014	4	11	OK	200	OK	False		http://www.nottinghamhigh.co.uk/EasysiteWeb/getresource.axd?AssetID=83&type=full&servicetype=Inline&customSizeId=0
 2014	4	10	OK	200	OK	True	0	http://archantsouthwest.newsprints.co.uk/slideshow/scu/p/u/124272/1/combe%20martin%20carnival%202009
 2014	4	12	OK	200	OK	True		http://www.prtcc.com/archive/2006_Season/Sun1stXI/player_stats/joel_maisey_files/cstt.jpg
@@ -2484,7 +2484,7 @@
 2014	4	11	MISSING	404	Not Found	None	None	http://www.hippodromecircus.co.uk/celebrate/thumbnails/celebrate10.jpg
 2014	4	10	OK	200	OK	False	0	http://jacquelinesfamilyhistory.co.uk/getperson.php?personID=I01656&tree=tree1
 2014	4	12	OK	200	OK	True		http://www.heatoncooper.co.uk/shopimages/products/normal/finished%20products%20normal/chinese%20art%20materials/papers/danxuanricepaper.jpg
-2014	4	10	OK	200	Soft 4xx	False	0	http://nosweat.org.uk/event/2007/06/20/day/all/all/1
+2014	4	10	OK	200	OK	False	0	http://nosweat.org.uk/event/2007/06/20/day/all/all/1
 2014	4	10	MISSING	403	Forbidden	None	None	http://hull.opendi.co.uk/1322018.html
 2014	4	11	OK	200	OK	False		http://www.vahs.org.uk/tag/citizenship/feed/
 2014	4	11	OK	200	OK	False	0	http://bdsoutheast.co.uk/company-details.asp?bn=Andrews+%26+Brake+Construction+Ltd&bid=392305
@@ -2496,7 +2496,7 @@
 2014	4	11	OK	200	OK	False	0	http://christinelaennec.co.uk/2014/05/02/over-to-the-uists-for-a-cup-of-coffee/?replytocom=13592
 2014	4	12	OK	200	OK	True		http://christianaid.traidcraftshop.co.uk/images/Product/medium/61330_1_.jpg
 2014	4	11	OK	200	OK	False	0	http://imaginationincolour.co.uk/category/picture-polish-solar-flare/
-2014	3	07	OK	200	OK	False	0	http://ebookers-car-hire.cheapquote4-carinsurance.co.uk/productlist.php?rb=3-2152
+2014	3	07	GONE	924	TIMEOUT	None	None	http://ebookers-car-hire.cheapquote4-carinsurance.co.uk/productlist.php?rb=3-2152
 2014	4	11	OK	200	OK	False	0	http://www.alandemaid.co.uk/buy/search/elmstead%20(bromley)/within-50-miles/page-17/dd/mm/yy
 2014	4	11	OK	200	OK	False	0	http://www.happyspaces.co.uk/artists/jennifer_ziliotto?currency=JPY
 2014	2	06	OK	200	OK	False	0	http://builderbusiness.co.uk/shop/mortar-plasticiser-5l-vb-p12809.aspx
@@ -2545,7 +2545,7 @@
 2014	4	12	OK	200	OK	True		http://www.homefurnitureland.co.uk/images/Light502-00main.jpg
 2014	4	11	OK	200	OK	False	0	http://www.ethicalvitamins.co.uk/modules/shop/view.asp?prodcode=988
 2014	4	11	OK	200	OK	False	0	http://www.pharmacyjobs-mp.co.uk/job-search/browse/essex-england/jobs?location=England
-2014	4	12	OK	200	OK	False	0	http://www.whitehorsemilfordonsea.co.uk/forth-coming-events/?yr=2014&cid=all&time=week&format=calendar&dy=27&month=11
+2014	4	12	MISSING	404	Not Found VIA-REDIRECT+	None	None	http://www.whitehorsemilfordonsea.co.uk/forth-coming-events/?yr=2014&cid=all&time=week&format=calendar&dy=27&month=11
 2014	4	12	OK	200	OK	False	0	http://www.alc.manchester.ac.uk/abouttheschool/whats-on/eventdetails/?eid=even:a94-hzv5lygm-16q0ch
 2014	4	12	OK	200	OK	True	0	http://www.loftconversion.me.uk/Cumbria_12/Low_Lorton_Loft_Conversion.html
 2014	4	12	OK	200	OK	False		http://blog.tigerpens.co.uk/pilot-begreen-spotliter-vw-review/feed/
@@ -2578,7 +2578,7 @@
 2014	1	02	OK	200	OK	False	0	http://www.mcht.nhs.uk/about-us/freedom-of-information/disclosure-log/human-resources/?assetdet86068=6332&assetdet86082=5198&assetdet86095=2589&assetdet86121=6432
 2014	4	11	OK	200	OK	False	0	http://copiers.bestquote-carlisle.co.uk/Cumbria/leasing-copiers/Maryport-CA15/
 2014	4	11	MISSING	404	Not Found	None	None	http://www.mrssporty.co.uk/sites/default/files/imagecache/teaser-img-page-view/wysiwyg-imageupload/5/mrssporty_30minuten_200x200_0.jpg
-2014	4	10	OK	200	Soft 4xx	False	0	http://swapgame.co.uk/winged-bullet/fullscreen/
+2014	4	10	OK	200	OK	False	0	http://swapgame.co.uk/winged-bullet/fullscreen/
 2014	2	04	OK	200	OK	False	0	http://www.devonpartnership.nhs.uk/Publications-Library.24.0.html?&no_cache=1&task=show&uid=975&target=1&category=4&cHash=f0ff392089a6df330925cbdb61f2b611
 2014	4	11	GONE	903	UNRESOLVABLE	None	None	https://tvshopworld.co.uk/index.php?route=product/category&path=34&sort=rating&order=ASC&limit=15
 2014	3	07	OK	200	OK	True		http://isa.aberdeen.sch.uk/media_gallery/events/PROM_2014/data/thumbnails1/prom-94.jpg
@@ -2605,7 +2605,7 @@
 2014	4	10	OK	200	OK	True		http://www.crowdfunder.co.uk/uploads/projects/1395673643-V-A-approved-logo-gray.png
 2014	4	12	OK	200	OK	True		http://ferryhill.gov.uk/Meetings/2014/Finance,%20Planning%20&%20General%20Purpose/Agendas/Fin_Agenda_Nov.pdf
 2014	4	11	OK	200	OK	False	0	http://www.canalboatholiday.net/newsarticle//GRAND%20UNION%20CANAL%20$000004673.htm
-2014	4	12	OK	200	OK	False	0	http://harvesthealthcare.biz/0,91,hla225-the-harvest-ascent-225-standup-hoist.html?p=p_3&sName=dynamic-systems
+2014	4	12	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://harvesthealthcare.biz/0,91,hla225-the-harvest-ascent-225-standup-hoist.html?p=p_3&sName=dynamic-systems
 2014	4	12	OK	200	OK	True	0	http://www.bonebeauty.com/hcp/html/img/img/css/css/js/jquery.js
 2014	4	10	OK	200	OK	False		http://www.contentmc.co.uk/wp-content/themes/ibusiness/img/user_testimonial.png
 2014	4	12	OK	200	OK	True		http://www.bigkidfoundation.org/BIGKID_Foundation/Scripts/Widgets/YouTube/YouTube.js
@@ -2624,7 +2624,7 @@
 2014	4	10	OK	200	OK	True	0	http://veritasfoundation.co.uk/
 2014	4	12	OK	200	OK	False	0	http://hyster-forklifts.chathamforklifts.co.uk/Kent/a-used-hyster-forklift-for-sale/Sandwich/
 2014	4	12	OK	200	OK	False		http://www.siamp.co.uk/wall-frames?price=30-
-2014	4	10	GONE	924	TIMEOUT	None	None	http://niche-links.co.uk/entertainment/theatre/
+2014	4	10	OK	200	OK	False	0	http://niche-links.co.uk/entertainment/theatre/
 2014	2	05	OK	200	OK	False	0	http://www.walesonline.co.uk/news/wales-news/stop-sending-staff-emails-evening-7071157
 2014	4	11	OK	200	OK	False	0	http://racking.derbyforklifts.co.uk/Derbyshire/dexion-racking-systems/Chesterfield-S44/
 2014	4	11	GONE	903	UNRESOLVABLE	None	None	http://beaconsfield.gohi.co.uk/index.php?a=11&b=623&d=3&c=65&browse_view=list
@@ -2711,10 +2711,10 @@
 2014	4	10	OK	200	OK	True	0	http://microsoft-cloud-computing.co.uk/sitemap/?t=hayes
 2014	4	11	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://secure.vwe.net/cgi-bin/eros/ord/basket?mv_session_id=KwRmRUKr&mv_pc=204&mv_action=refresh&mv_order_item=001433
 2014	4	11	MISSING	403	Forbidden	None	None	http://www.personalhealthbudgets.england.nhs.uk/Topics/index.cfm?tag=Market%20development&orderBy=title&isKeyResource=true
-2014	4	11	OK	200	OK	True		http://www.imagination.lancaster.ac.uk/sites/default/files/news_downloads/flyer_3.pdf
+2014	4	11	GONE	903	UNRESOLVABLE	None	None	http://www.imagination.lancaster.ac.uk/sites/default/files/news_downloads/flyer_3.pdf
 2014	4	10	GONE	903	UNRESOLVABLE	None	None	http://beauty-manchester.co.uk/inc/editor_images/data/templates/flat/images/inc/js/nivo/nivo-slider.js
 2014	3	07	OK	200	OK	True		http://education-services-services.okbazar.co.uk/thumb/1404211835_0.jpg
-2014	4	11	ERROR	503	Service Unavailable	None	None	http://www.uksugarbabes.com/images/profiles//photo_1327090380.jpg
+2014	4	11	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.uksugarbabes.com/images/profiles//photo_1327090380.jpg
 2014	4	10	GONE	903	UNRESOLVABLE	None	None	http://hotnakedwomen.co.uk/wp-includes/images/smilies/icon_idea.gif
 2014	4	10	OK	200	OK	False	0	http://alteagallery.co.uk/stock.php?cartographer=DU%20SAUZET,%20Henri.&search=c&navletter=D
 2014	4	11	OK	200	OK	False	0	http://www.mise.org.uk/index.php/news-events/calendar/week.listevents/2013/08/28/-
@@ -2803,7 +2803,7 @@
 2014	4	10	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.cphart.co.uk/bathrooms/contemporary/monsoon_shower_pumps
 2014	4	11	OK	200	OK	False	0	http://www.handmadecheddar.co.uk/enjoying/storing/new_default.flv
 2014	4	11	OK	200	OK	True	0	http://anws.llgc.org.uk/cgi-bin/anw/name_search?id=8791&acc_type=1
-2014	4	11	GONE	924	TIMEOUT	None	None	http://www.jollyhols.co.uk/park-photos/PENV/370/9.jpg
+2014	4	11	OK	200	OK	False		http://www.jollyhols.co.uk/park-photos/PENV/370/9.jpg
 2014	4	11	OK	200	OK	False		http://www.graceandmabel.co.uk/en/shop-online/clothing/id/by-malene-birger---ballay-long-two-toned-leather-gloves
 2014	4	11	MISSING	404	Not Found	None	None	http://highbridgeawnings.co.uk/images/motorhomes/new/849/40/105.jpg
 2014	4	10	OK	200	OK	False	0	http://bramley.surrey.sch.uk/flashcards.php?view=2&id=62219
@@ -2823,7 +2823,7 @@
 2014	4	11	OK	200	OK	False		http://www.drfryrusheymead.nhs.uk/css/fonts/msw.eot
 2014	4	12	OK	200	OK	False	0	http://forum.lum.ba/misc.php?do=whoposted&t=237
 2014	4	10	OK	200	OK	False	0	http://ashtonweeklynewspapers.newsprints.co.uk/view/16774753/d10_2350%20body%20shop%20pres%20wwh_jpg
-2014	4	11	OK	200	OK	False		http://www.h2auto.co.uk/images/HLUDKJ_products/Best%20UGG%20Knightsbridge%20Boots%205119%20Grey%20Ebay_8.jpg
+2014	4	11	GONE	924	TIMEOUT	None	None	http://www.h2auto.co.uk/images/HLUDKJ_products/Best%20UGG%20Knightsbridge%20Boots%205119%20Grey%20Ebay_8.jpg
 2014	4	12	OK	200	OK	False	0	http://hyster-lift-trucks.bestquote-hinckley.co.uk/Leicestershire/hyster-forklift-sales/Hinckley-LE10/
 2014	4	12	OK	200	OK	False	0	http://lkhill.blogspot.co.uk/2014/07/teaser-tuesday-la-noir.html
 2014	4	11	OK	200	OK	False	0	http://www.marlincanariasportfishing.com/gallery/foto.php?f=1550
@@ -2844,7 +2844,7 @@
 2014	4	10	MISSING	404	Not Found	None	None	http://leahwarrinerwood.co.uk/index.php?start=15&option=com_jaggyblog&limitstart=15&view=jaggyblog&type=rss&allcomments=1?format=feed&Itemid=123?format=feed
 2014	4	10	OK	200	OK	False		http://oakleyandovertonsurgery.co.uk/ScriptResource.axd?d=nK6so0M3WJsZqnQeiF58DYQH7DxE6WeJ19hWQW-FZaU7079N7U4_4rT433_DEsnlAM7LO4wX5nLC6fQYUiaCmo9CqaRXKMLT1cn5NEWSR3BWdk3mNPiPdlRQKmLhH4G9XTCAi9NRoFwDq4
 2014	4	10	OK	200	OK	True		http://frog.finhampark.co.uk/user/74/138795.png?bg=1
-2014	2	06	ERROR	500	Internal Server Error VIA-REDIRECT+	None	None	http://christinelester.co.uk/_common/_flash/_common/_styles/_common/_styles/_common/_styles/_common/_fonts/univers/21decb60-b395-4de2-bd04-e38eb2a56d2f.woff
+2014	2	06	MOVED	200	OK VIA-REDIRECT+	False	0	http://christinelester.co.uk/_common/_flash/_common/_styles/_common/_styles/_common/_styles/_common/_fonts/univers/21decb60-b395-4de2-bd04-e38eb2a56d2f.woff
 2014	2	06	OK	200	OK	True		http://bjhardie.co.uk/images/SceneryFullSize/DSC_2842_small.jpg
 2014	4	10	MISSING	404	Not Found	None	None	http://houseofhire.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/t/steven-by-steve-madden-pryme-pump.jpg
 2014	3	07	OK	200	OK	True		http://kylelambert.co.uk/tutorials/thumbnails/9@2x.jpg
@@ -2887,7 +2887,7 @@
 2014	4	11	OK	200	OK	True	0	http://bbcmothball.co.uk/blast/writing/questions/
 2014	4	11	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://www.sandersofoxford.com/images/stock/thumbs/8609.jpg
 2014	4	11	OK	200	OK	True		http://i.ytimg.com/vi/C_YyBLMjYe4/0.jpg
-2014	4	11	GONE	924	TIMEOUT	None	None	http://www.napoleons-casinos.co.uk/sheffield-owlerton/about/owlerton-stadium/
+2014	4	11	OK	200	OK	False	0	http://www.napoleons-casinos.co.uk/sheffield-owlerton/about/owlerton-stadium/
 2014	4	12	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.knightsbridgerecruitment.com/jobs/job-listing.aspx?ContractTypeIDs=2096%2c2525%2c2806%2c3166%2c3526%2c4342%2c5054%2c5407%2c5854%2c6207%2c7693%2c8060%2c8427%2c8795%2c9162%2c9732%2c11176%2c11
 2014	4	11	OK	200	OK	True		http://www.carletonlordcarpets.co.uk/flooring-guide/what-floorcovering/images/whatiswoven.jpg
 2014	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://www.police.uk/northamptonshire/SCT163/team/pc-angie-chohan/
@@ -3029,7 +3029,7 @@
 2014	4	10	MISSING	404	Not Found	None	None	http://spyder-baitboats.co.uk/wp-content/plugins/revslider/rs-plugin/js/.DS_Store
 2014	3	07	OK	200	OK	False	0	http://fork-lift-trucks.bes-widnes.co.uk/Cheshire/leasing-electric-forklift-trucks/Lymm-WA13/
 2014	2	06	MOVED	200	OK VIA-REDIRECT+	False	0	http://blog.journalcraft.co.uk/?p=414&full-site=true
-2014	4	10	OK	200	OK	False	0	http://ukcanals.co.uk/canalside-babs
+2014	4	10	OK	200	OK	False		http://ukcanals.co.uk/canalside-babs
 2014	3	08	GONE	903	UNRESOLVABLE	None	None	http://macclesfieldquotes.co.uk/Images/Sats/step2_2.gif
 2014	4	11	MISSING	404	Not Found VIA-REDIRECT+	None	None	http://img.frenchconnections.co.uk/property/613-80.JPG
 2014	4	11	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://thediaryofapoorgirl.blogspot.co.uk/2013/04/gan-y-mor.html
@@ -3240,7 +3240,7 @@
 2014	4	11	OK	200	OK	True		http://www.venuemarketing.co.uk/demo-tour/panos/The_Eaton_sphere.tiles/r/l3/4/l3_r_4_1.jpg
 2014	4	11	OK	200	OK	True		http://www.insulatedpool.co.uk/files/cache/zend_cache---86e7b7339c46fa0de230095920d19fbea29a364bbca472a17038a0a777544017
 2014	3	08	OK	200	OK	True	0	http://tst1recruitment.co.uk/submit.php
-2014	4	10	MOVED	200	OK VIA-REDIRECT+	False	0	http://jeezloueeze.co.uk/Jeez_Loueeze/Gallery/Pages/Halloween_files/Media/IMG_0625/?C=S;O=A
+2014	4	10	MOVED	200	Soft 4xx	False	0	http://jeezloueeze.co.uk/Jeez_Loueeze/Gallery/Pages/Halloween_files/Media/IMG_0625/?C=S;O=A
 2014	3	07	OK	200	OK	True	0	http://italiantownplan.co.uk/Map.aspx?of=Ski_Rail_Map_Paper_Wall_Map
 2014	4	10	OK	200	OK	False		http://matrixstats.pomprint.co.uk/dyn?page_id=init.menu&SITE_ID=280046&sel=begin_time&m_off=0&switch=on&begin_time=41930&section=Admin
 2014	4	11	OK	200	OK	True		http://www.saap.co.uk/th2908.jpg
@@ -3259,7 +3259,7 @@
 2014	4	11	OK	200	OK	False	0	http://voucheria.co.uk/supercasino-com/voucher-details/4376576
 2014	4	10	OK	200	OK	True	0	http://selfcateringsussexuk.co.uk/sussexbedandbreakfast.html
 2014	4	12	MISSING	404	Not Found	None	None	http://www.noanoa-olney.co.uk/_webedit/cached-images/229-1-1-221-400
-2014	4	11	GONE	924	TIMEOUT	None	None	http://www.procarton.com/wp-content/uploads/2014/08/028c_m4.jpg
+2014	4	11	OK	200	OK	True		http://www.procarton.com/wp-content/uploads/2014/08/028c_m4.jpg
 2014	4	10	OK	200	OK	False	0	http://racking.bestquote-wallsend.co.uk/Tyne-And-Wear/dexion-pallet-racking-suppliers/Sunderland-SR1/
 2014	4	10	OK	200	OK	False		http://fusionlights.co.uk/led/outdoor.html?price=600-700
 2014	4	12	OK	200	OK	False	0	http://www.bensons.co.uk/our-thoughts/tag/cheap+flights
@@ -3321,7 +3321,7 @@
 2014	4	12	OK	200	OK	False	0	http://libertyhotelslara.co.uk/styles/cms/core/javascript/datepicker/js/javascript/cms/core/javascript/datepicker/styles/datepicker.css
 2014	3	09	OK	200	OK	True		http://stats.bbc.co.uk/o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_Story~RS~i~RS~29151798~RS~p~RS~99118~RS~a~RS~Domestic~RS~u~RS~/news/business-29151798~RS~q~RS~~RS~z~RS~34~RS~
 2014	1	03	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.redditchadvertiser.co.uk/jobs/search/posted/30/pageSize/100/keywords/Software+Programmer/
-2014	4	10	OK	200	OK	False	0	http://www.belfasttelegraph.co.uk/opinion/editors-viewpoint/editors-viewpoint-parade-tensions-call-for-calm-words-28865276.html
+2014	4	10	GONE	924	TIMEOUT	None	None	http://www.belfasttelegraph.co.uk/opinion/editors-viewpoint/editors-viewpoint-parade-tensions-call-for-calm-words-28865276.html
 2014	2	04	OK	200	OK	False		http://www.alquds.co.uk/?feed=rss2&p=133374
 2014	4	11	OK	200	OK	True		http://www.pumpkinwholesale.com/small-covers/9780571205707.jpg
 2014	3	07	OK	200	OK	True		http://cherryroms.co.uk/taxonomy/term/40/0/feed
@@ -3371,7 +3371,7 @@
 2014	3	07	OK	200	OK	True		http://indianpointvillas.co.uk/146/SPA3.jpg
 2014	4	11	OK	200	OK	False		http://www.clownaround.co.uk/static/javascript.js
 2014	4	10	OK	200	OK	False	0	http://www.prendas.co.uk/cycle-clothing/jerseys/retro-7xl_xxxxxxxl-s-bernard_hinault_1.html
-2014	4	11	OK	200	OK	False	0	http://lib5.leeds.ac.uk/rlists/broker/?bbModuleId=201415_18403_DESN3441&bbListId=_2794558_1
+2014	4	11	GONE	924	TIMEOUT	None	None	http://lib5.leeds.ac.uk/rlists/broker/?bbModuleId=201415_18403_DESN3441&bbListId=_2794558_1
 2014	4	12	OK	200	OK	False	0	http://taxiforce.co.uk/get-your-gellifor-taxi.html
 2014	4	12	OK	200	OK	True		http://www.source4you.co.uk/catalogue/misc/-imgs/products_middle/middle_12180243091.jpeg
 2014	4	10	OK	200	OK	False	0	http://ritzcarltonpalmbeach.hcareers.co.uk/employer/register/?form.URI=%2Fseeker%2Fsearch%2Fview%3FjobAdId%3D13E8A9E709B3C2B8
@@ -3444,7 +3444,7 @@
 2014	1	03	OK	200	OK	False	0	http://www.andoveradvertiser.co.uk/my/account/emailthispage/?r=http://www.andoveradvertiser.co.uk/trade_directory/advert/gardening_services/1004906/GUBBINS%20MR%20S
 2014	1	03	OK	200	OK	False	0	http://www.dailymail.co.uk/registration/1362838365580763/scoop1/profile.html
 2014	2	04	OK	200	OK	False	0	http://www.buteman.co.uk/what-s-on/leisure/rothesay-boys-brigade-compete-in-greenock-challenge-1-3352725
-2014	4	12	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://www.express.co.uk/news/politics/539175/Boost-Farage-Ukip-second-Tories
+2014	4	12	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.express.co.uk/news/politics/539175/Boost-Farage-Ukip-second-Tories
 2014	4	12	OK	200	OK	True		http://cche.org.uk/forums/plugins/Facebook/design/facebook-login.png
 2014	4	11	OK	200	OK	True		http://www.pizzapanandgrill.co.uk/images/web/italian/menu-bg.png
 2014	4	11	GONE	903	UNRESOLVABLE	None	None	http://www.hvaccareer.thisistom.co.uk/robots.txt
@@ -3456,7 +3456,7 @@
 2014	4	11	OK	200	OK	True	0	http://www.studio27uk.com/contact.html
 2014	3	07	MISSING	404	Not Found	None	None	http://deckingoil.co.uk/acatalog/12-081.jpg
 2014	4	10	OK	200	OK	True	0	http://freegroundsjun.co.uk/calendar_detail.asp?style=HighContrast&EventRef=340&term=26&section=9&thispage=,%20,%20,%20,%20,%20,%20,%20,%20cal&
-2014	2	05	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.bucksherald.co.uk/login?referrer=http://www.bucksherald.co.uk/what-s-on/showbiz/coen-bros-to-pen-spielberg-kgb-film-1-6071553
+2014	2	05	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://www.bucksherald.co.uk/login?referrer=http://www.bucksherald.co.uk/what-s-on/showbiz/coen-bros-to-pen-spielberg-kgb-film-1-6071553
 2014	2	05	OK	200	OK	True	0	http://www.beh-mht.nhs.uk/system/textonlysettings.aspx?colour=2&font=9&size=6&returnurl=/membership-form.htm
 2014	1	01	OK	200	OK	False	0	http://www.derbyshirehealthcareft.nhs.uk/search/?s=1&searchRequestDefaultsId=7&baseResultsSearchRequestId=1864178&page=5
 2014	4	11	MISSING	404	Not Found	None	None	http://troongolf.org.uk/projDesc.asp?ProjId=251714&Location=Playa%20Flamenca
@@ -3500,7 +3500,7 @@
 2014	4	11	OK	200	OK	False	0	http://www.radiology.severndeanery.nhs.uk/events/&month=01&year=2015&category=Training
 2014	4	11	OK	200	OK	True		http://www.taylorspecialsteels.co.uk/images/main1_53.gif
 2014	4	10	OK	200	OK	True		http://harts.org.uk/SA2.htm
-2014	4	10	OK	200	OK	False	0	http://beonetworking.co.uk/login/return_url/64-L2xvZ2luL3JldHVybl91cmwvNjQtTDJ4dloybHVMM0psZEhWeWJsOTFjbXd2TmpRdFRESjRkbG95YkhWTU0wcHNaRWhXZVdKc09URmpiWGQyVG1wUmRGUkVTalJrYkc5NVlraFdUVTB3Y0hOYVJXaFhaV
+2014	4	10	GONE	924	TIMEOUT	None	None	http://beonetworking.co.uk/login/return_url/64-L2xvZ2luL3JldHVybl91cmwvNjQtTDJ4dloybHVMM0psZEhWeWJsOTFjbXd2TmpRdFRESjRkbG95YkhWTU0wcHNaRWhXZVdKc09URmpiWGQyVG1wUmRGUkVTalJrYkc5NVlraFdUVTB3Y0hOYVJXaFhaV
 2014	2	06	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://baby-blessed.co.uk/image/cache/data/Baby%20Shower/IMG_7255%20(680x415)-74x74.jpg
 2014	4	12	OK	200	OK	False	0	http://dentaltalenttree.com/talent-profile/DN6706
 2014	2	06	MISSING	404	Not Found	None	None	http://astone.co.uk/templates/andrewstone/images/spacer.gif
@@ -3519,7 +3519,7 @@
 2014	4	11	OK	200	OK	True		http://www.harrington-fabric-and-lace.co.uk/images/3884(26)-col.jpg
 2014	4	11	GONE	903	UNRESOLVABLE	None	None	http://www.cheap-weddingdresses.co.uk/images/l/201207/a/13421637972.jpg
 2014	4	11	OK	200	OK	True		http://www.tescoliving.com/~/media/images/healthy%20living/healthy%20eating/curbyourcravings_hero.jpg?w=600
-2014	3	07	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://falmouth-bay.co.uk/breakfast/p1010070/
+2014	3	07	MOVED	200	OK VIA-REDIRECT+	False	0	http://falmouth-bay.co.uk/breakfast/p1010070/
 2014	4	11	OK	200	OK	False	0	http://sustainablehealthcare.org.uk/user/register?destination=node%2F6038
 2014	4	12	MOVED	200	Soft 4xx	False	0	http://www.plastickitswholesale.co.uk/product_reviews.php/manufacturers_id/66/products_id/23603
 2014	4	10	OK	200	OK	False	0	http://fivenine.co.uk/family_history_notebook/family_pages/gregg/ann_gregg_1819_1896.htm
@@ -3592,7 +3592,7 @@
 2014	3	07	OK	200	OK	False	0	http://easyprintcornwall.co.uk/index.php?route=product/product&path=66&sort=p.price&order=ASC&product_id=60
 2014	2	06	MISSING	403	Forbidden	None	None	http://airgunco2.co.uk/images/NS-NM30WEH-MOUNTS.jpg
 2014	2	06	OK	200	OK	True		http://click-surf.co.uk/media/catalog/product/cache/1/small_image/295x295/9df78eab33525d08d6e5fb8d27136e95/c/a/casual_jacket-animal-men_s-joe-aw13-indigo-_1__2.jpg
-2014	3	07	OK	200	Soft 4xx	False	0	http://crystal.mcecorporategifts.co.uk/products/name/crystal-1-1ltr-ice-lip-water-jug/product_id/l77?size=30&start=
+2014	3	07	OK	200	OK	False	0	http://crystal.mcecorporategifts.co.uk/products/name/crystal-1-1ltr-ice-lip-water-jug/product_id/l77?size=30&start=
 2014	3	07	OK	200	OK	False	0	http://double-glazing.bestquote-eastbourne.co.uk/Sussex/cheap-replacement-windows/Eastbourne-BN21/
 2014	4	12	OK	200	OK	True		http://www.mdmoore.co.uk/media/catalog/product/cache/1/image/265x265/9df78eab33525d08d6e5fb8d27136e95/m/o/moncler_women_s_vest.jpg
 2014	2	06	OK	200	OK	True		http://axis-groupservices.co.uk/admin/content/files/flipbook6/files/images/loader.gif
@@ -3657,7 +3657,7 @@
 2014	1	03	OK	200	OK	False	0	http://www.times-series.co.uk/li/primary_schools.detail.101583/
 2014	4	10	OK	200	OK	False	0	http://www.thescarboroughnews.co.uk/sport/junior-sport
 2014	4	11	OK	200	OK	False	0	http://www.goodlawyersguide.com/lawyers/search/children/DEREHAM,%20NORFOLK
-2014	1	01	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.casgliadywerincymru.co.uk/(X(1)A(V5sf9LG0zAEkAAAAMTgyMTUyNjUtMDdiYS00MGI2LThmY2EtMjBlN2MwODdlNzZlqLwdep07mXTrBwHb98cz4strAis1))/Item/61411-llanwrtyd-wells-carnival-1
+2014	1	01	GONE	924	TIMEOUT	None	None	http://www.casgliadywerincymru.co.uk/(X(1)A(V5sf9LG0zAEkAAAAMTgyMTUyNjUtMDdiYS00MGI2LThmY2EtMjBlN2MwODdlNzZlqLwdep07mXTrBwHb98cz4strAis1))/Item/61411-llanwrtyd-wells-carnival-1
 2014	1	03	OK	200	OK	False	0	http://www.tavinstitute.org/projects/report-lithuanian-group-relations-conference-innovation-and-authority-in-organisations-directors-report/
 2014	3	07	OK	200	OK	False	0	http://emma-bagladee.blogspot.co.uk/2008/06/just-quick-note.html
 2014	3	07	OK	200	OK	False	0	http://brchobbies.co.uk/catalog/index.php?cPath=99_170
@@ -3758,7 +3758,7 @@
 2014	4	10	OK	200	OK	False		http://sportsceleb.co.uk/?feed=rss2&p=2055
 2014	4	11	OK	200	OK	False	0	http://bornlosermc.blogspot.co.uk/2008/04/forty-6.html
 2014	3	07	OK	200	OK	False	0	http://kruemelsbastelblog.blogspot.co.uk/2011/08/whiff-of-joy-110-buttons-and-bows.html
-2014	4	11	OK	200	OK	False	0	http://www.informsomerset.org.uk/dataviews/tabular?viewId=8&geoId=11&subsetId=&instances=9853,
+2014	4	11	GONE	924	TIMEOUT	None	None	http://www.informsomerset.org.uk/dataviews/tabular?viewId=8&geoId=11&subsetId=&instances=9853,
 2014	3	09	OK	200	OK	True		http://www.aislings.co.uk/image/cache/data/Avanua/avanua_meena-500x500.jpg
 2014	4	12	OK	200	OK	True		http://critterstudio.com/wp-includes/js/jquery/ui/jquery.ui.resizable.min.js
 2014	4	11	MISSING	404	Not Found	None	None	http://www.rotarytarts.co.uk/acatalog/Shine-FD-Sreet-Diffuser-50.jpg
@@ -3792,7 +3792,7 @@
 2014	3	09	OK	200	OK	False	0	http://www.dailyrecord.co.uk/all-about/michael-jamieson
 2014	2	05	OK	200	OK	False	0	http://www.thoughtland.info/2013/03/holloway-biog.html
 2014	3	09	OK	200	OK	False	0	http://www.bbc.co.uk/news/world-us-canada-16255514
-2014	4	11	OK	200	OK	True		http://www.rbzconsultancyltd.co.uk/
+2014	4	11	OK	200	OK	False		http://www.rbzconsultancyltd.co.uk/
 2014	4	11	OK	200	OK	False	0	http://www.theguardian.com/lifeandstyle/gardening-blog
 2014	2	06	OK	200	OK	False	0	http://www.dailymail.co.uk/femail/article-2650515/Plus-size-label-Simply-Be-showcases-fashion-forward-festival-collection-leading-bloggers-wear-sizes-12-22.html
 2014	3	08	OK	200	OK	False	0	http://www.huffingtonpost.co.uk/neely-reyes/running-a-boutique-model-_b_5658238.html?utm_hp_ref=entrepreneurs&m=true
@@ -3853,7 +3853,7 @@
 2014	3	07	OK	200	OK	False	0	http://ganiproperty.co.uk/index.php?option=com_content&view=article&id=68:captcha&catid=25&tmpl=component&print=1&layout=default&page=
 2014	3	09	OK	200	OK	False	0	http://sherev.blogspot.co.uk/2008/08/ripple-effect.html
 2014	4	11	OK	200	OK	False		http://www.airspotters.com/ekmps/shops/airspotters/images/airbus-a340-a380-1260-c%5Bekm%5D121x86%5Bekm%5D.gif
-2014	3	08	OK	200	OK	True	0	http://plumbervenue.co.uk/search/plumbers-in-orton-wistow-peterborough
+2014	3	08	OK	200	OK	False	0	http://plumbervenue.co.uk/search/plumbers-in-orton-wistow-peterborough
 2014	3	08	OK	200	OK	False	0	http://pedometerwatch.co.uk/productcat/certificates/
 2014	4	10	OK	200	OK	False	0	http://houseonfire.co.uk/products-page-2/7-singles/page/9/
 2014	4	10	OK	200	OK	True		http://rockzombie4x4.vforums.co.uk/rss/topic/11976/
@@ -3873,7 +3873,7 @@
 2014	3	07	OK	200	OK	True		http://morphilia.co.uk/wp-content/plugins/wp-e-commerce/wpsc-core/images/social_networking/tailrank.gif
 2014	4	11	OK	200	OK	False	0	http://www.weybridge-audio.co.uk/bowers-and-wilkins/headphones-en.html?sort_by=price&sort_order=asc&layout=products
 2014	4	10	OK	200	OK	True		http://geomagnetism.bgs.ac.uk/education/gic3_controller.swf
-2014	3	08	OK	200	OK	False	0	http://npower.peoplevalue.co.uk/Category/Details/84
+2014	3	08	ERROR	500	Internal Server Error	None	None	http://npower.peoplevalue.co.uk/Category/Details/84
 2014	4	10	OK	200	OK	True		http://exploringdreamingdiscovering.co.uk/portrait/vatican/stpetersint_clock.swf
 2014	4	10	MOVED	200	OK VIA-REDIRECT+	False	0	http://thekeepsakeshop.co.uk/captcha/imcpa_i87.gif
 2014	4	10	MISSING	404	Not Found	None	None	http://southeastlondonlocksmiths.co.uk/images/topstrip.jpg
@@ -3925,7 +3925,7 @@
 2014	2	06	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.sleafordstandard.co.uk/register?referrer=http://www.sleafordstandard.co.uk/motors/reviews/land-rover/the-best-things-in-life-are-free-1-4484237
 2014	3	07	MISSING	404	Not Found	None	None	http://www.thisislocallondon.co.uk/sport/football/leaguetwo/league_two/teams-7211/
 2014	3	08	OK	200	OK	False		http://www.halesowennews.co.uk/resources/static/standard/texts/css/news.css?r=cvTWGEWU
-2014	3	07	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.fileymercury.co.uk/register?referrer=http://www.fileymercury.co.uk/motors/reviews/chrysler/brief-encounter-1-5141176
+2014	3	07	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://www.fileymercury.co.uk/register?referrer=http://www.fileymercury.co.uk/motors/reviews/chrysler/brief-encounter-1-5141176
 2014	3	08	OK	200	OK	False	0	http://mortgagebrokerspeterborough.co.uk/home-movers.html
 2014	2	04	OK	200	OK	False	0	http://www.muslimnews.co.uk/news/africa/libya-three-soldiers-one-american-citizen-killed-libyas-benghazi/
 2014	3	07	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.halifaxcourier.co.uk/register?referrer=http://www.halifaxcourier.co.uk/motors/reviews/vauxhall/monterey-cheese-1-5148327
@@ -3943,7 +3943,7 @@
 2014	3	07	MISSING	404	Not Found	None	None	http://www.westerngazette.co.uk/professional-services/accountants
 2014	2	06	OK	200	OK	False	0	http://commercialupholstery.co.uk/national-ballet-school
 2014	4	12	OK	200	OK	False	0	http://www.ilovephilosophy.com/viewtopic.php?f=5&t=186886&p=2512750
-2014	3	07	GONE	924	TIMEOUT	None	None	http://generaldirectory.org.uk/news_and_media/?p=8
+2014	3	07	OK	200	OK	False	0	http://generaldirectory.org.uk/news_and_media/?p=8
 2014	3	07	OK	200	OK	False	0	http://embrss.org.uk/press-releases/joint-communiqu%C3%A9-visit-president-republic-sudan-juba-12-april-2013
 2014	4	11	OK	200	OK	False	0	http://prostitutescollective.net/tag/ziteng/
 2014	3	07	OK	200	OK	False		http://creaghconcrete.co.uk/image?id=2956
@@ -3999,7 +3999,7 @@
 2014	1	01	OK	200	OK	False	0	http://www.impartialreporter.com/sport/golf/articles/2013/11/21/403134-unstoppable-stenson-powers-away-again/
 2014	3	08	OK	200	OK	False	0	http://uk.mediapark.filmtrailer.com/v1.3/small/cinema/5006/?&css_url=http://www.elystandard.co.uk:80/polopoly_fs/7.159.1396540599!/cinema.css&channel_user_id=441100173-1
 2015	1	03	OK	200	OK	True		http://stats.bbc.co.uk/o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_Corr_Story~RS~i~RS~23766071~RS~p~RS~99108~RS~a~RS~Domestic~RS~u~RS~/news/health-23766071~RS~q~RS~postId=117126229~RS~z~RS~39~RS~
-2015	2	04	OK	200	OK	False	0	http://www.gallowaygazette.co.uk/property/for-sale/scarborough/C2
+2015	2	04	GONE	924	TIMEOUT	None	None	http://www.gallowaygazette.co.uk/property/for-sale/scarborough/C2
 2015	1	02	OK	200	OK	False	0	http://ow.ly/i/MNmK/original
 2015	1	01	OK	200	OK	False	0	http://www.telegraph.co.uk/news/picturegalleries/howaboutthat/11106140/Giant-anaconda-captured-after-eating-pet-dog-in-French-Guiana-in-pictures.html
 2015	1	03	OK	200	OK	True		http://i.huffpost.com/gen/1673588/images/s-ANNOYING-TECH-NOISES-small.jpg
@@ -4020,7 +4020,7 @@
 2015	1	02	OK	200	OK	False	0	http://www.touchlocal.com/claim-listing?advert_id=13809479
 2015	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.golwg360.com/newyddion/cymru/59309-adroddiad-turner-mwy-o-waith-iw-wneud-eto-medd-s4c?maint_testun=2
 2015	1	02	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.golwg360.com/newyddion/cymru?maint_testun=1
-2015	1	02	OK	200	OK	True		http://www.thejc.com/files/imagecache/body_taxonomy/images/03052012-Kabalat-Shabat-04.jpg
+2015	1	02	GONE	924	TIMEOUT	None	None	http://www.thejc.com/files/imagecache/body_taxonomy/images/03052012-Kabalat-Shabat-04.jpg
 2015	1	03	OK	200	OK	True		http://i.huffpost.com/gen/2280026/images/s-KIM-KARDASHIAN-NAKED-BUM-COFFEE-small.jpg
 2015	1	03	GONE	924	TIMEOUT	None	None	http://www.ccw.gov.uk/enjoying-the-country/open-access-land/open-access-maps.aspx?_dmr=15&_dms=dra&_dmc=st130970
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c170.50.621.621/s160x160/1013536_210769799071745_1712976537_n.jpg?oh=50131037ec8d9e6d7aa4cf86ef205a5d&oe=55686005&__gda__=1432763448_22ea
@@ -4051,7 +4051,7 @@
 2015	1	02	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://i.guim.co.uk/static/w-300/h--/q-95/sys-images/Guardian/Pix/pictures/2014/12/3/1417619280823/Swedish-Prime-Minister-St-009.jpg
 2015	1	03	OK	200	Soft 4xx	False	0	http://www.eastlothiannews.co.uk/property/agent-search/40104
 2015	1	03	MISSING	404	Not Found	None	None	http://www.curzoncinemas.com/news/all/curzon_interview_david_gordon_green_joe.aspx
-2015	1	01	OK	200	OK	False		http://www.belfasttimes.co.uk/tag/pizza-jazz/feed/
+2015	1	01	GONE	924	TIMEOUT	None	None	http://www.belfasttimes.co.uk/tag/pizza-jazz/feed/
 2015	1	02	OK	200	OK	False	0	http://www.myexperiment.org/workflows?filter=TAG_ID%28%221247%22%29+AND+USER_ID%28%2212855%22%29+AND+LICENSE_ID%28%221%22%29&num=20
 2015	2	04	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://commons.wikimedia.org/wiki/Special:RecentChangesLinked/File_talk:Wikimedia-logo.svg
 2015	2	04	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://consult.scotland.gov.uk/forestry-commission-scotland/national-tree/consultation/view_respondent?uuId=815463028
@@ -4111,7 +4111,7 @@
 2015	1	03	OK	200	OK	True		http://images.visitnorthumberland.com/Stewards-House/vn-small-Steward-s-House-1.jpg
 2015	2	04	OK	200	OK	True		http://www.thurrockgazette.co.uk/resources/images/3690048.jpg?htype=0&type=mc
 2015	1	01	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Europe_laea_location_map.svg/281px-Europe_laea_location_map.svg.png
-2015	1	02	ERROR	500	Internal Server Error	None	None	http://gallery.baschny.de/v/outono2009/20091122-IMG_9788.jpg.html?g2_imageViewsIndex=0
+2015	1	02	GONE	924	TIMEOUT	None	None	http://gallery.baschny.de/v/outono2009/20091122-IMG_9788.jpg.html?g2_imageViewsIndex=0
 2015	1	02	OK	200	OK	False	0	http://www.beerintheevening.com/pubs/mail_link.shtml?105
 2015	1	03	OK	200	OK	False	0	http://www.history.ac.uk/reviews/search/content?f[0]=im_taxonomy_vocabulary_5%3A35&f[1]=im_taxonomy_vocabulary_4%3A28&f[2]=im_taxonomy_vocabulary_5%3A31&f[3]=im_taxonomy_vocabulary_5%3A34
 2015	2	04	OK	200	OK	False	0	http://maes-e.com/viewtopic.php?f=16&t=28921&p=387116
@@ -4198,13 +4198,13 @@
 2015	1	01	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.vice.com/en_uk/tag/the%20Middle%20East
 2015	2	04	OK	200	OK	False	0	http://www.matlockmercury.co.uk/motors/reviews/maserati/the-art-of-noise-1-5141851
 2015	1	03	OK	200	OK	False	0	http://www.parliament.uk/education/teaching-resources-lesson-plans?cat=suffragettes+,booklet,photogallery,citizenship
-2015	1	03	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.hsbc.com/hsbcdotcom/script/bundle-about_us-history_wall_sublayout?v=JMOK61xNnhdxBqjoozroII0XMQp9qrVfYvhjSUAou6w1
+2015	1	03	OK	200	OK	False		http://www.hsbc.com/hsbcdotcom/script/bundle-about_us-history_wall_sublayout?v=JMOK61xNnhdxBqjoozroII0XMQp9qrVfYvhjSUAou6w1
 2015	2	04	OK	200	OK	True		http://news.bbc.co.uk/olmedia/1870000/images/_1871959_daniel150.jpg
 2015	1	01	OK	200	OK	True		http://stats.bbc.co.uk/o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_Story~RS~i~RS~31045339~RS~p~RS~99253~RS~a~RS~Domestic~RS~u~RS~/news/uk-scotland-south-scotland-31045339~RS~q~RS~~RS~z~RS~22~RS~
 2015	1	01	OK	200	OK	False	0	http://www.bbc.co.uk/news/blogs-echochambers-30383601
 2015	1	01	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.bankofengland.co.uk/boeapps/titan/events.aspx?X482320X=Gwx6BMVdB7BVwIyM4WmJAUXOa1zVmiCd6f91Q7APqSHtm6JT+k9N2Q==&Navigate=Registration
 2015	1	01	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.golwg360.com/calendr?maint_testun=2&dyddiad=16-01-2015
-2015	1	03	OK	200	OK	False		http://www6.smartadserver.com/call/pubj/55086/431389/23713/S/9237193153/
+2015	1	03	MOVED	200	OK VIA-REDIRECT+	False		http://www6.smartadserver.com/call/pubj/55086/431389/23713/S/9237193153/
 2015	1	02	OK	200	OK	False	0	http://www.scie.org.uk/prevention-library/getsearchresults?f_subject_terms=outcomes&f_subject_terms=social+care+provision&f_subject_terms=social+services&f_subject_terms=prevention&st=atoz&page=1
 2015	1	02	OK	200	OK	False	0	http://www.mumsnet.com/Talk/mumsnet_campaigns/1979624-We-need-compulsory-sex-education-to-teach-young-people-about-sexual-consent-and-respectful-relationships?pg=3
 2015	2	04	OK	200	Soft 4xx	False	0	http://www.lisburntoday.co.uk/property/for-rent/oakham/C4
@@ -4323,7 +4323,7 @@
 2015	1	01	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.dorset.pcc.police.uk/Get-Involved/Current-Vacancies/Administrative-Support-Officer.aspx?ContensisTextOnly=true
 2015	1	03	OK	200	OK	False		http://metro.co.uk/author/tuconsola/feed/
 2015	2	04	OK	200	OK	False		http://www.lolfunnyt-shirts.com/bmz_cache/5/5891c17864a6e30a806a71bd36ae3694.image.550x550.jpg
-2015	1	01	MOVED	200	OK VIA-REDIRECT+	True		http://www.casgliadywerincymru.co.uk/sites/default/files/styles/pcw_entity_glance/public/images/2014/February/GTJ28635.jpg?itok=to7zEfm_
+2015	1	01	GONE	924	TIMEOUT	None	None	http://www.casgliadywerincymru.co.uk/sites/default/files/styles/pcw_entity_glance/public/images/2014/February/GTJ28635.jpg?itok=to7zEfm_
 2015	2	04	OK	200	OK	False	0	http://www.dunfermlinepress.com/register/?rurl=http%3A%2F%2Fwww.dunfermlinepress.com%2Fnews%2Fvillages%2Farticles%2F2015%2F02%2F12%2F524192-we-need-tax-hike-to-stop-cuts%2F
 2015	1	03	OK	200	OK	False	0	http://www.bbc.co.uk/news/science-environment-31025229?postId=121270664
 2015	1	03	OK	200	OK	False	0	http://www.myexperiment.org/session/new?return_to=%2Fusers%2F6%2Fworkflows%3Ffilter%3DTAG_ID%2528%2522447%2522%2529%26order%3Drank
@@ -4384,7 +4384,7 @@
 2015	1	02	OK	200	OK	False	0	http://www.leighreporter.co.uk/motors/reviews/tvr
 2015	1	01	OK	200	OK	True		http://www.worksopguardian.co.uk/webimage/1.7048321.1421164432!/image/3212727669.jpg_gen/derivatives/articleImgDeriv_628px/3212727669.jpg
 2015	1	03	ERROR	500	Referrer data required.	None	None	http://ping.chartbeat.net/ping?h=birminghammail.co.uk&p=%2F&u=B8GSgyBsC7_uTx-py&d=birminghammail.co.uk&g=33715&g0=ece_frontpage%2Cece_frontpage&g1=desktop&n=1&f=00001&c=0&x=0&m=0&y=9773&o=1280&w=960&j
-2015	1	03	OK	200	OK	False	0	http://www.garstangcourier.co.uk/property/for-rent/preston/C2?listingStatus=rent&area=Preston+Le+Skerne%2C+Newton+Aycliffe%2C+DL5&pageSize=10
+2015	1	03	OK	200	Soft 4xx	False	0	http://www.garstangcourier.co.uk/property/for-rent/preston/C2?listingStatus=rent&area=Preston+Le+Skerne%2C+Newton+Aycliffe%2C+DL5&pageSize=10
 2015	1	01	OK	200	OK	True		http://i2.examiner.co.uk/incoming/article8503432.ece/alternates/s1023/darren-flinders-rotherham.jpg
 2015	1	03	OK	200	OK	False	0	http://www.next.co.uk/shop/gender-men-productaffiliation-tops-story-brandedfashion/category-jumpers-category-poloshirts-neckline-poloneck
 2015	1	03	OK	200	OK	False	0	http://www.kingsfund.org.uk/search/site/?f[0]=im_field_health_topic%3A7&f[1]=im_field_health_topic%3A9&f[2]=im_field_health_topic%3A14&f[3]=im_field_health_topic%3A27&f[4]=im_field_health_topic%3A21
@@ -4450,7 +4450,7 @@
 2015	1	02	OK	200	OK	False	0	http://freethinker.co.uk/2014/08/24/top-catholic-angers-abuse-victims/
 2015	2	04	OK	200	OK	False	0	http://www.bordertelegraph.com/news/roundup/articles/2013/12/28/483582-movie-magic-as-support-group-sets-sights-on-permanent-home/
 2015	1	03	OK	200	Soft 4xx	False	0	http://www.beerintheevening.com/pubs/results.shtml/near/8399/page/10/
-2015	2	04	GONE	924	TIMEOUT	None	None	http://www.express.co.uk/sport/football/572078/Manchester-United-Bale-Ronaldo-Real-Madrid-sleeping
+2015	2	04	OK	200	OK	False	0	http://www.express.co.uk/sport/football/572078/Manchester-United-Bale-Ronaldo-Real-Madrid-sleeping
 2015	1	03	OK	200	OK	False	0	http://www.muslimnews.co.uk/news/palestine/palestine-tisha-bav-march-in-east-jerusalem-marked-by-violence-and-property-damage/
 2015	2	05	OK	200	OK	False	0	http://www.eastwoodadvertiser.co.uk/property/for-sale/alfreton/property-35200740
 2015	2	06	OK	200	OK	False	0	http://www.surreycomet.co.uk/yoursay/letters/13315195.Letter_to_the_Editor__A_sad_time/
@@ -4575,7 +4575,7 @@
 2015	2	06	OK	200	OK	True		http://www.laughinghorsecomedy.co.uk/heroes/images/show_4032_main.jpg
 2015	2	06	OK	200	OK	False	0	http://www.ruraltouring.org/members/profiles/NjaGpyUKszcMSIXqJDlAYeyue+iXuF7BRBIUeTO0x+/VaIKnk0xHqnGCyCckJl6uNynYg6e98NLU1ep6VyuwRZYOmNVYnyrJmPdlLnOgiHofs9dEQkKEKvzW4qG41l9/w==
 2015	2	06	OK	200	OK	False	0	http://www.thelancasterandmorecambecitizen.co.uk/li/sold_house_prices_street_list.detail.Beta%20Place,Clapham,London/
-2015	3	07	OK	200	OK	True		http://www.bafta.org/sites/default/files/styles/gallery_thumbnail/public/externals/1dedaae1a1586a5a8571a23733d6ef4f.jpg?itok=B3JP_prg
+2015	3	07	OK	200	OK	False		http://www.bafta.org/sites/default/files/styles/gallery_thumbnail/public/externals/1dedaae1a1586a5a8571a23733d6ef4f.jpg?itok=B3JP_prg
 2015	3	07	OK	200	OK	False	0	http://www.eastlothiancourier.com/news/dunbar/articles/2015/02/17/
 2015	3	07	OK	200	OK	False	0	http://www.dumbartonreporter.co.uk/news/alexandria/articles/2015/01/
 2015	2	05	OK	200	OK	False	0	http://labour-uncut.co.uk/2011/01/17/dear-ed-remember-that-party-members-are-not-normal/
@@ -4592,13 +4592,13 @@
 2015	2	06	OK	200	OK	False	0	http://www.wscountytimes.co.uk/property/for-rent/Horsham?orderBy=age&listingStatus=rent&area=Horsham&ordering=descending&pageNumber=3&pageSize=10
 2015	2	06	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.rec.uk.com/membership/corporate-blog?result_1006_result_page=5
 2015	2	05	MISSING	404	Not Found	None	None	http://www.portsmouth.co.uk/news/national/mod-halts-new-plane-use-after-crash-1-6735658
-2015	3	07	OK	200	Soft 4xx	False	0	http://www.todmordennews.co.uk/property/for-sale/todmorden/C1?orderBy=price&listingStatus=sale&area=todmorden%2FC1&pageNumber=4&pageSize=10
+2015	3	07	OK	200	OK	False	0	http://www.todmordennews.co.uk/property/for-sale/todmorden/C1?orderBy=price&listingStatus=sale&area=todmorden%2FC1&pageNumber=4&pageSize=10
 2015	2	06	OK	200	OK	True		http://i.dailymail.co.uk/i/pix/2015/06/24/20/1435174358506_lc_galleryImage_Football_England_v_Italy_.JPG
 2015	2	05	MISSING	404	Not Found	None	None	http://www.falmouthpacket.co.uk/li/weather.in./
 2015	1	01	OK	200	OK	False	0	http://www.theargus.co.uk/trade_directory/search/keywords/gardener/location/Haywards%20Heath
 2015	1	03	OK	200	OK	False	0	http://www.essexcountystandard.co.uk/trade_directory/search/category/telephone_engineers
 2015	1	02	OK	200	OK	False	0	http://www.maltonmercury.co.uk/property/for-sale/scarborough/property-28487799
-2015	1	03	OK	200	OK	False	0	http://www.londonderrysentinel.co.uk/property/estate-agents/holywood/C4
+2015	1	03	OK	200	Soft 4xx	False	0	http://www.londonderrysentinel.co.uk/property/estate-agents/holywood/C4
 2015	1	01	MISSING	404	Not Found VIA-REDIRECT+	None	None	http://www.chesterchronicle.co.uk/lifestyle/food-drink/?pageNumber=3
 2015	1	03	OK	200	OK	False	0	http://www.driffieldtoday.co.uk/property/for-sale/hull/property-35661664
 2015	1	03	OK	200	OK	False	0	http://www.southwalesguardian.co.uk/my/account/emailthispage/?r=http://www.southwalesguardian.co.uk/jobs/advert/J3F15R64Q3QD8G5PG4B/Senior_Staff_Nurse__RMN_-Pontypridd/
@@ -4644,7 +4644,7 @@
 2015	3	07	OK	200	OK	True		http://www.churchtimes.co.uk/ImageGen.ashx?image=/media/4166695/ROB_9913a.jpg&width=700
 2015	1	01	OK	200	OK	False	0	http://www.belfasttelegraph.co.uk/sport/rugby/six-nations/
 2015	2	04	OK	200	OK	False	0	http://www.thurrockgazette.co.uk/news/?ref=ebmpn
-2015	1	01	GONE	924	TIMEOUT	None	None	http://www.casgliadywerincymru.co.uk/discover/what/96%2C30400/query/Aberdare
+2015	1	01	MOVED	200	Soft 4xx	False	0	http://www.casgliadywerincymru.co.uk/discover/what/96%2C30400/query/Aberdare
 2015	2	04	OK	200	OK	False		http://www.warringtonguardian.co.uk/resources/images/captcha2/?k=7940e6c6c43fe7338812ddb5e07e16f1
 2015	1	01	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://cdn2.belfasttelegraph.co.uk/news/local-national/uk/article30899719.ece/b0c17/ALTERNATES/h342/PANews%20BT_P-6a7076f7-f829-4a0e-a45f-7aaed5f851ab_I1.jpg
 2015	1	03	OK	200	OK	False	0	http://www.bbc.co.uk/news/blogs-the-papers-32061642
@@ -4666,7 +4666,7 @@
 2015	1	03	OK	200	OK	False	0	http://www.bbc.co.uk/news/world-latin-america-18712378
 2015	1	03	OK	200	OK	False	0	http://www.argyll-bute.gov.uk/council-and-government/community-councils
 2015	1	03	OK	200	OK	False	0	http://www.mirror.co.uk/news/uk-news/alison-wilson-good-samaritan-mum-5343264
-2015	2	04	OK	200	OK	False	0	http://www.kenilworthweeklynews.co.uk/property/for-sale?listingStatus=sale&area=Kenilworth%2C+Warwickshire&pageNumber=3&pageSize=10
+2015	2	04	GONE	924	TIMEOUT	None	None	http://www.kenilworthweeklynews.co.uk/property/for-sale?listingStatus=sale&area=Kenilworth%2C+Warwickshire&pageNumber=3&pageSize=10
 2015	1	01	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://metrouk2.files.wordpress.com/2011/12/article-1323164014418-0f10910a00000578-961443_362x220.jpg?w=150&h=113&crop=1
 2015	2	04	OK	200	Soft 4xx	False	0	http://www.haverhillecho.co.uk/property/for-rent/england?listingStatus=rent&area=england&pageNumber=99&pageSize=10
 2015	2	04	OK	200	OK	False	0	http://www.runcornandwidnesworld.co.uk/mersey_gateway/11462106.Halton_will_have_lost_4_500_trees_to_make_way_for_Mersey_Gateway/?action=complain&cid=13169316
@@ -4700,7 +4700,7 @@
 2015	2	05	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.vice.com/en_uk/read/artsy-nudes-0000600-v22n3
 2015	2	06	OK	200	OK	False	0	http://www.midulstermail.co.uk/property/estate-agents/dungannon/C1?orderBy=name&pageSize=10&area=dungannon%2FC1&ordering=ascending&pageNumber=1
 2015	2	06	OK	200	OK	False	0	http://www.halsteadgazette.co.uk/jobs/search/posted/30/pageSize/100/keywords/Delivery+Driver/
-2015	2	06	OK	200	OK	False	0	http://www.bbc.co.uk/music/artists/9066b175-84c0-47f5-a792-dd7c23beb639
+2015	2	06	GONE	924	TIMEOUT	None	None	http://www.bbc.co.uk/music/artists/9066b175-84c0-47f5-a792-dd7c23beb639
 2015	2	05	OK	200	OK	False	0	http://metro.co.uk/tag/one-direction/page/20/
 2015	2	05	OK	200	OK	False	0	http://www.cumnockchronicle.com/whatson/roundup/roundup/2008/07/
 2015	2	06	OK	200	OK	False		http://ichef.bbci.co.uk/images/ic/640x360/p0224wmg.jpg
@@ -4838,12 +4838,12 @@
 2015	1	02	OK	200	OK	False	0	http://www.parliament.uk/education/teaching-resources-lesson-plans?cat=ukgeneralelections,activecitizenshipandcampaigning,history,thehouseoflords+
 2015	2	04	OK	200	OK	False		http://ukpollingreport.co.uk/blog/archives/8942/feed
 2015	2	05	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j36&tid=UA-30775-6&cid=2000430461.1432638693&jid=857390293&_u=AGAAgAQ~&z=1569783041
-2015	2	06	OK	200	OK	False		http://www.belfasttimes.co.uk/tag/tesco/feed/
-2015	3	07	GONE	903	READ-FAILED: timed out	None	None	http://www.malverngazette.co.uk/video/national/videonews/147120/?archive_page=0
+2015	2	06	GONE	924	TIMEOUT	None	None	http://www.belfasttimes.co.uk/tag/tesco/feed/
+2015	3	07	OK	200	OK	False	0	http://www.malverngazette.co.uk/video/national/videonews/147120/?archive_page=0
 2015	3	07	OK	200	OK	False	0	http://www.horncastlenews.co.uk/property/prices/stamford/property-28213701
 2015	3	07	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://twitter.com/intent/tweet?via=Potterieseye&text=As+I+See+It%3A+The+political+elite+squabble+while+the+poor+go+hungry&url=http%3A%2F%2Fwww.potteye.co.uk%2Fsee-political-elite-squabble-poor-go-hu
 2015	3	07	OK	200	OK	True		http://asianlite.com/wp-content/uploads/2015/07/VirendraSharmaMP-web-e1436193252481-579x390.jpg
-2015	2	05	GONE	924	TIMEOUT	None	None	http://www.wandsworthguardian.co.uk/li/secondary_schools.detail.137005/
+2015	2	05	OK	200	OK	False	0	http://www.wandsworthguardian.co.uk/li/secondary_schools.detail.137005/
 2015	2	05	OK	200	OK	False	0	http://www.barnet-today.co.uk/search.cfm?sectionIs=search&mainSearchEntry=Council%20rejects%20One%20Barnet%20vot&searchDate=2015&searchSection=&searchTitles=Enfield%20Advertiser%20%26%20Gazette
 2015	3	07	OK	200	OK	False	0	http://www.leighreporter.co.uk/property/email/property-37002812
 2015	2	06	OK	200	Soft 4xx	False	0	http://www.scotsman.com/property/estate-agents/C4
@@ -4925,14 +4925,14 @@
 2015	1	03	OK	200	OK	True		http://www.gcs.europ-assistance.com/sites/default/files/costcontainment305x280px.png
 2015	2	06	OK	200	OK	False	0	http://www.peterleestar.co.uk/motors/news/cooper-tire-launches-quiet-tyre-1-5140713
 2015	1	03	OK	200	OK	False	0	http://www.gazetteandherald.co.uk/announcements/marriages/engagements/9342695.Samuel_and_Alexandra_CREED___ROBINSON/
-2015	1	03	OK	200	OK	False	0	http://www.fraserburghherald.co.uk/motors/reviews/jaguar/oil-s-well-at-jaguar-1-2656376
+2015	1	03	GONE	924	TIMEOUT	None	None	http://www.fraserburghherald.co.uk/motors/reviews/jaguar/oil-s-well-at-jaguar-1-2656376
 2015	1	03	OK	200	OK	False	0	http://www.pocklingtonpost.co.uk/property/for-sale/london/property-20854328
 2015	1	01	OK	200	OK	False	0	http://leicestermercury.ezadspro.co.uk/js_06022014_b958a/js_06022014_b958a/lib/carousel/js_06022014_b958a/lib/js_06022014_b958a/lib/carousel/js_06022014_b958a/lib/jquery.cookie.js
 2015	1	03	OK	200	OK	False	0	http://www.morleyobserver.co.uk/motors/reviews/nissan/talcum-x-1-6199534
 2015	1	01	OK	200	OK	False	0	http://www.miltonkeynes.co.uk/motors/reviews/mazda/2-good-to-be-true-1-4484358
 2015	1	03	OK	200	OK	False	0	http://www.dudleynews.co.uk/homes/estate_agents_sales/2000615/
 2015	1	02	OK	200	OK	False		http://www.thisisoxfordshire.co.uk/resources/images/captcha2/?k=8d5628c58abb8ff66a6174d9e16ce3c9
-2015	1	01	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://www.herts24.co.uk/news/red_hot_chili_peppers_on_stage_at_knebworth_1_1420094
+2015	1	01	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.herts24.co.uk/news/red_hot_chili_peppers_on_stage_at_knebworth_1_1420094
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://www.partyof.wales/the-slate/2012/11/09/why-luke-nicholas-is-standing-in-cardiff-south-and-penarth/
 2015	1	03	OK	200	OK	False	0	http://funny-pictures.multipicz.com/all-time-low-quotes-tumblr/www.dandelion-films.com*all-time-low-quotes-tumblr-13.jpg/
 2015	1	01	OK	200	OK	False	0	http://www.batleynews.co.uk/motors/reviews/ssangyong/a-pick-up-for-the-people-1-5148061
@@ -4952,7 +4952,7 @@
 2015	1	02	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.countytimes.co.uk/businessdirectory/listing.aspx?CategoryID=782
 2015	1	02	OK	200	OK	False	0	http://www.brentwoodweeklynews.co.uk/li/sixth_form.detail.115429/
 2015	1	02	ERROR	500	Internal Server Error	None	None	http://www.denbighshirefreepress.co.uk/businessdirectory/view.aspx?id=124839
-2015	1	03	OK	200	Soft 4xx	False	0	http://www.garstangcourier.co.uk/property/for-sale/lancaster/C1?listingStatus=sale&area=Lancaster+Walk%2C+Melton+Mowbray%2C+LE13&pageSize=10
+2015	1	03	OK	200	OK	False	0	http://www.garstangcourier.co.uk/property/for-sale/lancaster/C1?listingStatus=sale&area=Lancaster+Walk%2C+Melton+Mowbray%2C+LE13&pageSize=10
 2015	1	01	OK	200	OK	False	0	http://www.somersetcountygazette.co.uk/news/national/news/11694488.Blair_s_doubts_over_Labour_poll_win/
 2015	2	04	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.bordercountiesadvertizer.co.uk/businessdirectory/listing.aspx?CategoryID=917
 2015	2	04	OK	200	OK	False	0	http://www.spinal-research.org/login/?redirect=%2Flogin%2F%3Fredirect%3D%252Flogin%252F%253Fredirect%253D%25252Flogin%25252F%25253Fredirect%25253D%2525252Flogin%2525252F%2525253Fredirect%2525253D%2525
@@ -5013,7 +5013,7 @@
 2015	3	07	OK	200	OK	False	0	http://metro.co.uk/tag/liverpool-fc/page/30/
 2015	2	06	OK	200	OK	False	0	http://www.northnorfolknews.co.uk/sport/report_a_comment_element_7_120?report=19.1073168
 2015	2	05	OK	200	OK	False	0	http://www.newsguardian.co.uk/property/for-rent/newcastle-upon-tyne/property-28629862
-2015	2	04	OK	200	OK	True		http://www.stokesentinel.co.uk/images/localworld/ugc-images/276370/Article/images/26312638/9827209-mobile.jpg
+2015	2	04	MISSING	404	Not Found	None	None	http://www.stokesentinel.co.uk/images/localworld/ugc-images/276370/Article/images/26312638/9827209-mobile.jpg
 2015	3	07	OK	200	OK	False	0	http://www.bbc.co.uk/news/uk-scotland-scotland-politics-29213418/comments?postId=120346231&initial_page_size=20
 2015	3	07	OK	200	OK	False	0	http://www.inverness-courier.co.uk/Features/Travel/A-right-royal-treat-in-Germany-23032015.htm
 2015	3	07	OK	200	OK	False		http://stats.bbc.co.uk/o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_Legacy~RS~i~RS~1418304~RS~p~RS~38259~RS~u~RS~/1/hi/world/europe/1418304.stm~RS~r~RS~http://news.bbc.co.uk/1/hi/world/europe/2115682.stm~RS~a~
@@ -5055,7 +5055,7 @@
 2015	3	07	OK	200	OK	False	0	http://www.heraldscotland.com/news/13505318.Double_delight_for_Rangers_recruit_Waghorn/
 2015	2	06	OK	200	Soft 4xx	False	0	http://www.brechinadvertiser.co.uk/property/estate-agents/kilmacolm/C2
 2015	3	07	MISSING	404	Not Found	None	None	http://www.staffordshirelife.co.uk/directory/map?searchPhrase=Off%20Licences&where=Staffordshire&view=map&r=
-2015	1	02	GONE	924	TIMEOUT	None	None	http://www.thepennypost.co.uk/tag/legal-history/
+2015	1	02	OK	200	OK	False	0	http://www.thepennypost.co.uk/tag/legal-history/
 2015	1	02	OK	200	OK	False	0	http://www.visitwales.com/attraction-search/attraction-search-results?&industry=TEA&location=Pembrokeshire+County+And+Coast&radius=10&filterIds=PropertySubType-3&city=&price=&latitude=51.70395&longitu
 2015	1	02	OK	200	OK	False	0	http://www.labour.org.uk/index.php/people/r/p/P54/t
 2015	1	03	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://pbs.twimg.com/media/B_zTpFVWAAAGbGT.jpg:large
@@ -5075,7 +5075,7 @@
 2015	1	01	OK	200	OK	False	0	http://www.theyamyam.net/stats-walsall-1-swindon-town-4/
 2015	1	03	OK	200	OK	False	0	http://www.todmordennews.co.uk/property/for-rent/england?orderBy=price&listingStatus=rent&area=england&pageNumber=1&pageSize=10
 2015	1	03	MISSING	404	Not Found	None	None	http://www.staffordshirelife.co.uk/taxis-and-vehicle-hire/taxis/minicabs-taxi-02085404444-mini-cabs-merton-park/business-9762733-detail/business.html
-2015	1	03	OK	200	OK	False	0	http://www.haylingtoday.co.uk/property/agent-search/29770
+2015	1	03	OK	200	Soft 4xx	False	0	http://www.haylingtoday.co.uk/property/agent-search/29770
 2015	1	02	OK	200	OK	False	0	http://www.morleyobserver.co.uk/property/for-sale/leeds/property-34101850
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://commons.wikimedia.org/wiki/File:Chieti_strasse_01.jpg
 2015	1	02	OK	200	OK	False	0	http://www.stornowaygazette.co.uk/motors/reviews/maserati/a-maserati-for-the-masses-1-3008933
@@ -5153,7 +5153,7 @@
 2015	2	04	OK	200	OK	False	0	http://www.harboroughmail.co.uk/motors/reviews/mercedes-benz/sls-is-more-1-4484470
 2015	2	04	OK	200	OK	True		http://cdn2.next.co.uk/Common/Items/Default/Default/ItemImages/Search/224x336/L32674.jpg?G30
 2015	2	04	OK	200	OK	False	0	http://scotlandonscreen.org.uk/database/record.php?usi=007-000-000-087-C&theme=6
-2015	2	04	GONE	924	TIMEOUT VIA-REDIRECT+	None	None	http://www.express.co.uk/pictures/galleries/1448/The-Queen-in-pictures/Royal-Canadian-Mounted-Police-RCMP-officers-salute-Queen-Elizabeth-II-as-she-leaves-following-an-official-visit-to-reopen-the-new
+2015	2	04	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.express.co.uk/pictures/galleries/1448/The-Queen-in-pictures/Royal-Canadian-Mounted-Police-RCMP-officers-salute-Queen-Elizabeth-II-as-she-leaves-following-an-official-visit-to-reopen-the-new
 2015	1	03	OK	200	OK	True	0	http://law.slough.info/law33/law33a11.php
 2015	1	02	OK	200	OK	False	0	http://www.theguardian.com/politics/ukip?page=5
 2015	2	04	OK	200	OK	False	0	http://www.westerntelegraph.co.uk/sport/11830004.Goodwick_are_too_hot_for_Nomads/
@@ -5172,7 +5172,7 @@
 2015	1	02	OK	200	OK	False	0	http://www.theguardian.com/culture/dapper-laughs
 2015	2	04	MISSING	404	Not Found	None	None	http://www.yorkshireeveningpost.co.uk/news/showbiz/starr-misses-beatles-brothers-1-7191951
 2015	1	02	OK	200	Soft 4xx	False	0	http://www.beerintheevening.com/pubs/results.shtml/near/42324/page/4/show_comments/5/
-2015	2	04	OK	200	OK	False	0	http://www.wscountytimes.co.uk/property/for-rent/littlehampton/C2?orderBy=price_change&listingStatus=rent&area=littlehampton%2FC2&ordering=ascending&pageSize=10
+2015	2	04	OK	200	Soft 4xx	False	0	http://www.wscountytimes.co.uk/property/for-rent/littlehampton/C2?orderBy=price_change&listingStatus=rent&area=littlehampton%2FC2&ordering=ascending&pageSize=10
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://twitter.com/labourpress?screen_name=labourpress&lang=hu
 2015	1	01	OK	200	OK	False	0	http://www.tripadvisor.co.uk/Hotel_Review-g294316-d307698-Reviews-Belmond_Miraflores_Park-Lima_Lima_Region.html
 2015	1	03	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://twitter.com/michael_heaver/status/572318632052719616?screen_name=Michael_Heaver&id=572318632052719616&lang=uk
@@ -5219,7 +5219,7 @@
 2015	2	06	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.gov.uk/licence-finder/activities?activities=45_46_144_34&sectors=184
 2015	2	05	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.horrabridge-today.co.uk/Sport.cfm?id=34156&headline=Super%20season%20for%20the%20Lambs&vote=yes
 2015	3	07	OK	200	OK	False	0	http://www.economist.com/blogs/bagehot/a.reply-to
-2015	3	07	OK	200	Soft 4xx	False	0	http://www.newmarketjournal.co.uk/property/for-sale/bury-st--edmunds/C3?listingStatus=sale&area=bury+st++edmunds%2FC3&pageNumber=3&pageSize=10
+2015	3	07	OK	200	OK	False	0	http://www.newmarketjournal.co.uk/property/for-sale/bury-st--edmunds/C3?listingStatus=sale&area=bury+st++edmunds%2FC3&pageNumber=3&pageSize=10
 2015	3	07	MISSING	404	Not Found	None	None	http://www.falkirkherald.co.uk/what-s-on/showbusiness/man-21-drowns-in-demi-moore-s-swimming-pool-1-3834981
 2015	2	05	OK	200	OK	True		http://www.thisislancashire.co.uk/resources/images/3689908.jpg?type=article
 2015	2	05	OK	200	OK	True		http://stats.bbc.co.uk/o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_Corr_Story~RS~i~RS~31639474~RS~p~RS~99119~RS~a~RS~Domestic~RS~u~RS~/news/uk-wales-politics-31639474~RS~r~RS~0~RS~q~RS~0~RS~z~RS~3380~RS~
@@ -5258,7 +5258,7 @@
 2015	1	03	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.churchofengland.org/document-library.aspx?categoryAuthor=61&categoryType=56&categorySubject=53&documentYear=2012
 2015	2	04	OK	200	OK	True		http://stats.bbc.co.uk/o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_Story~RS~i~RS~30291460~RS~p~RS~99207~RS~a~RS~Domestic~RS~u~RS~/news/uk-politics-30291460~RS~r~RS~0~RS~q~RS~0~RS~z~RS~4544~RS~
 2015	1	01	OK	200	OK	False	0	http://www.lep.co.uk/property/for-rent/preston/property-34412347
-2015	1	02	OK	200	OK	False	0	http://www.daventryexpress.co.uk/property/agent-search/52976
+2015	1	02	OK	200	Soft 4xx	False	0	http://www.daventryexpress.co.uk/property/agent-search/52976
 2015	1	03	OK	200	OK	False	0	http://www.dromoreleader.co.uk/property/for-sale/n--ireland?orderBy=age&listingStatus=sale&area=n++ireland&ordering=descending&pageNumber=1&pageSize=10
 2015	1	02	OK	200	OK	False	0	http://www.knutsfordguardian.co.uk/announcements/deaths/in_memoriam_nw/?p=1&s=
 2015	1	03	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.eveningtimes.co.uk/entertainment/theatre/a-brolly-good-night-out-for-quarriers-171205n.24759421
@@ -5334,7 +5334,7 @@
 2015	2	04	OK	200	OK	False	0	http://www.scotcourts.gov.uk/current-business/court-rolls/court-roll?id=20a0bfa6-8980-69d2-b500-ff0000d74aa7
 2015	2	04	OK	200	OK	False	0	http://www.dudleynews.co.uk/li/sold_house_prices_street_list.detail.Stanhope%20Street,,Dudley/
 2015	1	01	OK	200	OK	True		http://i.dailymail.co.uk/i/pix/2015/01/11/2496128B00000578-2905217-image-m-3_1420970538410.jpg
-2015	2	04	OK	200	OK	False	0	http://www.leightonbuzzardonline.co.uk/property/agent-search/68156
+2015	2	04	OK	200	Soft 4xx	False	0	http://www.leightonbuzzardonline.co.uk/property/agent-search/68156
 2015	1	03	OK	200	OK	False	0	http://www.next.co.uk/shop/gender-oldergirls-gender-women-category-leggings-category-skirts/editorial-label-leglength-other-srt-24
 2015	1	01	OK	200	OK	False	0	http://www.dailyrecord.co.uk/sport/football/football-news/how-falkirk-plan-use-biggest-4452492
 2015	2	04	OK	200	OK	False	0	http://www.doncasterfreepress.co.uk/motors/news/mercedes-g-class-set-for-uk-return-1-5140737
@@ -5379,7 +5379,7 @@
 2015	1	02	OK	200	OK	False	0	http://www.wimbledonguardian.co.uk/yoursay/columns/naturenotes/11065390.Nature_Notes__Springtime_sights_and_sounds/
 2015	1	03	OK	200	OK	False	0	http://www.irvinetimes.com/news/kilwinning/articles/2009/05/27/387833-our-fury-at-suicide-bid-blame/
 2015	1	01	OK	200	OK	False	0	http://www.batleynews.co.uk/property/house-prices/mirfield/C2
-2015	1	02	OK	200	OK	False	0	http://www.harrowtimes.co.uk/trade_directory/search/keywords/restaurants/location/London%20Colney,%20St.%20Albans
+2015	1	02	OK	200	Soft 4xx	False	0	http://www.harrowtimes.co.uk/trade_directory/search/keywords/restaurants/location/London%20Colney,%20St.%20Albans
 2015	1	03	OK	200	OK	True		http://www.thenorthernecho.co.uk/resources/images/3574717.jpg?type=article
 2015	1	01	OK	200	OK	False	0	http://www.marketrasenmail.co.uk/property/for-sale/market-rasen/property-34986176
 2015	1	03	OK	200	OK	False	0	http://www.newsandstar.co.uk/carlisle_united/match_reports/carlisle_utd_despair_as_swindon_grab_added_time_equaliser_1_543385?referrerPath=carlisle_united/match_reports
@@ -5406,7 +5406,7 @@
 2015	2	04	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.openstreetmap.org/user/Ammappa%20l'Italia/traces/1687306/icon
 2015	1	02	OK	200	OK	False	0	http://www.bbc.co.uk/news/uk-england-29047752
 2015	1	01	OK	200	OK	True		http://www.thealbanian.co.uk/wp-content/uploads/2015/01/vrasja41-370x263.jpg
-2015	1	02	OK	200	Soft 4xx	False	0	http://www.hemsworthandsouthelmsallexpress.co.uk/property/agent-search/33519
+2015	1	02	OK	200	OK	False	0	http://www.hemsworthandsouthelmsallexpress.co.uk/property/agent-search/33519
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://twitter.com/methodistmedia/status/560082662023782400?screen_name=MethodistMedia&id=560082662023782400&lang=ja
 2015	1	03	OK	200	OK	False	0	http://www.peeblesshirenews.com/sport/results/results/2012/sport
 2015	1	01	OK	200	OK	False	0	http://www.keighleynews.co.uk/news/national/11746567.Baby_death_parents_criticise_medics/
@@ -5422,7 +5422,7 @@
 2015	1	03	OK	200	OK	False	0	http://www.buteman.co.uk/property/for-sale/dunoon/property-34067903
 2015	1	03	OK	200	OK	False		http://www.rightmove.co.uk/rss/property-for-sale/find.html?locationIdentifier=REGION%5E26934&viewType=GRID
 2015	1	01	OK	200	OK	False	0	http://www.bbc.co.uk/news/world-asia-16218119
-2015	1	01	OK	200	OK	False	0	http://www.belfasttelegraph.co.uk/sport/rugby/ulster-rugby/ulster-rugby-munster-are-not-expecting-an-easy-ride-30256790.html
+2015	1	01	GONE	924	TIMEOUT	None	None	http://www.belfasttelegraph.co.uk/sport/rugby/ulster-rugby/ulster-rugby-munster-are-not-expecting-an-easy-ride-30256790.html
 2015	1	02	OK	200	OK	True		http://stats.bbc.co.uk/o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_Story~RS~i~RS~30984351~RS~p~RS~99121~RS~a~RS~Domestic~RS~u~RS~/news/world-africa-30984351~RS~q~RS~postId=121267717~RS~z~RS~42~RS~
 2015	1	02	OK	200	OK	False	0	http://www.bbc.co.uk/news/business-30810140?sortBy=RatingValue&sortOrder=Ascending
 2015	1	03	OK	200	OK	False		http://www.alquds.co.uk/?feed=rss2&p=288616
@@ -5470,7 +5470,7 @@
 2015	2	06	OK	200	OK	True		http://www.northwichguardian.co.uk/resources/images/2851113.jpg?display=1&htype=0&type=mc3
 2015	3	07	OK	200	OK	True		http://i.dailymail.co.uk/i/pix/2015/07/13/15/2A7ECC9B00000578-3159271-image-a-32_1436799283566.jpg
 2015	2	05	OK	200	OK	False	0	http://metro.co.uk/tag/games-reviews/page/10/
-2015	2	05	OK	200	OK	False	0	http://www.burytimes.co.uk/trade_directory/search/keywords/Gardening/location/Crawshawbooth
+2015	2	05	GONE	924	TIMEOUT	None	None	http://www.burytimes.co.uk/trade_directory/search/keywords/Gardening/location/Crawshawbooth
 2015	2	06	OK	200	OK	False		http://ichef.bbci.co.uk/news/200/media/images/60961000/jpg/_60961728_60961727.jpg
 2015	3	07	OK	200	OK	True		http://www.alquds.co.uk/wp-content/uploads/2015/07/23qpt952-156x101.jpg
 2015	2	06	OK	200	OK	False	0	http://www.alquds.co.uk/?p=280503
@@ -5510,7 +5510,7 @@
 2015	1	02	OK	200	OK	False	0	http://www.newsbiscuit.com/author/Boutros/page/10/
 2015	1	02	MISSING	404	Not Found	None	None	http://www.redditchadvertiser.co.uk/leisure/cinema/movie/yintwoo11.Penguins_Of_Madagascar/xredapo.Vue_Redditch__Apollo_/
 2015	1	03	OK	200	OK	False		http://www.cambrian-news.co.uk/news-archive/i/42657/
-2015	1	02	OK	200	OK	False	0	http://www.spaldingtoday.co.uk/news/opinion/columnists/the-pensions-regulator-flexes-its-muscles-1-6543137
+2015	1	02	GONE	924	TIMEOUT	None	None	http://www.spaldingtoday.co.uk/news/opinion/columnists/the-pensions-regulator-flexes-its-muscles-1-6543137
 2015	1	03	OK	200	OK	False	0	http://www.caerphillyobserver.co.uk/news/618924/second-hand-car-complaints-tops-caerphilly-trading-standards-list/
 2015	1	02	ERROR	500	Internal Server Error	None	None	http://www.denbighshirefreepress.co.uk/businessdirectory/listing.aspx?CategoryID=1683
 2015	1	02	OK	200	OK	False	0	http://www.hartlepoolmail.co.uk/motors/reviews/toyota/seniors-tour-1-5148229
@@ -5521,7 +5521,7 @@
 2015	1	03	OK	200	OK	True		http://www.bridportnews.co.uk/resources/images/3621585.jpg?type=highlight
 2015	1	02	MISSING	404	Not Found	None	None	http://www.hertfordshiremercury.co.uk/rubbish-removal
 2015	1	01	OK	200	OK	False	0	http://www.echo-news.co.uk/trade_directory/search/category/painting_and_decorating
-2015	1	03	OK	200	OK	False	0	http://www.kenilworthweeklynews.co.uk/property/for-sale/solihull/C4?listingStatus=sale&area=solihull%2FC4&pageNumber=3&pageSize=10
+2015	1	03	OK	200	Soft 4xx	False	0	http://www.kenilworthweeklynews.co.uk/property/for-sale/solihull/C4?listingStatus=sale&area=solihull%2FC4&pageNumber=3&pageSize=10
 2015	1	02	OK	200	OK	True		http://labourlist.org/?top_ten_id=19040&top_ten_blog_id=1&activate_counter=11
 2015	1	02	OK	200	OK	False	0	http://www.cravenherald.co.uk/uk_national_sport/11819599.Afghanistan_fightback_downs_Scots/
 2015	1	02	OK	200	OK	False	0	http://www.caerphillyobserver.co.uk/news/771858/plaid-am-whittle-warns-of-more-departures-from-caerphilly-county-borough-council/
@@ -5549,7 +5549,7 @@
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.facebook.com/places/Things-to-do-in-Venice-Italy/107933505906257/
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://twitter.com/moraymp?lang=es
 2015	1	02	OK	200	OK	False	0	http://www.tripadvisor.co.uk/Hotel_Review-g150809-d663635-Reviews-Royal_Club_at_Occidental_Grand_Cozumel-Cozumel_Yucatan_Peninsula.html
-2015	3	07	OK	200	OK	False	0	http://www.belfasttelegraph.co.uk/business/moneyconf-enterconf/5000-tech-gurus-set-for-belfasts-web-conference-31062256.html
+2015	3	07	GONE	924	TIMEOUT	None	None	http://www.belfasttelegraph.co.uk/business/moneyconf-enterconf/5000-tech-gurus-set-for-belfasts-web-conference-31062256.html
 2015	2	06	OK	200	OK	False	0	http://www.peterleestar.co.uk/property/for-sale/houghton-le-spring/C4?listingStatus=sale&area=houghton+le+spring%2FC4&pageNumber=36&pageSize=10
 2015	2	06	OK	200	OK	False	0	http://www.basingstokegazette.co.uk/search/?search=Guy+Wilkinson&topic_id=8204
 2015	3	07	OK	200	OK	True		http://www.ludlowadvertiser.co.uk/resources/images/3962487.jpg?type=article
@@ -5558,7 +5558,7 @@
 2015	3	07	OK	200	OK	True		http://images.nwnmedia.co.uk/assets/article_main/2015/07/WEB_PARK_HALL_TRENCH_4.jpg
 2015	2	05	MISSING	404	Not Found	None	None	http://www.exeterexpressandecho.co.uk/property/hide.bs.collapse_in_Ottery_St_Mary
 2015	3	07	OK	200	OK	False	0	http://www.dailyrecord.co.uk/sport/football/football-news/nir-bitton-celtic-huge-club-5853647
-2015	2	05	OK	200	Soft 4xx	False	0	http://stats.grok.se/de/latest90/R.U.R.
+2015	2	05	ERROR	500	Internal Server Error	None	None	http://stats.grok.se/de/latest90/R.U.R.
 2015	2	04	OK	200	OK	True		http://www.sloughexpress.co.uk/imagelibrary/Client_Images/Client00010/00311000/00311738.jpg
 2015	3	07	OK	200	OK	False	0	http://www.borehamwoodtimes.co.uk/li/secondary_schools.detail.135373/
 2015	3	07	MISSING	403	Forbidden	None	None	http://ic.c242e85b.06265e.aod-pod-uk-live.bbcfmt.vo.llnwi.net/mpg_mp3_med/podcast_migrated/p02qgrqk-tls_20150310-0930a.mp3?s=1436267101&e=1436310301&h=783530a14afc48a4149ed2285d983197
@@ -5568,7 +5568,7 @@
 2015	2	06	OK	200	OK	True		http://www.fulltable.com/VTS/aoi/f/clf/im/f_r4_c24.jpg
 2015	3	07	OK	200	OK	True		http://www.inverness-courier.co.uk/imagelibrary/Client_Images/Client00007/ResizeCache/02147000/02147700%20-%20200x135.jpg
 2015	2	05	OK	200	OK	False		http://ichef.bbci.co.uk/onesport/cps/464/mcs/media/images/83173000/jpg/_83173949_mckinnon2.jpg
-2015	2	05	OK	200	Soft 4xx	False	0	http://www.thetelegraphandargus.co.uk/leisure/cinema/showtimes/ycinders.Cinderella/
+2015	2	05	OK	200	OK	False	0	http://www.thetelegraphandargus.co.uk/leisure/cinema/showtimes/ycinders.Cinderella/
 2015	2	06	OK	200	OK	True		http://i.dailymail.co.uk/i/pix/2015/06/24/06/29EA175800000578-0-image-a-77_1435124354080.jpg
 2015	2	06	OK	200	OK	False	0	http://www.alloaadvertiser.com/whatson/stayingin/whatson/2015/
 2015	2	05	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://metrouk2.files.wordpress.com/2013/09/1000x63518.jpg?quality=80&strip=all&w=150&h=113&crop=1
@@ -5627,7 +5627,7 @@
 2015	2	05	OK	200	OK	True		http://i4.dailyrecord.co.uk/incoming/article3419884.ece/ALTERNATES/s148/JS31446047.jpg
 2015	2	06	OK	200	OK	True		http://www.independent.co.uk/incoming/article8633101.ece/alternates/w80/08-holloway-pa.jpg
 2015	3	07	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.golwg360.com/newyddion/cymru/192370-lansio-pum-nofel-mewn-deuddydd?maint_testun=1
-2015	1	03	OK	200	OK	False	0	http://www.culture24.org.uk/search%20results?f1=Subject&t1=Z06.03.06.01E&f2=Subject&t2=Z06.03.00E&f3=Subject&t3=Z06.04.02.02&d=List&n=20&s=alphabetical&sd=ascending
+2015	1	03	GONE	924	TIMEOUT	None	None	http://www.culture24.org.uk/search%20results?f1=Subject&t1=Z06.03.06.01E&f2=Subject&t2=Z06.03.00E&f3=Subject&t3=Z06.04.02.02&d=List&n=20&s=alphabetical&sd=ascending
 2015	1	03	OK	200	OK	False	0	http://www.parliament.uk/education/teaching-resources-lesson-plans?cat=quiz,whiteboard,game,artinparliament
 2015	1	01	OK	200	OK	False	0	http://www.vice.com/en_uk/articles/page/1096
 2015	2	04	OK	200	OK	False	0	http://www.whtimes.co.uk/topic/Tag/Formula%20One/terms_and_conditions_7_135
@@ -5700,7 +5700,7 @@
 2015	1	01	OK	200	OK	False	0	http://www.runcornandwidnesworld.co.uk/news/national/11697708.print/
 2015	1	03	OK	200	OK	False	0	http://www.the-gazette.co.uk/sport/roundup/articles/2008/11/
 2015	1	02	OK	200	OK	False	0	http://www.alloaadvertiser.com/news/alloaschools/articles/2011/02/16/410293-smith-ill-see-you-at-ibrox-ryan/
-2015	1	03	GONE	924	TIMEOUT	None	None	http://www.lep.co.uk/property/for-rent/Preston?orderBy=price&listingStatus=rent&area=Preston&pageNumber=3&pageSize=10
+2015	1	03	OK	200	OK	False	0	http://www.lep.co.uk/property/for-rent/Preston?orderBy=price&listingStatus=rent&area=Preston&pageNumber=3&pageSize=10
 2015	1	01	OK	200	OK	False	0	http://www.impartialreporter.com/sport/motorsport/motorsport/2012/sport
 2015	1	02	OK	200	OK	False	0	http://www.newsbiscuit.com/tag/fa/page/2/
 2015	1	02	OK	200	OK	False		http://www.prowess.org.uk/shape-up-your-business-sophie-cornish-and-holly-tucker-founders-of-notonthehighstreet-com/feed
@@ -5753,7 +5753,7 @@
 2015	1	03	OK	200	OK	False		http://ichef.bbci.co.uk/images/ic/464x261/p02l8gvf.jpg
 2015	2	04	OK	200	OK	False	0	http://www.hebdenbridgetimes.co.uk/property/for-rent/rossendale/rossendale/C3
 2015	2	04	OK	200	OK	False		http://www.bucs.org.uk/BucsCore/adverts/rhs.aspx?id=3325&sport=Water+Polo&parentType=League
-2015	1	01	OK	200	OK	False	0	http://www.myexperiment.org/users/384/workflows?order=member
+2015	1	01	GONE	924	TIMEOUT	None	None	http://www.myexperiment.org/users/384/workflows?order=member
 2015	2	04	OK	200	OK	True		http://www.englandhandball.com/wp-content/uploads/downloads/2015/03/Cambridge-II-vs-Ipswich-East-RDL-18-01-15.pdf
 2015	1	02	OK	200	OK	True		http://i.telegraph.co.uk/multimedia/archive/03203/The_Secret_Adversa_3203451g.jpg
 2015	1	02	OK	200	OK	False	0	http://www.food.gov.uk/search?keyword=&page=686&f[0]=im_field_topic%3A41
@@ -5774,7 +5774,7 @@
 2015	1	02	MOVED	200	OK VIA-REDIRECT+	False	0	http://www.golwg360.com/blog/tag/itv
 2015	1	02	OK	200	OK	False	0	http://www.theguardian.com/politics/chrishuhne?page=2
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://www.tfl.gov.uk/bus/timetable/220/?fromId=490008677N
-2015	2	04	OK	200	OK	False	0	http://www.llgc.org.uk/drychdigidol/jws/JWS00001/6/zoom.html?lng=en
+2015	2	04	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol VIA-REDIRECT+	None	None	http://www.llgc.org.uk/drychdigidol/jws/JWS00001/6/zoom.html?lng=en
 2015	1	03	OK	200	OK	False		http://www.bbc.co.uk/news/business/market_data/chart?chart_primary_ticker=LSE:GFS&chart_time_period=1_day&canvas_colour=000000&primary_chart_colour=CC0000&use_transparency=0&plot_colour=ffffff&cp_line
 2015	2	04	OK	200	OK	False	0	http://www.bbc.co.uk/news/science-environment-31173411/comments?comments_page=8&initial_page_size=10&filter=none&sortBy=Created&sortOrder=Ascending
 2015	1	02	OK	200	OK	False	0	http://scotlandonscreen.org.uk/database/record.php?usi=007-000-000-423-C&res=1560&theme=1
@@ -5790,7 +5790,7 @@
 2015	2	05	OK	200	OK	False	0	http://www.midsussextimes.co.uk/motors/reviews/mitsubishi/lancer-off-the-boil-1-5475737
 2015	3	07	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://tools.wmflabs.org/geohack/geohack.php?language=fo&pagename=File:India%20map%20blank.svg&params=-5.9_N_-111.24_E_scale:10000000_type:({dim})&title=The%20Antipodes%20of%20File:India%20map%20blan
 2015	3	07	MISSING	404	Not Found	None	None	http://www.teignmouth-today.co.uk/coldetail.cfm?id=733&bid=225&headline=Jensen%20presses%20all%20the%20right%20buttons
-2015	3	07	OK	200	Soft 4xx	False	0	http://www.marketrasenmail.co.uk/property/agent-search/30248
+2015	3	07	OK	200	OK	False	0	http://www.marketrasenmail.co.uk/property/agent-search/30248
 2015	3	07	OK	200	OK	True		http://ichef.bbci.co.uk/wwhp/ic/ibroadcast/304-171/images/live/p0/2x/05/p02x05lf.jpg
 2015	3	07	OK	200	OK	True		http://www.derbyshiretimes.co.uk/webimage/1.7341159.1435950951!/image/3447786819.jpg
 2015	3	07	OK	200	OK	False	0	http://www.givemebackelmo.co.uk/tpa.viewer.components.collage
@@ -5804,9 +5804,9 @@
 2015	2	06	OK	200	OK	False	0	http://descrier.co.uk/science/health-medical-abortion-gives-power-to-women-around-the-world/
 2015	3	07	OK	200	OK	False	0	http://www.eastlothiancourier.com/search/author/gharper/2015/01/19/
 2015	2	06	OK	200	OK	False	0	http://www.cumberlandnews.co.uk/quarry-lorries-compliment-1.197086
-2015	3	07	OK	200	OK	False	0	http://www.courtnewsuk.co.uk/picture_archive/?id=188
+2015	3	07	GONE	924	TIMEOUT	None	None	http://www.courtnewsuk.co.uk/picture_archive/?id=188
 2015	2	05	OK	200	OK	True		http://lc.zoocdn.com/f73dcb372626ed9dacba3bbbf18eaca8a2f40271.jpg
-2015	3	07	OK	200	OK	False	0	http://www.guideandgazette.co.uk/property/for-sale/scotland?orderBy=price&listingStatus=sale&area=scotland&ordering=ascending&pageNumber=2&pageSize=10
+2015	3	07	OK	200	Soft 4xx	False	0	http://www.guideandgazette.co.uk/property/for-sale/scotland?orderBy=price&listingStatus=sale&area=scotland&ordering=ascending&pageNumber=2&pageSize=10
 2015	2	06	OK	200	OK	False	0	http://www.campbeltowncourier.co.uk/tag/tayinloan-pier/
 2015	2	05	OK	200	OK	False	0	http://www.winsfordguardian.co.uk/subscribe/
 2015	1	02	MISSING	404	Not Found	None	None	http://www.wellsjournal.co.uk/images/localworld/ugc-images/276420/Gallery/images/26081383/9549507-thumb.jpg
@@ -5815,7 +5815,7 @@
 2015	2	04	OK	200	OK	False	0	http://www.nomorepanic.co.uk/tags.php?tag=brain
 2015	1	03	OK	200	OK	True		http://i.ebayimg.com/00/s/ODAwWDYwMA==/z/nqIAAOSwNSxVFYvj/$_26.JPG
 2015	2	04	OK	200	OK	False	0	http://www.emptywalls.co.uk/comp.transition
-2015	1	02	OK	200	OK	False	0	http://www.myexperiment.org/workflows?filter=TAG_ID%28%221578%22%29+AND+GROUP_ID%28%22125%22%29&num=10&order=downloads
+2015	1	02	GONE	924	TIMEOUT	None	None	http://www.myexperiment.org/workflows?filter=TAG_ID%28%221578%22%29+AND+GROUP_ID%28%22125%22%29&num=10&order=downloads
 2015	1	02	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.tfl.gov.uk/bus/timetable/c11/?fromId=490003186W
 2015	1	03	OK	200	OK	False	0	http://www.bbc.co.uk/news/technology-27806164
 2015	1	03	OK	200	OK	False	0	http://www.bournemouth.gov.uk/Libraries/MyLocalLibrary/BoscombeLibrary.aspx
@@ -5825,7 +5825,7 @@
 2015	2	04	MISSING	404	Not Found	None	None	http://www.haringeyindependent.co.uk/leisure/cinema/a234504/ysinsou.Sing_Along_The_Sound_Of_Music/
 2015	1	02	OK	200	OK	False	0	http://data.gov.uk/data/resource_cache/b9/b96dc351-70e8-4d61-a5d4-8d3c1b12a97f/index.html
 2015	1	03	OK	200	OK	False	0	http://www.bbc.co.uk/sport/0/cricket/31800528
-2015	1	03	OK	200	OK	False	0	http://www.myexperiment.org/users/43/workflows?filter=WSDL_ENDPOINT%28%22http%3A%2F%2Fprojects.biotec.tu-dresden.de%2FDOG4DAG_TAVERNA%2Fservices%2FGoPubMedTermGeneration%3Fwsdl%22%29&num=20
+2015	1	03	GONE	924	TIMEOUT	None	None	http://www.myexperiment.org/users/43/workflows?filter=WSDL_ENDPOINT%28%22http%3A%2F%2Fprojects.biotec.tu-dresden.de%2FDOG4DAG_TAVERNA%2Fservices%2FGoPubMedTermGeneration%3Fwsdl%22%29&num=20
 2015	1	02	OK	200	OK	False	0	http://www.visitwales.com/attraction-search/attraction-search-results?id=752538&industry=TEA&location=North+Wales&radius=10&filterIds=PropertySubType-3&city=&price=&latitude=53.30522&longitude=-4.6828
 2015	2	04	OK	200	OK	False	0	http://www.bordertelegraph.com/news/lauder/articles/2014/10/16/512583-council-leader-welcomes-new-homes-in-lauder/
 2015	1	01	OK	200	OK	False	0	http://onthewight.com/2015/01/28/find-thewest-wight-coastal-strategy/
@@ -5870,7 +5870,7 @@
 2015	1	03	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.royalfree.nhs.uk/images/made/images/remote/http_s3-eu-west-1.amazonaws.com/files.royalfree.nhs.uk/News/Memphis_web_266_300_80_c1.jpg
 2015	3	07	OK	200	OK	False	0	http://www.thisislancashire.co.uk/sport/athletics/11507877.Joe_finishes_in_27th_spot_as_injury_hit_Nicki_in_for_Europe/
 2015	2	06	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.gov.uk/licence-finder/activities?activities=41_43_34_196&sectors=187
-2015	2	05	OK	200	Soft 4xx	False	0	http://www.ripleyandheanornews.co.uk/property/agent-search/67239?area=Ripley%2C+Derbyshire&branchId=67239&pageNumber=1&pageSize=10
+2015	2	05	OK	200	OK	False	0	http://www.ripleyandheanornews.co.uk/property/agent-search/67239?area=Ripley%2C+Derbyshire&branchId=67239&pageNumber=1&pageSize=10
 2015	2	06	OK	200	OK	True		http://www.harrowtimes.co.uk/resources/images/3925511.jpg?type=article
 2015	2	06	OK	200	OK	False	0	http://www.lisburntoday.co.uk/motors/reviews/aston-martin/they-call-it-rapide-1-4483279
 2015	3	07	MISSING	404	Not Found	None	None	http://www.exeterexpressandecho.co.uk/sport-and-leisure/flying-schools/virtual-jet-centre/business-25740419-detail/business.html
@@ -5933,7 +5933,7 @@
 2015	1	01	GONE	903	UNRESOLVABLE VIA-REDIRECT+	None	None	http://www.bankofengland.co.uk/boeapps/titan/events.aspx?X482320X=g8UcY/OG9MXfLJaOthu+W5Tyv1nHAou8erzALJSh79FCnvF9IDURHA==&Navigate=PasswordReminder
 2015	2	04	GONE	903	CONNECTION-FAILED: [Errno 1] _ssl.c:492: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol	None	None	https://www.vice.com/en_uk/read/artist-paul-mccarthy-designed-skate-decks-for-charity-824
 2015	1	02	OK	200	OK	False	0	http://www.myexperiment.org/workflows?filter=LICENSE_ID%28%221%22%29+AND+WSDL_ENDPOINT%28%22http%3A%2F%2Faida.science.uva.nl%3A8888%2Faxis%2FAidaFiler.jws%3Fwsdl%22%29&num=25&order=licence
-2015	2	04	OK	200	Soft 4xx	False	0	http://www.meltontimes.co.uk/property/agent-search/61090?orderBy=price&area=Melton%2C+Leicestershire&branchId=61090&pageNumber=2&pageSize=10
+2015	2	04	OK	200	OK	False	0	http://www.meltontimes.co.uk/property/agent-search/61090?orderBy=price&area=Melton%2C+Leicestershire&branchId=61090&pageNumber=2&pageSize=10
 2015	1	03	OK	200	OK	False	0	http://www.scie.org.uk/prevention-library/getsearchresults?f_subject_terms=integrated+care&f_subject_terms=communities&f_subject_terms=health+and+wellbeing+boards&f_subject_terms=social+inclusion&st=a
 2015	2	04	OK	200	OK	True		http://www.telegraph.co.uk/skins/travel/css/global.css?v=1429290412456
 2015	1	02	OK	200	OK	False	0	http://www.dailymail.co.uk/sport/rugbyleague/article-2368693/SAM-TOMKINS-COLUMN-England-win-rugby-league-World-Cup.html

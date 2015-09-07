@@ -143,6 +143,7 @@ def fuzzyHash(text):
     for line in output.split("\n"):
         if ',"stdin"' in line:
             return line.rstrip(',"stdin"')
+    print("WARNING! ssdeep fuzzy hash computation failed!");
     return ""
 
 def writeFuzzyHashFile(filename, hash, hashname):
