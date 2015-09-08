@@ -24,8 +24,10 @@ for size in [2000]:
                 with open( file_template % (size, y) ) as data_file:
                     print("Processing year %s..." % y )
                     reader = csv.reader(data_file, delimiter="\t")
+                    linc = 0
                     for row in reader:
-                        print("Scanning:",row)
+                        linc = linc + 1
+                        print("Scanning:",linc,row)
                         timestamp = datetime.datetime.strptime( row[0], "%Y-%m-%dT%H:%M:%SZ" )    
                         url = row[1]
                         title = row[2]

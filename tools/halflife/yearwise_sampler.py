@@ -1,5 +1,5 @@
 from __future__ import print_function
-import json, sys, codecs, hashlib
+import json, sys, codecs, hashlib, csv
 import urllib, datetime, re
 from pprint import pprint
 from checkurl import *
@@ -23,7 +23,7 @@ solr_endpoint = "http://192.168.1.65:8983/solr/ldwa/select"
 date_field = "crawl_date"
 url_field = "url"
 wayback_date_field = "wayback_date"
-text_field="content_text"
+text_field="content"
 prefix="ldwa"+datetime.datetime.now().strftime(".%Y.%m")
 
 # First, get the number of years for which we have data:
@@ -57,9 +57,12 @@ q = solr_endpoint+"?q=*:*&rows=%s&sort=random_%s desc&wt=json&indent=true&fq="+d
 for size in [2000]:#[100,1000]: #,10000,100000]:
     for y in years:
         with codecs.open( output_template % (size,prefix,y), "w", "utf-8") as out_file:
-     	    url = q % (size,size,y,y)
-    	    output = json_template % (size,prefix,y)
-    	    urlo.retrieve(url , output)
+            # Set up the CSV writer:
+            writer = UnicodeWriter(f)
+            # Do the work:
+            url = q % (size,size,y,y)
+            output = json_template % (size,prefix,y)
+            urlo.retrieve(url , output)
 
             # Now open up the JSON and process it:
             with open( output ) as data_file:
@@ -85,6 +88,7 @@ for size in [2000]:#[100,1000]: #,10000,100000]:
                     first_fragment = text[:200]
                     fh = fuzzyHash(text)
 
-                    print( '"%s"\t"%s"\t"%s"\t"%s"\t"%s"\t"%s"' % ( doc[date_field], item_url, title, first_fragment, fh, bin_hash ), file=out_file ) 
+                    #print( '"%s"\t"%s"\t"%s"\t"%s"\t"%s"\t"%s"' % ( doc[date_field], item_url, title, first_fragment, fh, bin_hash ), file=out_file ) 
+                    writer.writerow( [ doc[date_field], item_url, title, first_fragment, fh, bin_hash ] ) 
 
             data_file.close()
