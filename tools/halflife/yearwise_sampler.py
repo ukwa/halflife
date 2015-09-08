@@ -3,6 +3,7 @@ import json, sys, codecs, hashlib, csv
 import urllib, datetime, re
 from pprint import pprint
 from checkurl import *
+from unicsv import *
 
 #
 #urlo = urllib.FancyURLopener({"http":"http://explorer.bl.uk:3127"})
@@ -58,7 +59,7 @@ for size in [2000]:#[100,1000]: #,10000,100000]:
     for y in years:
         with codecs.open( output_template % (size,prefix,y), "w", "utf-8") as out_file:
             # Set up the CSV writer:
-            writer = UnicodeWriter(f)
+            writer = UnicodeWriter(out_file)
             # Do the work:
             url = q % (size,size,y,y)
             output = json_template % (size,prefix,y)
