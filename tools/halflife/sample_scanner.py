@@ -23,7 +23,7 @@ for size in [2000]:
             try:
                 with open( file_template % (size, y) ) as data_file:
                     print("Processing year %s..." % y )
-                    reader = csv.reader(data_file, delimiter="\t")
+                    reader = csv.reader(data_file, delimiter=",")
                     linc = 0
                     for row in reader:
                         linc = linc + 1
