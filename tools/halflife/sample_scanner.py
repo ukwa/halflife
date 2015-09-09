@@ -3,27 +3,49 @@ import json, sys, datetime, re, csv, codecs, traceback, os
 from pprint import pprint
 from checkurl import *
 
+if len(sys.argv) != 1 and len(sys.argv) != 4:
+    print("usage: sample_scanner.py [<collection-key> <source-file-prefix> <sample-size>]")
+    print("e.g. sample_scanner.py oukwa archive-sample/sample-of-1000/sample-for- 1000")
+    sys.exit(1)
 
 # Input filename template:
-file_template = "archive-sample/sample-of-%s/ldwa"+datetime.datetime.now().strftime(".%Y.%m")+"-sample-for-%s.csv"
+file_template = "archive-sample/sample-of-2000/ldwa"+datetime.datetime.now().strftime(".%Y.%m")+"-sample-for-%s.csv"
+# output file prefix:
+collection_key = "ldwa"
+size = 2000
+delim = ","
+if len(sys.argv) != 1:
+    collection_key = sys.argv[1]
+    file_template = sys.argv[2]+"%s.csv"
+    size = sys.argv[3]
+    delim = "\t"
+
 # Output filename template:
 output_dir = datetime.datetime.now().strftime("sample-scan-results/%Y-%m-Explorer")
-output_template = "%s/ldwa-sample-of-%s-scan-results.csv"
-output_2_template = "%s/ldwa-sample-of-%s-scan-data.csv"
+output_template = "%s/"+collection_key+"-sample-of-%s-scan-results.csv"
+output_2_template = "%s/"+collection_key+"-sample-of-%s-scan-data.csv"
+
+
+print("Using...")
+print("    collection_key =",collection_key)
+print("    file_template =",file_template)
+print("    size =",size)
+print("    output_dir =",output_dir)
+print("    output_template =",output_template)
+print("    output_2_template =",output_2_template)
 
 # Loop over all sample sizes and check status:
 url = "<none>"
-for size in [2000]:
-    print("Scanning sample of size %s..." % size)
+if size != None:
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
     out_file_2 = codecs.open( output_2_template % (output_dir, size), "w", "utf-8" )
     with codecs.open( output_template % (output_dir, size), "w", "utf-8") as out_file:
-        for y in range(2013,2018):
+        for y in range(2004,2018):
             try:
-                with open( file_template % (size, y) ) as data_file:
+                with open( file_template % y ) as data_file:
                     print("Processing year %s..." % y )
-                    reader = csv.reader(data_file, delimiter=",")
+                    reader = csv.reader(data_file, delimiter=delim)
                     linc = 0
                     for row in reader:
                         linc = linc + 1
