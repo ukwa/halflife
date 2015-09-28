@@ -26,15 +26,16 @@ url_field = "url"
 wayback_date_field = "wayback_date"
 text_field="content"
 prefix="ldwa"+datetime.datetime.now().strftime(".%Y.%m")
+years_file = "%s-total-urls-per-year.json" % prefix
 
 # First, get the number of years for which we have data:
 # this works by asking for a fifty year date range form 2000-2050, faceting by year, and only returning years that have results:
 yq = solr_endpoint+"?q=*:*&rows=0&wt=json&indent=true&facet=true&facet.mincount=1&facet.date="+date_field+"&facet.date.gap=%2B1YEAR&facet.date.start=2000-01-01T00:00:00Z&facet.date.end=2050-01-01T00:00:00Z"
 print(yq)
-urlo.retrieve(yq , "total-urls-per-year.json")
+urlo.retrieve(yq , years_file)
 # Now parse out the years:
 years = list()
-with open( "total-urls-per-year.json" ) as data_file:    
+with open( years_file ) as data_file:    
     data = json.load(data_file)
     for item in data['facet_counts']['facet_dates'][date_field]:
         count = data['facet_counts']['facet_dates'][date_field][item]
