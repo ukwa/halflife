@@ -20,7 +20,8 @@ urlo=urllib.URLopener()
 #prefix="open"
 
 #solr_endpoint = "http://192.168.45.17:8983/solr/ldwa/select"
-solr_endpoint = "http://192.168.1.65:8983/solr/ldwa/select"
+#solr_endpoint = "http://192.168.1.65:8983/solr/ldwa/select"
+solr_endpoint = "http://192.168.1.54:8983/solr/ldukwadev/select"
 date_field = "crawl_date"
 url_field = "url"
 wayback_date_field = "wayback_date"
